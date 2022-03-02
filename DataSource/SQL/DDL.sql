@@ -1,0 +1,68 @@
+-- RUN AS ROOT
+
+-- CREAZIONE DEL DATABASE
+DROP DATABASE IF EXISTS ErasmusApp;
+CREATE DATABASE ErasmusApp DEFAULT CHARACTER SET UTF8 COLLATE utf8_general_ci;
+USE ErasmusApp;
+
+CREATE TABLE SEGNALAZIONE
+(
+    id           BIGINT UNSIGNED  NOT NULL,
+    descrizione  VARCHAR(2000)    NOT NULL,
+    urgenza      TINYINT UNSIGNED NOT NULL,
+    idComune     VARCHAR(4)       NOT NULL,
+    idCoordinata BIGINT UNSIGNED  NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE COMUNE
+(
+    codiceCatastale VARCHAR(4)  NOT NULL,
+    nome            VARCHAR(60) NOT NULL,
+    provincia       VARCHAR(2)  NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE COORDINATA
+(
+    id          BIGINT UNSIGNED NOT NULL,
+    latitudine  FLOAT           NOT NULL,
+    longitudine FLOAT           NOT NULL
+) ENGINE = InnoDB;
+
+ALTER TABLE COMUNE
+    ADD CONSTRAINT PK
+        PRIMARY KEY (codiceCatastale);
+
+ALTER TABLE COORDINATA
+    MODIFY COLUMN id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    ADD CONSTRAINT PK
+        PRIMARY KEY (id),
+    ADD CONSTRAINT UK_1_longitudine_latitudine
+        UNIQUE KEY (longitudine, latitudine);
+
+ALTER TABLE SEGNALAZIONE
+    MODIFY COLUMN id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    ADD CONSTRAINT PK
+        PRIMARY KEY (id),
+    ADD CONSTRAINT FK_SEGNALAZIONE_1_COMUNE
+        FOREIGN KEY (idComune)
+        REFERENCES COMUNE(codiceCatastale),
+    ADD CONSTRAINT FK_SEGNALAZIONE_2_COORDINATA
+        FOREIGN KEY (idCoordinata)
+        REFERENCES COORDINATA(id);
+
+-- UTENTE MASTER DI TUTTO IL DATABASE
+DROP USER IF EXISTS ErasmusAppMaster;
+CREATE USER ErasmusAppMaster
+    IDENTIFIED BY "ErasmusAppMaster";
+GRANT ALL ON ErasmusApp.* TO ErasmusAppMaster;
+
+-- UTENTE PER GESTIONE 'SEGNALAZIONI'
+DROP USER IF EXISTS ErasmusAPP_Segnalazioni;
+CREATE USER ErasmusAPP_Segnalazioni
+    IDENTIFIED BY "ErasmusAPP_Segnalazioni";
+GRANT SHOW VIEW ON ErasmusApp.* TO ErasmusAPP_Segnalazioni;
+GRANT ALL ON ErasmusApp.SEGNALAZIONE TO ErasmusAPP_Segnalazioni;
+GRANT ALL ON ErasmusApp.COMUNE TO ErasmusAPP_Segnalazioni;
+GRANT ALL ON ErasmusApp.COORDINATA TO ErasmusAPP_Segnalazioni;
+
+FLUSH PRIVILEGES;
