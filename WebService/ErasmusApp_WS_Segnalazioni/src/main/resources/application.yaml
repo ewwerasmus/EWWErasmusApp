@@ -6,7 +6,7 @@ spring:
   datasource:
     username: ErasmusAPP_Segnalazioni
     password: ErasmusAPP_Segnalazioni
-    url: jdbc:mariadb://localhost:3306/ErasmusAPP
+    url: jdbc:mariadb://localhost:3306/ErasmusApp
   # initialization-mode: always
   sql:
     init:

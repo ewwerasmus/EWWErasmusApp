@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ErasmusApp.iml" filepath="$PROJECT_DIR$/.idea/ErasmusApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" />
     </modules>
   </component>

@@ -88,5 +88,6 @@ GRANT SHOW VIEW ON ErasmusApp.* TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.SEGNALAZIONE TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.COMUNE TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.COORDINATA TO ErasmusAPP_Segnalazioni;
+GRANT ALL ON ErasmusApp.CATEGORIA TO ErasmusAPP_Segnalazioni;
 
 FLUSH PRIVILEGES;
