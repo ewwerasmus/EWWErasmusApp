@@ -1,13 +1,13 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni;
 
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.repository.SegnalazioneRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.math.BigInteger;
+import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
+@Transactional(readOnly = true)
 class ErasmusAppWsSegnalazioniApplicationTests {
 
     @Autowired

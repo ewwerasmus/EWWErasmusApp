@@ -1,4 +1,4 @@
-package com.tuxdave.erasmusapp.ws_segnalazioni;
+package com.tuxdave.erasmusapp.ws_segnalazioni.repository;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import org.springframework.data.jpa.repository.JpaRepository;
