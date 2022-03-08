@@ -1,7 +1,5 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.entity;
 
-import com.fasterxml.jackson.annotation.JsonFilter;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.Hibernate;
@@ -20,6 +18,9 @@ public class Segnalazione {
     private Long id;
     private String descrizione;
     private Integer urgenza;
+
+    @Column(name = "idStatoSegnalazione")
+    private Integer statoSegnalazione;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idComune")
@@ -46,5 +47,37 @@ public class Segnalazione {
     @Override
     public int hashCode() {
         return getClass().hashCode();
+    }
+
+    //mappatura della tabella ReadOnly ENUM_STATO_SEGNALAZIONE
+    public static enum StatoSegnalazione {
+        DA_RISOLVERE(0),
+        IN_RISOLUZIONE(1),
+        RISOLTO(2);
+
+        private final int value;
+
+        private StatoSegnalazione(int n){
+            value = n;
+        }
+
+        public int getValue() {
+            return value;
+        }
+
+        public static StatoSegnalazione getFromInt(int n){
+            if(n < 0) n = 0;
+            if(n > 2) n = 2;
+            for(StatoSegnalazione s : StatoSegnalazione.values()){
+                if(s.getValue() == n) return s;
+            }
+            return DA_RISOLVERE;
+        }
+
+
+        @Override
+        public String toString() {
+            return super.toString().replace("_", " ");
+        }
     }
 }
