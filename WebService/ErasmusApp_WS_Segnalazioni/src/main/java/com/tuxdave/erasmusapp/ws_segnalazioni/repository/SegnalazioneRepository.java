@@ -19,4 +19,6 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
 
     @Query("SELECT S FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
     List<Segnalazione> searchSegnalazioneByStatoSegnalazione(@Param("stato") Integer stato);
+
+    //TODO: aggiungere i metodi di update e delete
 }

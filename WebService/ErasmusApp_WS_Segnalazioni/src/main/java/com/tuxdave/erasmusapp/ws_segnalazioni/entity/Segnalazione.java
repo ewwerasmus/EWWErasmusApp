@@ -65,7 +65,7 @@ public class Segnalazione {
             return value;
         }
 
-        public static StatoSegnalazione getFromInt(int n){
+        public static StatoSegnalazione of(int n){
             if(n < 0) n = 0;
             if(n > 2) n = 2;
             for(StatoSegnalazione s : StatoSegnalazione.values()){
