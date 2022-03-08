@@ -1,5 +1,6 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni;
 
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Comune;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.SegnalazioneRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,9 @@ class ErasmusAppWsSegnalazioniApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println(segnalazioneRepository.findSegnalazioneById(1L));
+        Comune c = new Comune();
+        c.setCodiceCatastale("A861");
+        System.out.println(segnalazioneRepository.searchSegnalazioneByComune_CodiceCatastale("A860"));
     }
 
 }
