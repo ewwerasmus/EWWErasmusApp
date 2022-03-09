@@ -5,6 +5,7 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
@@ -12,7 +13,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class Segnalazione {
+public class Segnalazione implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,10 +21,11 @@ public class Segnalazione {
     private Integer urgenza;
 
     @Column(name = "idStatoSegnalazione")
-    private Integer statoSegnalazione;
+    private Integer statoSegnalazione = 0;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idComune")
+    @JsonIgnore
     private Comune comune;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

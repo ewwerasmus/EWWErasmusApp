@@ -20,7 +20,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.tuxdave.erasmusapp.ws_segnalazioni.controller"))
-                .paths(PathSelectors.regex("\\/api\\/.*"))
+                .paths(PathSelectors.regex("\\/.*"))
                 .build()
                 .apiInfo(apiInfo());
     }
