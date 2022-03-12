@@ -1,8 +1,10 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Categoria;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Comune;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Coordinata;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exceptions.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.ComuneRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CoordinataRepository;
@@ -15,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-@Transactional(readOnly = false)
+@Transactional
 public class SegnalazioneServiceImpl implements SegnalazioneService {
 
     @Autowired
@@ -29,6 +31,11 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
 
     @Autowired
     CoordinataRepository coordinataRepository;
+
+    @Override
+    public List<Segnalazione> findAll() {
+        return segnalazioneRepository.findAll();
+    }
 
     @Override
     public Segnalazione findSegnalazioneById(Long id) {
@@ -55,19 +62,35 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
         segnalazioneRepository.setStatoSegnalazione(newStato, segnalazione);
     }
 
+    @Transactional(rollbackFor = Throwable.class)
     @Override
-    public void save(Segnalazione s) {
-        Optional<Categoria> cat = categoriaRepository.findById(s.getCategoria().getId());
-        if(cat.isEmpty()){
-            //categoriaRepository.saveAndFlush(s.getCategoria());
+    public void save(Segnalazione s) throws SaveException {
+        try{
+            Optional<Categoria> cat = categoriaRepository.findById(s.getCategoria().getId());
+            if(cat.isEmpty()){
+                throw new SaveException("Categoria " + s.getCategoria().getId() + " non trovata!");
+            }
+
+            Optional<Comune> com = comuneRepository.findById(s.getComune().getCodiceCatastale());
+            if(com.isEmpty()){
+                throw new SaveException("Comune " + s.getComune().getCodiceCatastale() + " non trovato!");
+            }
+
+            Coordinata tempCoord = s.getCoordinata();
+            Optional<Coordinata> coor = Optional.ofNullable(coordinataRepository.findByLatitudineAndLongitudine(
+                    tempCoord.getLatitudine(),
+                    tempCoord.getLongitudine()
+            ));
+            if(coor.isEmpty()){
+                tempCoord.setId(null);
+                coordinataRepository.saveAndFlush(tempCoord);
+                System.out.println("saved");
+            }else{
+                s.setCoordinata(coor.get());
+            }
+            segnalazioneRepository.saveAndFlush(s);
+        }catch (Throwable e){
+            throw new SaveException(e.getMessage());
         }
-        //TODO: Capire se lanciare una ecc se il comune e categoria non esistono
- //TODO: risolvere la possibile nullità dell'indice
-        //Fare in modo che l'inserimento vada a buon fine con comune e categoria esistenti, coodinate esistenti o da creare
-        Optional<Coordinata> coor = coordinataRepository.findById(s.getCoordinata().getId() == null ? s.getCoordinata().getId() : -1L);
-        if(coor.isEmpty()){
-            coordinataRepository.saveAndFlush(s.getCoordinata());
-        }
-        segnalazioneRepository.saveAndFlush(s);
     }
 }
