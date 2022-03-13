@@ -1,7 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.*;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exceptions.classic.SaveException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.ComuneRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CoordinataRepository;

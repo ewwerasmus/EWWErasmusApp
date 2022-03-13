@@ -2,7 +2,7 @@ package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exceptions.classic.SaveException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
 
 import java.util.List;
 
