@@ -5,6 +5,10 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Null;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
@@ -17,8 +21,17 @@ import java.util.Objects;
 public class Categoria implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Null(message = "L'id di Categoria deve essere NULL in inserimento")
     private Integer id;
+
+    @NotNull(message = "Il nome di Categoria non può essere NULL")
+    @NotBlank(message = "Il nome di Categoria non può essere BLANK")
+    @Size(min = 10, max = 45, message = "Il nome di Categoria deve essere compreso tra 10 e 45 chars")
     private String nome;
+
+    @NotNull(message = "La descrizione di Segnalazione non può essere NULL")
+    @NotBlank(message = "La descrizione di Segnalazione non può essere BLANK")
+    @Size(min=10, max = 2000, message = "La descrizione di Segnalazione può essere lunga 10-2000 chars")
     private String descrizione;
 
     @OneToMany(mappedBy = "categoria", fetch = FetchType.LAZY)

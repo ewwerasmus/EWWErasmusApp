@@ -5,6 +5,7 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import javax.validation.constraints.Null;
 import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
