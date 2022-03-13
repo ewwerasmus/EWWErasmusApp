@@ -1,17 +1,24 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
+import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.InfoMsg;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.websocket.server.PathParam;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -69,4 +76,50 @@ public class SegnalazioneController {
 
     //TODO: fare endpoint di inserimento anche per verificare funzionamento binding validation
     // catchare anche SaveException dall'handler quando si verificherà per emettere un messaggio di errore
+    @PostMapping("insert")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> insertSegnalazione(
+            @Valid
+            @RequestBody
+            Segnalazione segnalazione,
+            BindingResult bindingResult,
+
+            @RequestParam(value = "force", required = false, defaultValue = "false")
+            Boolean forceInsert
+    ) {
+        log.info("Richiesto l'inserimento di una Segnalazione");
+        if(bindingResult.hasErrors()){
+            String errMsg = bindingResult.getFieldError().getDefaultMessage();
+            if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
+            log.warning(errMsg);
+            throw new BindingException(errMsg);
+        }
+
+        //verifica della duplicazione dell'istanza in base alla stessa categoria, comune e posizione nel range di
+        //0.00003 in
+        try{
+            String okMsg = "Inserimento completato!";
+            if(forceInsert){
+                segnalazioneService.save(segnalazione);
+                log.info(okMsg);
+                return new ResponseEntity<InfoMsg>(new InfoMsg(
+                        new Date(),
+                        okMsg
+                ), HttpStatus.CREATED);
+            }else{
+                List<Segnalazione> l = segnalazioneService.searchSegnalazioneByCategoria_Id(segnalazione.getCategoria().getId());
+                l = new Utils<Segnalazione>().intersecaListe(
+                        l,
+                        segnalazioneService.searchSegnalazioneByComune_CodiceCatastale(segnalazione.getComune().getCodiceCatastale())
+                );
+                l = new Utils<Segnalazione>().intersecaListe(
+                        l,
+                        segnalazioneService
+                );
+            }
+
+        }catch (SaveException){
+            //TODO: Do something
+        }
+    }
 }

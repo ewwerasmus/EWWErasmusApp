@@ -1,5 +1,6 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.exception;
 
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
 import lombok.val;
 import org.springframework.http.HttpStatus;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+import javax.naming.Binding;
 import java.util.Date;
 
 @ControllerAdvice
@@ -24,5 +26,15 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
                 ex.getMessage()
         );
         return new ResponseEntity<ErrorMsg>(msg, HttpStatus.NOT_FOUND);
+    }
+
+    @ExceptionHandler(BindingException.class)
+    public ResponseEntity<ErrorMsg> bindingExceptionHandler(BindingException ex){
+        ErrorMsg msg = new ErrorMsg(
+          new Date(),
+          HttpStatus.NOT_ACCEPTABLE.value(),
+          ex.getMessage()
+        );
+        return new ResponseEntity<ErrorMsg>(msg, HttpStatus.NOT_ACCEPTABLE);
     }
 }

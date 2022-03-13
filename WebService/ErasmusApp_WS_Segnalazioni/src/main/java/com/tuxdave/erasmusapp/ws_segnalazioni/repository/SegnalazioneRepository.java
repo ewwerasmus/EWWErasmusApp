@@ -22,6 +22,16 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     @Query("SELECT S FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
     List<Segnalazione> searchSegnalazioneByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
 
+    @Query("SELECT S " +
+            "FROM Segnalazione S JOIN S.coordinata C " +
+            "WHERE (C.latitudine BETWEEN (:lat + :around) AND (:lat - :around))" +
+            "   AND (C.longitudine BETWEEN (:lon + :around) AND (:lon + :around))") //TODO: review this
+    List<Segnalazione> searchSegnalazioneByCoordinataAround(
+            @Param("lat") Double lat,
+            @Param("lon") Double lon,
+            @Param("around") Double around
+    );
+
     @Modifying
     @Query("UPDATE Segnalazione S SET S.statoSegnalazione = :newStato WHERE S = :which")
     void setStatoSegnalazione(@Param("newStato") StatoSegnalazione newStato, @Param("which") Segnalazione segnalazione);
