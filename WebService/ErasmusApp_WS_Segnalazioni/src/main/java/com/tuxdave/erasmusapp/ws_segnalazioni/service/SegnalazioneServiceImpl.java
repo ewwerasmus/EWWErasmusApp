@@ -1,9 +1,6 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Categoria;
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Comune;
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Coordinata;
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.*;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exceptions.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.ComuneRepository;
@@ -53,12 +50,12 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     }
 
     @Override
-    public List<Segnalazione> searchSegnalazioneByStatoSegnalazione(Integer stato) {
+    public List<Segnalazione> searchSegnalazioneByStatoSegnalazione(StatoSegnalazione stato) {
         return segnalazioneRepository.searchSegnalazioneByStatoSegnalazione(stato);
     }
 
     @Override
-    public void setStatoSegnalazione(Integer newStato, Segnalazione segnalazione) {
+    public void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione) {
         segnalazioneRepository.setStatoSegnalazione(newStato, segnalazione);
     }
 

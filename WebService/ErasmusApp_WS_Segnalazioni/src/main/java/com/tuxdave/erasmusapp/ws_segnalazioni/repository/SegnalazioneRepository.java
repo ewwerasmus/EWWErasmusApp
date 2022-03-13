@@ -1,6 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.repository;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -19,9 +20,9 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     List<Segnalazione> searchSegnalazioneByCategoria_Id(@Param("id") Integer id);
 
     @Query("SELECT S FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
-    List<Segnalazione> searchSegnalazioneByStatoSegnalazione(@Param("stato") Integer stato);
+    List<Segnalazione> searchSegnalazioneByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
 
     @Modifying
     @Query("UPDATE Segnalazione S SET S.statoSegnalazione = :newStato WHERE S = :which")
-    void setStatoSegnalazione(@Param("newStato") Integer newStato, @Param("which") Segnalazione segnalazione);
+    void setStatoSegnalazione(@Param("newStato") StatoSegnalazione newStato, @Param("which") Segnalazione segnalazione);
 }
