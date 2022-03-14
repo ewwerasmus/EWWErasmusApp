@@ -4,6 +4,7 @@ import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.InfoMsg;
@@ -74,13 +75,24 @@ public class SegnalazioneController {
         return new ResponseEntity<Segnalazione>(s, HttpStatus.OK);
     }
 
-    //TODO: fare endpoint di inserimento anche per verificare funzionamento binding validation
-    // catchare anche SaveException dall'handler quando si verificherà per emettere un messaggio di errore
+    @ApiOperation(
+            value = "Inserisce la segnalazione fornita.",
+            notes = "L'operazione va a buon fine se i cambi COMUNE e CATEGORIA esistono, le coordinate vengono inserite se non esistenti",
+            response = Segnalazione.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Segnalazione inserita!"),
+            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
+            @ApiResponse(code = 406, message = "Segnalazione non inserita: COMUNE o CATEGORIA referenziano il nulla cosmico!"),
+            @ApiResponse(code = 409, message = "Segnalazione non inserita perchè probabilmente già esistente, è possibile forzare l'operazione")
+    })
     @PostMapping("insert")
     @SneakyThrows
     public ResponseEntity<InfoMsg> insertSegnalazione(
+            @ApiParam(value = "JsonObject descrivente la Segnalazione da inserire", required = true)
             @Valid
-            @RequestBody
+            @RequestBody(required = true)
             Segnalazione segnalazione,
             BindingResult bindingResult,
 
@@ -89,37 +101,41 @@ public class SegnalazioneController {
     ) {
         log.info("Richiesto l'inserimento di una Segnalazione");
         if(bindingResult.hasErrors()){
-            String errMsg = bindingResult.getFieldError().getDefaultMessage();
-            if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
+            String errMsg = bindingResult.getAllErrors().get(0).getDefaultMessage();
+            //if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
+            System.err.println(errMsg);
             log.warning(errMsg);
             throw new BindingException(errMsg);
         }
 
         //verifica della duplicazione dell'istanza in base alla stessa categoria, comune e posizione nel range di
         //0.00003 in
-        try{
-            String okMsg = "Inserimento completato!";
-            if(forceInsert){
-                segnalazioneService.save(segnalazione);
-                log.info(okMsg);
-                return new ResponseEntity<InfoMsg>(new InfoMsg(
-                        new Date(),
-                        okMsg
-                ), HttpStatus.CREATED);
-            }else{
-                List<Segnalazione> l = segnalazioneService.searchSegnalazioneByCategoria_Id(segnalazione.getCategoria().getId());
-                l = new Utils<Segnalazione>().intersecaListe(
-                        l,
-                        segnalazioneService.searchSegnalazioneByComune_CodiceCatastale(segnalazione.getComune().getCodiceCatastale())
-                );
-                l = new Utils<Segnalazione>().intersecaListe(
-                        l,
-                        segnalazioneService
-                );
+        String okMsg = "Inserimento completato!";
+        if(!forceInsert){
+            List<Segnalazione> l = segnalazioneService.searchSegnalazioneByCategoria_Id(segnalazione.getCategoria().getId());
+            l = new Utils<Segnalazione>().intersecaListe(
+                    l,
+                    segnalazioneService.searchSegnalazioneByComune_CodiceCatastale(segnalazione.getComune().getCodiceCatastale())
+            );
+            l = new Utils<Segnalazione>().intersecaListe(
+                    l,
+                    segnalazioneService.searchSegnalazioneByCoordinateAround(
+                            segnalazione.getCoordinata().getLatitudine(),
+                            segnalazione.getCoordinata().getLongitudine()
+                    )
+            );
+            if(l.size() != 0){
+                String errMsg = "Inserimento rifiutato: segnalazione probabilemnte gia presente, abilitare " +
+                        "l'opzione FORCE per forzare l'inserimento!";
+                log.warning(errMsg);
+                throw new DuplicateException(errMsg);
             }
-
-        }catch (SaveException){
-            //TODO: Do something
         }
+        segnalazioneService.save(segnalazione);
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(new InfoMsg(
+                new Date(),
+                okMsg
+        ), HttpStatus.CREATED);
     }
 }

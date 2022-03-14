@@ -55,6 +55,11 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     }
 
     @Override
+    public List<Segnalazione> searchSegnalazioneByCoordinateAround(Double lat, Double lon) {
+        return segnalazioneRepository.searchSegnalazioneByCoordinataAround(lat, lon, AROUND_0003);
+    }
+
+    @Override
     public void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione) {
         segnalazioneRepository.setStatoSegnalazione(newStato, segnalazione);
     }
@@ -62,32 +67,29 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     @Transactional(rollbackFor = Throwable.class)
     @Override
     public void save(Segnalazione s) throws SaveException {
-        try{
-            Optional<Categoria> cat = categoriaRepository.findById(s.getCategoria().getId());
-            if(cat.isEmpty()){
-                throw new SaveException("Categoria " + s.getCategoria().getId() + " non trovata!");
-            }
-
-            Optional<Comune> com = comuneRepository.findById(s.getComune().getCodiceCatastale());
-            if(com.isEmpty()){
-                throw new SaveException("Comune " + s.getComune().getCodiceCatastale() + " non trovato!");
-            }
-
-            Coordinata tempCoord = s.getCoordinata();
-            Optional<Coordinata> coor = Optional.ofNullable(coordinataRepository.findByLatitudineAndLongitudine(
-                    tempCoord.getLatitudine(),
-                    tempCoord.getLongitudine()
-            ));
-            if(coor.isEmpty()){
-                tempCoord.setId(null);
-                coordinataRepository.saveAndFlush(tempCoord);
-                System.out.println("saved");
-            }else{
-                s.setCoordinata(coor.get());
-            }
-            segnalazioneRepository.saveAndFlush(s);
-        }catch (Throwable e){
-            throw new SaveException(e.getMessage());
+        Optional<Categoria> cat = categoriaRepository.findById(s.getCategoria().getId());
+        if(cat.isEmpty()){
+            throw new SaveException("Categoria " + s.getCategoria().getId() + " non trovata!");
         }
+
+        Optional<Comune> com = comuneRepository.findById(s.getComune().getCodiceCatastale());
+        if(com.isEmpty()){
+            throw new SaveException("Comune " + s.getComune().getCodiceCatastale() + " non trovato!");
+        }
+
+        Coordinata tempCoord = s.getCoordinata();
+        Optional<Coordinata> coor = Optional.ofNullable(coordinataRepository.findByLatitudineAndLongitudine(
+                tempCoord.getLatitudine(),
+                tempCoord.getLongitudine()
+        ));
+        if(coor.isEmpty()){
+            tempCoord.setId(null);
+            coordinataRepository.saveAndFlush(tempCoord);
+            System.out.println("saved");
+            return;
+        }else{
+            s.setCoordinata(coor.get());
+        }
+        segnalazioneRepository.saveAndFlush(s);
     }
 }

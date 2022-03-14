@@ -5,6 +5,7 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
@@ -16,6 +17,7 @@ import java.util.Objects;
 @RequiredArgsConstructor
 public class Comune implements Serializable {
     @Id
+    @NotNull(message = "L'id di Comune non può essere NULL")
     private String codiceCatastale;
     private String nome;
     private String provincia;
