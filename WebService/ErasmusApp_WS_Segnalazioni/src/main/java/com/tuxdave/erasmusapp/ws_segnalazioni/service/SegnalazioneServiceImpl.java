@@ -85,11 +85,11 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
         if(coor.isEmpty()){
             tempCoord.setId(null);
             coordinataRepository.saveAndFlush(tempCoord);
-            System.out.println("saved");
-            return;
         }else{
             s.setCoordinata(coor.get());
         }
         segnalazioneRepository.saveAndFlush(s);
+        System.out.println("saved");
+
     }
 }
