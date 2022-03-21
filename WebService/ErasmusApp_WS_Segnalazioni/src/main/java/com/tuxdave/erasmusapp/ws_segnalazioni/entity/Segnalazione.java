@@ -15,6 +15,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @RequiredArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Segnalazione implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

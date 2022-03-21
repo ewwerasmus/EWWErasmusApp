@@ -1,5 +1,6 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
