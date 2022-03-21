@@ -10,7 +10,9 @@ public interface SegnalazioneService {
     Double AROUND_0003 = 0.0003;
 
     List<Segnalazione> findAll();
+    List<Segnalazione> findAllEssential();
     Segnalazione findSegnalazioneById(Long id);
+    Segnalazione findSegnalazioneEssentialById(Long id);
     List<Segnalazione> searchSegnalazioneByComune_CodiceCatastale(String codiceCatastale);
     List<Segnalazione> searchSegnalazioneByCategoria_Id( Integer id);
     List<Segnalazione> searchSegnalazioneByStatoSegnalazione(StatoSegnalazione stato);

@@ -13,6 +13,12 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     @Query("SELECT S FROM Segnalazione S WHERE S.id = (:id)")
     Segnalazione findSegnalazioneById(@Param("id") Long id);
 
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) from Segnalazione S WHERE S.id = (:id)")
+    Segnalazione findSegnalazioneEssentialById(@Param("id") Long id);
+
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) from Segnalazione S")
+    List<Segnalazione> findAllEssential();
+
     @Query("SELECT S FROM Segnalazione S WHERE S.comune.codiceCatastale = (:codiceCatastale)")
     List<Segnalazione> searchSegnalazioneByComune_CodiceCatastale(@Param("codiceCatastale") String codiceCatastale);
 

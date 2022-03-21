@@ -35,8 +35,18 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     }
 
     @Override
+    public List<Segnalazione> findAllEssential() {
+        return segnalazioneRepository.findAllEssential();
+    }
+
+    @Override
     public Segnalazione findSegnalazioneById(Long id) {
         return segnalazioneRepository.findSegnalazioneById(id);
+    }
+
+    @Override
+    public Segnalazione findSegnalazioneEssentialById(Long id) {
+        return segnalazioneRepository.findSegnalazioneEssentialById(id);
     }
 
     @Override

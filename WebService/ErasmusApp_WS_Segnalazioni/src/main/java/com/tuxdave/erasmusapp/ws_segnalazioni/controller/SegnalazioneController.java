@@ -43,7 +43,7 @@ public class SegnalazioneController {
     @GetMapping("query")
     public ResponseEntity<List<Segnalazione>> getAllSegnalazioni(){
         log.info("Richieste tutte le segnalazioni...");
-        List<Segnalazione> ls = segnalazioneService.findAll();
+        List<Segnalazione> ls = segnalazioneService.findAllEssential();//TODO: non mostrare nel JSON se le proprietò sono NULL
         log.info("Rilasciata una lista di " + ls.size() + " segnalazioni!");
         return new ResponseEntity<List<Segnalazione>>(ls, HttpStatus.OK);
     }
@@ -66,7 +66,7 @@ public class SegnalazioneController {
             Long id
     ){
         log.info("Richiesta segnalazione id: " + id);
-        Segnalazione s = segnalazioneService.findSegnalazioneById(id);
+        Segnalazione s = segnalazioneService.findSegnalazioneEssentialById(id);
         if(s == null){
             String errMsg = "Nessuna segnalazione trovata con id: " + id;
             log.warning(errMsg);

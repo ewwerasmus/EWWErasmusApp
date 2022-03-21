@@ -31,21 +31,19 @@ public class Segnalazione implements Serializable {
     @Min(value = 1, message = "L'urgenza di Segnalazione può avere come valore minimo: 1")
     private Integer urgenza;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idComune")
-    @JsonIgnore
     @NotNull(message = "Il Comune di Segnalazione non può essere NULL")
     private Comune comune;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idCoordinata", nullable = false)
-    @JsonIgnore
     @NotNull(message = "Le Coordinate di Segnalazione non possono essere NULL")
     private Coordinata coordinata;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idCategoria", nullable = false)
-    @JsonIgnore
+    @JsonAlias("Wewe")
     @NotNull(message = "La Categodia di Segnalazione non può essere NULL")
     private Categoria categoria;
 
@@ -53,6 +51,13 @@ public class Segnalazione implements Serializable {
     @JoinColumn(name = "idStatoSegnalazione")
     @NotNull(message = "Lo StatoSegnalazione di Segnalazione non può essere NULL")
     private StatoSegnalazione statoSegnalazione;
+
+    public Segnalazione(Long id, String descrizione, Integer urgenza, StatoSegnalazione statoSegnalazione) {
+        this.id = id;
+        this.descrizione = descrizione;
+        this.urgenza = urgenza;
+        this.statoSegnalazione = statoSegnalazione;
+    }
 
     @Override
     public boolean equals(Object o) {
