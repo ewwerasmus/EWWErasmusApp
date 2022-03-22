@@ -44,9 +44,72 @@ public class SegnalazioneController {
     @GetMapping("query")
     public ResponseEntity<List<Segnalazione>> getAllSegnalazioni(){
         log.info("Richieste tutte le segnalazioni...");
-        List<Segnalazione> ls = segnalazioneService.findAllEssential();//TODO: non mostrare nel JSON se le proprietò sono NULL
+        List<Segnalazione> ls = segnalazioneService.findAllEssential();
         log.info("Rilasciata una lista di " + ls.size() + " segnalazioni!");
         return new ResponseEntity<List<Segnalazione>>(ls, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Ricerca le segnalazioni in base al comune di appartenenza.",
+            notes = "Restituisce i dati semplici della segnalazione in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
+    })
+    @GetMapping("query/search/comune/{codiceCatastale}")
+    public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialByComune(
+            @ApiParam(value = "Codice Catastale del comune secondo cui la ricerca va fatta.", required = true)
+            @PathVariable("codiceCatastale")
+            String cc
+    ){
+        log.info("Ricerca delle Segnalazioni con codiceCatastale = " + cc);
+        List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByComune_CodiceCatastale(cc);
+        log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
+        return new ResponseEntity<List<Segnalazione>>(ret, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Ricerca le segnalazioni in base alla categoria di appartenenza.",
+            notes = "Restituisce i dati semplici della segnalazione in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
+    })
+    @GetMapping("query/categoria/{id}")
+    public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialByCategoria(
+            @ApiParam(value = "ID univoco della Categoria secondo cui ricercare.", required = true)
+            @PathVariable("id")
+            Integer id
+    ){
+        log.info("Ricerca delle Segnalazioni con Id Categoria = " + id);
+        List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByCategoria_Id(id);
+        log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
+        return new ResponseEntity<List<Segnalazione>>(ret, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Ricerca le segnalazioni in base alla descrizione.",
+            notes = "Restituisce i dati semplici della segnalazione in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
+    })
+    @GetMapping("query/categoria/{id}")
+    public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialsByDescrizioneLike(
+            @ApiParam(value = "caratteri da ricercare all'interno della descrizione.", required = true)
+            @PathVariable("txt")
+            String txt
+    ){
+        log.info("Ricerca delle Segnalazioni descrizione LIKE " + txt);
+        List<Segnalazione> ret = segnalazioneService.searchSegnalazioneEssentialsByDescrizioneLike(txt);
+        log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
+        return new ResponseEntity<List<Segnalazione>>(ret, HttpStatus.OK);
     }
 
     @ApiOperation(

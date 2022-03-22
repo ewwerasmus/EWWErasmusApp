@@ -28,10 +28,13 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
     List<Segnalazione> searchSegnalazioneEssentialByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
 
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.descrizione LIKE %:descrizione%")
+    List<Segnalazione> searchSegnalazioneEssentialsByDescrizioneLike(@Param("descrizione") String descrizione);
+
     @Query("SELECT S " +
             "FROM Segnalazione S JOIN FETCH S.coordinata " +
             "WHERE (S.coordinata.latitudine BETWEEN (:lat - :around) AND (:lat + :around)) " +
-            "   AND (S.coordinata.longitudine BETWEEN (:lon - :around) AND (:lon + :around))") //TODO: review this
+            "   AND (S.coordinata.longitudine BETWEEN (:lon - :around) AND (:lon + :around))")
     List<Segnalazione> searchSegnalazioneByCoordinataAround(
             @Param("lat") Double lat,
             @Param("lon") Double lon,

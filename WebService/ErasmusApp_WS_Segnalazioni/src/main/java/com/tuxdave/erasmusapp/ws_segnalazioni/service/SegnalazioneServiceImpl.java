@@ -70,6 +70,11 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     }
 
     @Override
+    public List<Segnalazione> searchSegnalazioneEssentialsByDescrizioneLike(String descrizione) {
+        return segnalazioneRepository.searchSegnalazioneEssentialsByDescrizioneLike(descrizione);
+    }
+
+    @Override
     public void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione) {
         segnalazioneRepository.setStatoSegnalazione(newStato, segnalazione);
     }
