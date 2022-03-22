@@ -19,14 +19,14 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) from Segnalazione S")
     List<Segnalazione> findAllEssential();
 
-    @Query("SELECT S FROM Segnalazione S WHERE S.comune.codiceCatastale = (:codiceCatastale)")
-    List<Segnalazione> searchSegnalazioneByComune_CodiceCatastale(@Param("codiceCatastale") String codiceCatastale);
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.comune.codiceCatastale = (:codiceCatastale)")
+    List<Segnalazione> searchSegnalazioneEssentialByComune_CodiceCatastale(@Param("codiceCatastale") String codiceCatastale);
 
-    @Query("SELECT S FROM Segnalazione S WHERE S.categoria.id = (:id)")
-    List<Segnalazione> searchSegnalazioneByCategoria_Id(@Param("id") Integer id);
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.categoria.id = (:id)")
+    List<Segnalazione> searchSegnalazioneEssentialByCategoria_Id(@Param("id") Integer id);
 
-    @Query("SELECT S FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
-    List<Segnalazione> searchSegnalazioneByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.statoSegnalazione = (:stato)")
+    List<Segnalazione> searchSegnalazioneEssentialByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
 
     @Query("SELECT S " +
             "FROM Segnalazione S JOIN FETCH S.coordinata " +

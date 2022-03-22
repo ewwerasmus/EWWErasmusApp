@@ -51,17 +51,17 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
 
     @Override
     public List<Segnalazione> searchSegnalazioneByComune_CodiceCatastale(String codiceCatastale) {
-        return segnalazioneRepository.searchSegnalazioneByComune_CodiceCatastale(codiceCatastale);
+        return segnalazioneRepository.searchSegnalazioneEssentialByComune_CodiceCatastale(codiceCatastale);
     }
 
     @Override
     public List<Segnalazione> searchSegnalazioneByCategoria_Id(Integer id) {
-        return segnalazioneRepository.searchSegnalazioneByCategoria_Id(id);
+        return segnalazioneRepository.searchSegnalazioneEssentialByCategoria_Id(id);
     }
 
     @Override
     public List<Segnalazione> searchSegnalazioneByStatoSegnalazione(StatoSegnalazione stato) {
-        return segnalazioneRepository.searchSegnalazioneByStatoSegnalazione(stato);
+        return segnalazioneRepository.searchSegnalazioneEssentialByStatoSegnalazione(stato);
     }
 
     @Override

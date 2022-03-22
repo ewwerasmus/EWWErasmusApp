@@ -67,7 +67,7 @@ public class SegnalazioneController {
             Long id
     ){
         log.info("Richiesta segnalazione id: " + id);
-        Segnalazione s = segnalazioneService.findSegnalazioneEssentialById(id);
+        Segnalazione s = segnalazioneService.findSegnalazioneById(id);
         if(s == null){
             String errMsg = "Nessuna segnalazione trovata con id: " + id;
             log.warning(errMsg);
