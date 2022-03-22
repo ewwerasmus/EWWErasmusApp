@@ -17,7 +17,9 @@ public interface SegnalazioneService {
     List<Segnalazione> searchSegnalazioneByCategoria_Id( Integer id);
     List<Segnalazione> searchSegnalazioneByStatoSegnalazione(StatoSegnalazione stato);
     List<Segnalazione> searchSegnalazioneByCoordinateAround(Double lat, Double lon);
-    List<Segnalazione> searchSegnalazioneEssentialsByDescrizioneLike(String descrizione);
+    List<Segnalazione> searchSegnalazioneByDescrizioneLike(String descrizione);
+    List<Segnalazione> searchSegnalazioneByUrgenza(Integer urg);
+    List<Segnalazione> searchSegnalazioneByUrgenzaBetween(Integer from, Integer to);
     void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione);
     void save(Segnalazione s) throws SaveException;
 }

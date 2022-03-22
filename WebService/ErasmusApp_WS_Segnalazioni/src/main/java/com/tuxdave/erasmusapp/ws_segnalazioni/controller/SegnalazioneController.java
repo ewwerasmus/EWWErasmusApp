@@ -1,12 +1,11 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.repository.SegnalazioneRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.InfoMsg;
 import io.swagger.annotations.*;
@@ -19,7 +18,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.websocket.server.PathParam;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -79,7 +78,7 @@ public class SegnalazioneController {
     @ApiResponses({
             @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
     })
-    @GetMapping("query/categoria/{id}")
+    @GetMapping("query/search/categoria/{id}")
     public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialByCategoria(
             @ApiParam(value = "ID univoco della Categoria secondo cui ricercare.", required = true)
             @PathVariable("id")
@@ -100,14 +99,50 @@ public class SegnalazioneController {
     @ApiResponses({
             @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
     })
-    @GetMapping("query/categoria/{id}")
+    @GetMapping("query/search/descrizione/{txt}")
     public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialsByDescrizioneLike(
             @ApiParam(value = "caratteri da ricercare all'interno della descrizione.", required = true)
             @PathVariable("txt")
             String txt
     ){
         log.info("Ricerca delle Segnalazioni descrizione LIKE " + txt);
-        List<Segnalazione> ret = segnalazioneService.searchSegnalazioneEssentialsByDescrizioneLike(txt);
+        List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByDescrizioneLike(txt);
+        log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
+        return new ResponseEntity<List<Segnalazione>>(ret, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Ricerca le segnalazioni in base all'urgenza.",
+            notes = "Restituisce i dati semplici della segnalazione in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Rilasciate le segnalazioni ricercate!"),
+    })
+    @GetMapping("query/search/urgenza")
+    public ResponseEntity<List<Segnalazione>> searchSegnalazioneEssentialsByUrgenzaBetween(
+            @ApiParam(value = "Valore di partenza in caso di selezione in range, valore unico in caso di ricerca puntuale", required = true)
+            @RequestParam(value = "from", required = true)
+            Integer from,
+
+            @ApiParam(value = "Valore di fine range.", required = false)
+            @RequestParam(value = "to", required = false)
+            Integer to
+    ){
+        List<Segnalazione> ret;
+        if(to == null){
+            log.info("Ricerca delle Segnalazioni urgenza = " + from);
+            ret = segnalazioneService.searchSegnalazioneByUrgenza(from);
+        }else{
+            if(from > to){
+                int temp = from;
+                from = to;
+                to = temp;
+            }
+            log.info("Ricerca delle Segnalazioni urgenza BETWEEN " + from + " e " + to);
+            ret = segnalazioneService.searchSegnalazioneByUrgenzaBetween(from, to);
+        }
         log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
         return new ResponseEntity<List<Segnalazione>>(ret, HttpStatus.OK);
     }

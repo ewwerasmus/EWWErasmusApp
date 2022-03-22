@@ -70,8 +70,18 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     }
 
     @Override
-    public List<Segnalazione> searchSegnalazioneEssentialsByDescrizioneLike(String descrizione) {
-        return segnalazioneRepository.searchSegnalazioneEssentialsByDescrizioneLike(descrizione);
+    public List<Segnalazione> searchSegnalazioneByDescrizioneLike(String descrizione) {
+        return segnalazioneRepository.searchSegnalazioneEssentialByDescrizioneLike(descrizione);
+    }
+
+    @Override
+    public List<Segnalazione> searchSegnalazioneByUrgenza(Integer urg) {
+        return segnalazioneRepository.searchSegnalazioneEssentialByUrgenza(urg);
+    }
+
+    @Override
+    public List<Segnalazione> searchSegnalazioneByUrgenzaBetween(Integer from, Integer to) {
+        return segnalazioneRepository.searchSegnalazioneEssentialByUrgenzaBetween(from, to);
     }
 
     @Override

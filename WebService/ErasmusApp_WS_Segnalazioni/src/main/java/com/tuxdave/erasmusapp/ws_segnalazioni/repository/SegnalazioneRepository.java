@@ -29,7 +29,13 @@ public interface SegnalazioneRepository extends JpaRepository<Segnalazione, Long
     List<Segnalazione> searchSegnalazioneEssentialByStatoSegnalazione(@Param("stato") StatoSegnalazione stato);
 
     @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.descrizione LIKE %:descrizione%")
-    List<Segnalazione> searchSegnalazioneEssentialsByDescrizioneLike(@Param("descrizione") String descrizione);
+    List<Segnalazione> searchSegnalazioneEssentialByDescrizioneLike(@Param("descrizione") String descrizione);
+
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.urgenza = (:urg)")
+    List<Segnalazione> searchSegnalazioneEssentialByUrgenza(@Param("urg") Integer urgenza);
+
+    @Query("SELECT NEW Segnalazione(S.id, S.descrizione, S.urgenza, S.statoSegnalazione) FROM Segnalazione S WHERE S.urgenza BETWEEN (:from) AND (:to)")
+    List<Segnalazione> searchSegnalazioneEssentialByUrgenzaBetween(@Param("from") Integer from, @Param("to") Integer to);
 
     @Query("SELECT S " +
             "FROM Segnalazione S JOIN FETCH S.coordinata " +
