@@ -8,10 +8,7 @@ import lombok.*;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Null;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
@@ -25,6 +22,7 @@ public class Categoria implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Null(message = "L'id di Categoria deve essere NULL in inserimento")
+    @Min(value = 0, message = "L'id di Categoria deve essere minimo: 0")
     private Integer id;
 
     @NotNull(message = "Il nome di Categoria non può essere NULL")

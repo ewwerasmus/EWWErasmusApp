@@ -3,8 +3,12 @@ package com.tuxdave.erasmusapp.ws_segnalazioni.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.Hibernate;
+import org.hibernate.validator.constraints.Range;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import java.util.LinkedHashSet;
 import java.util.Objects;
@@ -18,6 +22,7 @@ import java.util.Set;
 @ToString
 public class StatoSegnalazione {
     @Id
+    @NotNull(message = "L'id di StatoSegnalazione non può essere nullo in inserimento!")
     private Integer id;
     private String label;
 
