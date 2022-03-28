@@ -1,0 +1,7915 @@
+A074,agliè,TO
+A109,airasca,TO
+A117,ala di stura,TO
+A157,albiano d'ivrea,TO
+A218,almese,TO
+A221,alpette,TO
+A222,alpignano,TO
+A275,andezeno,TO
+A282,andrate,TO
+A295,angrogna,TO
+A405,arignano,TO
+A518,avigliana,TO
+A525,azeglio,TO
+A584,bairo,TO
+A587,balangero,TO
+A590,baldissero canavese,TO
+A591,baldissero torinese,TO
+A599,balme,TO
+A607,banchette,TO
+A625,barbania,TO
+A651,bardonecchia,TO
+A673,barone canavese,TO
+A734,beinasco,TO
+A853,bibiana,TO
+A910,bobbio pellice,TO
+A941,bollengo,TO
+A990,borgaro torinese,TO
+B003,borgiallo,TO
+B015,borgofranco d'ivrea,TO
+B021,borgomasino,TO
+B024,borgone susa,TO
+B075,bosconero,TO
+B121,brandizzo,TO
+B171,bricherasio,TO
+B205,brosso,TO
+B209,brozolo,TO
+B216,bruino,TO
+B225,brusasco,TO
+B232,bruzolo,TO
+B278,buriasco,TO
+B279,burolo,TO
+B284,busano,TO
+B297,bussoleno,TO
+B305,buttigliera alta,TO
+B350,cafasse,TO
+B435,caluso,TO
+B462,cambiano,TO
+B512,campiglione fenile,TO
+B588,candia canavese,TO
+B592,candiolo,TO
+B605,canischio,TO
+B628,cantalupa,TO
+B637,cantoira,TO
+B705,caprie,TO
+B733,caravino,TO
+B762,carema,TO
+B777,carignano,TO
+B791,carmagnola,TO
+B867,casalborgone,TO
+B953,cascinette d'ivrea,TO
+B955,caselette,TO
+B960,caselle torinese,TO
+C045,castagneto po,TO
+C048,castagnole piemonte,TO
+C133,castellamonte,TO
+C241,castelnuovo nigra,TO
+C307,castiglione torinese,TO
+C369,cavagnolo,TO
+C404,cavour,TO
+C487,cercenasco,TO
+C497,ceres,TO
+C505,ceresole reale,TO
+C564,cesana torinese,TO
+C604,chialamberto,TO
+C610,chianocco,TO
+C624,chiaverano,TO
+C627,chieri,TO
+C629,chiesanuova,TO
+C639,chiomonte,TO
+C655,chiusa di san michele,TO
+C665,chivasso,TO
+C679,ciconio,TO
+C711,cintano,TO
+C715,cinzano,TO
+C722,ciriè,TO
+C793,claviere,TO
+C801,coassolo torinese,TO
+C803,coazze,TO
+C860,collegno,TO
+C867,colleretto castelnuovo,TO
+C868,colleretto giacosa,TO
+C955,condove,TO
+D008,corio,TO
+D092,cossano canavese,TO
+D197,cuceglio,TO
+D202,cumiana,TO
+D208,cuorgnè,TO
+D373,druento,TO
+D433,exilles,TO
+D520,favria,TO
+D524,feletto,TO
+D532,fenestrelle,TO
+D562,fiano,TO
+D608,fiorano canavese,TO
+D646,foglizzo,TO
+D725,forno canavese,TO
+D781,frassinetto,TO
+D805,front,TO
+D812,frossasco,TO
+D931,garzigliana,TO
+D933,gassino torinese,TO
+D983,germagnano,TO
+E009,giaglione,TO
+E020,giaveno,TO
+E067,givoletto,TO
+E154,gravere,TO
+E199,groscavallo,TO
+E203,grosso,TO
+E216,grugliasco,TO
+E301,ingria,TO
+E311,inverso pinasca,TO
+E345,isolabella,TO
+E368,issiglio,TO
+E379,ivrea,TO
+E394,la cassa,TO
+E423,la loggia,TO
+E445,lanzo torinese,TO
+E484,lauriano,TO
+E518,leini,TO
+E520,lemie,TO
+E551,lessolo,TO
+E566,levone,TO
+E635,locana,TO
+E660,lombardore,TO
+E661,lombriasco,TO
+E683,loranzè,TO
+E758,luserna san giovanni,TO
+E759,lusernetta,TO
+E763,lusigliè,TO
+E782,macello,TO
+E817,maglione,TO
+E941,marentino,TO
+F041,massello,TO
+F053,mathi,TO
+F058,mattie,TO
+F067,mazzè,TO
+F074,meana di susa,TO
+F140,mercenasco,TO
+F182,mezzenile,TO
+F315,mombello di torino,TO
+F318,mompantero,TO
+F327,monastero di lanzo,TO
+F335,moncalieri,TO
+D553,moncenisio,TO
+F407,montaldo torinese,TO
+F411,montalenghe,TO
+F420,montalto dora,TO
+F422,montanaro,TO
+F651,monteu da po,TO
+F733,moriondo torinese,TO
+F889,nichelino,TO
+F906,noasca,TO
+F925,nole,TO
+F927,nomaglio,TO
+F931,none,TO
+F948,novalesa,TO
+G010,oglianico,TO
+G087,orbassano,TO
+G109,orio canavese,TO
+G151,osasco,TO
+G152,osasio,TO
+G196,oulx,TO
+G202,ozegna,TO
+G262,palazzo canavese,TO
+G303,pancalieri,TO
+G330,parella,TO
+G387,pavarolo,TO
+G392,pavone canavese,TO
+G398,pecetto torinese,TO
+G463,perosa argentina,TO
+G462,perosa canavese,TO
+G465,perrero,TO
+G477,pertusio,TO
+G505,pessinetto,TO
+G559,pianezza,TO
+G672,pinasca,TO
+G674,pinerolo,TO
+G678,pino torinese,TO
+G684,piobesi torinese,TO
+G691,piossasco,TO
+G705,piscina,TO
+G719,piverone,TO
+G777,poirino,TO
+G805,pomaretto,TO
+G826,pont-canavese,TO
+G900,porte,TO
+G973,pragelato,TO
+G978,prali,TO
+G979,pralormo,TO
+G982,pramollo,TO
+G986,prarostino,TO
+G988,prascorsano,TO
+G997,pratiglione,TO
+H100,quagliuzzo,TO
+H120,quassolo,TO
+H127,quincinetto,TO
+H207,reano,TO
+H270,ribordone,TO
+H333,rivalba,TO
+H335,rivalta di torino,TO
+H337,riva presso chieri,TO
+H338,rivara,TO
+H340,rivarolo canavese,TO
+H344,rivarossa,TO
+H355,rivoli,TO
+H367,robassomero,TO
+H386,rocca canavese,TO
+H498,roletto,TO
+H511,romano canavese,TO
+H539,ronco canavese,TO
+H547,rondissone,TO
+H554,rorà,TO
+H555,roure,TO
+H583,rosta,TO
+H627,rubiana,TO
+H631,rueglio,TO
+H691,salassa,TO
+H684,salbertrand,TO
+H702,salerano canavese,TO
+H734,salza di pinerolo,TO
+H753,samone,TO
+H775,san benigno canavese,TO
+H789,san carlo canavese,TO
+H804,san colombano belmonte,TO
+H820,san didero,TO
+H847,san francesco al campo,TO
+H855,sangano,TO
+H862,san germano chisone,TO
+H873,san gillio,TO
+H890,san giorgio canavese,TO
+H900,san giorio di susa,TO
+H936,san giusto canavese,TO
+H997,san martino canavese,TO
+I024,san maurizio canavese,TO
+I030,san mauro torinese,TO
+I090,san pietro val lemina,TO
+I126,san ponso,TO
+I137,san raffaele cimena,TO
+I152,san sebastiano da po,TO
+I154,san secondo di pinerolo,TO
+I258,sant'ambrogio di torino,TO
+I296,sant'antonino di susa,TO
+I327,santena,TO
+I465,sauze di cesana,TO
+I466,sauze d'oulx,TO
+I490,scalenghe,TO
+I511,scarmagno,TO
+I539,sciolze,TO
+I692,sestriere,TO
+I701,settimo rottaro,TO
+I703,settimo torinese,TO
+I702,settimo vittone,TO
+I886,sparone,TO
+I969,strambinello,TO
+I970,strambino,TO
+L013,susa,TO
+L066,tavagnasco,TO
+L219,torino,TO
+L238,torrazza piemonte,TO
+L247,torre canavese,TO
+L277,torre pellice,TO
+L327,trana,TO
+L345,traversella,TO
+L340,traves,TO
+L445,trofarello,TO
+L515,usseaux,TO
+L516,usseglio,TO
+L538,vaie,TO
+L555,val della torre,TO
+L578,valgioie,TO
+L629,vallo torinese,TO
+L644,valperga,TO
+B510,valprato soana,TO
+L685,varisella,TO
+L698,vauda canavese,TO
+L726,venaus,TO
+L727,venaria reale,TO
+L779,verolengo,TO
+L787,verrua savoia,TO
+L811,vestignè,TO
+L830,vialfrè,TO
+L857,vidracco,TO
+L898,vigone,TO
+L948,villafranca piemonte,TO
+L982,villanova canavese,TO
+M002,villarbasse,TO
+L999,villar dora,TO
+M004,villareggia,TO
+M007,villar focchiardo,TO
+M013,villar pellice,TO
+M014,villar perosa,TO
+M027,villastellone,TO
+M060,vinovo,TO
+M069,virle piemonte,TO
+M071,vische,TO
+M080,vistrorio,TO
+M094,viù,TO
+M122,volpiano,TO
+M133,volvera,TO
+M316,mappano,TO
+M405,val di chy,TO
+M415,valchiusa,TO
+A119,alagna valsesia,VC
+A130,albano vercellese,VC
+A198,alice castello,VC
+A358,arborio,VC
+A466,asigliano vercellese,VC
+A600,balmuccia,VC
+A601,balocco,VC
+A847,bianzè,VC
+A914,boccioleto,VC
+B009,borgo d'ale,VC
+B041,borgosesia,VC
+B046,borgo vercelli,VC
+B280,buronzo,VC
+B505,campertogno,VC
+B752,carcoforo,VC
+B767,caresana,VC
+B768,caresanablot,VC
+B782,carisio,VC
+B928,casanova elvo,VC
+B952,san giacomo vercellese,VC
+C548,cervatto,VC
+C680,cigliano,VC
+C757,civiasco,VC
+C884,collobiano,VC
+D113,costanzana,VC
+D132,cravagliana,VC
+D154,crescentino,VC
+D187,crova,VC
+D281,desana,VC
+D641,fobello,VC
+D676,fontanetto po,VC
+D712,formigliana,VC
+D938,gattinara,VC
+E007,ghislarengo,VC
+E163,greggio,VC
+E237,guardabosone,VC
+E433,lamporo,VC
+E528,lenta,VC
+E583,lignana,VC
+E626,livorno ferraris,VC
+E711,lozzolo,VC
+F297,mollia,VC
+F342,moncrivello,VC
+F774,motta de' conti,VC
+G016,olcenengo,VC
+G018,oldenico,VC
+G266,palazzolo vercellese,VC
+G471,pertengo,VC
+G528,pezzana,VC
+G666,pila,VC
+G685,piode,VC
+G940,postua,VC
+G985,prarolo,VC
+H108,quarona,VC
+H132,quinto vercellese,VC
+H188,rassa,VC
+H293,rimella,VC
+H346,rive,VC
+H365,roasio,VC
+H549,ronsecco,VC
+H577,rossa,VC
+H364,rovasenda,VC
+H690,salasco,VC
+H707,sali vercellese,VC
+H725,saluggia,VC
+H861,san germano vercellese,VC
+I337,santhià,VC
+I544,scopa,VC
+I545,scopello,VC
+I663,serravalle sesia,VC
+I984,stroppiana,VC
+L420,tricerro,VC
+L429,trino,VC
+L451,tronzano vercellese,VC
+L566,valduggia,VC
+L669,varallo,VC
+L750,vercelli,VC
+M003,villarboit,VC
+M028,villata,VC
+M106,vocca,VC
+M389,alto sermenza,VC
+M398,cellio con breia,VC
+A088,agrate conturbia,NO
+A264,ameno,NO
+A414,armeno,NO
+A429,arona,NO
+A653,barengo,NO
+A752,bellinzago novarese,NO
+A844,biandrate,NO
+A911,boca,NO
+A929,bogogno,NO
+A953,bolzano novarese,NO
+B016,borgolavezzaro,NO
+B019,borgomanero,NO
+B043,borgo ticino,NO
+B176,briga novarese,NO
+B183,briona,NO
+B431,caltignaga,NO
+B473,cameri,NO
+B823,carpignano sesia,NO
+B864,casalbeltrame,NO
+B883,casaleggio novara,NO
+B897,casalino,NO
+B920,casalvolone,NO
+C149,castellazzo novarese,NO
+C166,castelletto sopra ticino,NO
+C364,cavaglietto,NO
+C365,cavaglio d'agogna,NO
+C378,cavallirio,NO
+C483,cerano,NO
+C829,colazza,NO
+C926,comignago,NO
+D162,cressa,NO
+D216,cureggio,NO
+D309,divignano,NO
+D347,dormelletto,NO
+D492,fara novarese,NO
+D675,fontaneto d'agogna,NO
+D872,galliate,NO
+D911,garbagna novarese,NO
+D921,gargallo,NO
+E001,ghemme,NO
+E120,gozzano,NO
+E143,granozzo con monticello,NO
+E177,grignasco,NO
+E314,invorio,NO
+E436,landiona,NO
+E544,lesa,NO
+E803,maggiora,NO
+E880,mandello vitta,NO
+E907,marano ticino,NO
+F047,massino visconti,NO
+F093,meina,NO
+F188,mezzomerico,NO
+F191,miasino,NO
+F317,momo,NO
+F859,nebbiuno,NO
+F886,nibbiola,NO
+F952,novara,NO
+G019,oleggio,NO
+G020,oleggio castello,NO
+G134,orta san giulio,NO
+G349,paruzzaro,NO
+G421,pella,NO
+G520,pettenasco,NO
+G703,pisano,NO
+G775,pogno,NO
+G809,pombia,NO
+H001,prato sesia,NO
+H213,recetto,NO
+H502,romagnano sesia,NO
+H518,romentino,NO
+I025,san maurizio d'opaglio,NO
+I052,san nazzaro sesia,NO
+I116,san pietro mosezzo,NO
+I736,sillavengo,NO
+I767,sizzano,NO
+I857,soriso,NO
+I880,sozzago,NO
+L007,suno,NO
+L104,terdobbiate,NO
+L223,tornaco,NO
+L356,trecate,NO
+L668,vaprio d'agogna,NO
+L670,varallo pombia,NO
+L808,vespolate,NO
+L847,vicolungo,NO
+M062,vinzaglio,NO
+M416,gattico-veruno,NO
+A016,acceglio,CN
+A113,aisone,CN
+A124,alba,CN
+A139,albaretto della torre,CN
+A238,alto,CN
+A394,argentera,CN
+A396,arguello,CN
+A555,bagnasco,CN
+A571,bagnolo piemonte,CN
+A589,baldissero d'alba,CN
+A629,barbaresco,CN
+A660,barge,CN
+A671,barolo,CN
+A709,bastia mondovì,CN
+A716,battifollo,CN
+A735,beinette,CN
+A750,bellino,CN
+A774,belvedere langhe,CN
+A779,bene vagienna,CN
+A782,benevello,CN
+A798,bergolo,CN
+A805,bernezzo,CN
+A979,bonvicino,CN
+B018,borgomale,CN
+B033,borgo san dalmazzo,CN
+B079,bosia,CN
+B084,bossolasco,CN
+B101,boves,CN
+B111,bra,CN
+B167,briaglia,CN
+B175,briga alta,CN
+B200,brondello,CN
+B204,brossasco,CN
+B285,busca,CN
+B467,camerana,CN
+B573,canale,CN
+B621,canosio,CN
+B692,caprauna,CN
+B719,caraglio,CN
+B720,caramagna piemonte,CN
+B755,cardè,CN
+B841,carrù,CN
+B845,cartignano,CN
+B894,casalgrasso,CN
+C046,castagnito,CN
+C081,casteldelfino,CN
+C165,castelletto stura,CN
+C167,castelletto uzzone,CN
+C173,castellinaldo d'alba,CN
+C176,castellino tanaro,CN
+C205,castelmagno,CN
+C214,castelnuovo di ceva,CN
+C314,castiglione falletto,CN
+C317,castiglione tinella,CN
+C323,castino,CN
+C375,cavallerleone,CN
+C376,cavallermaggiore,CN
+C441,celle di macra,CN
+C466,centallo,CN
+C504,ceresole alba,CN
+C530,cerretto langhe,CN
+C547,cervasca,CN
+C550,cervere,CN
+C589,ceva,CN
+C599,cherasco,CN
+C653,chiusa di pesio,CN
+C681,cigliè,CN
+C738,cissone,CN
+C792,clavesana,CN
+D022,corneliano d'alba,CN
+D062,cortemilia,CN
+D093,cossano belbo,CN
+D120,costigliole saluzzo,CN
+D133,cravanzana,CN
+D172,crissolo,CN
+D205,cuneo,CN
+D271,demonte,CN
+D291,diano d'alba,CN
+D314,dogliani,CN
+D372,dronero,CN
+D401,elva,CN
+D410,entracque,CN
+D412,envie,CN
+D499,farigliano,CN
+D511,faule,CN
+D523,feisoglio,CN
+D742,fossano,CN
+D751,frabosa soprana,CN
+D752,frabosa sottana,CN
+D782,frassino,CN
+D856,gaiola,CN
+D894,gambasca,CN
+D920,garessio,CN
+D967,genola,CN
+E111,gorzegno,CN
+E115,gottasecca,CN
+E118,govone,CN
+E182,grinzane cavour,CN
+E251,guarene,CN
+E282,igliano,CN
+E327,isasca,CN
+E406,lagnasco,CN
+E430,la morra,CN
+E540,lequio berria,CN
+E539,lequio tanaro,CN
+E546,lesegno,CN
+E564,levice,CN
+E597,limone piemonte,CN
+E615,lisio,CN
+E789,macra,CN
+E809,magliano alfieri,CN
+E808,magliano alpi,CN
+E887,mango,CN
+E894,manta,CN
+E939,marene,CN
+E945,margarita,CN
+E963,marmora,CN
+E973,marsaglia,CN
+E988,martiniana po,CN
+F114,melle,CN
+F279,moiola,CN
+F309,mombarcaro,CN
+F312,mombasiglio,CN
+F326,monastero di vasco,CN
+F329,monasterolo casotto,CN
+F330,monasterolo di savigliano,CN
+F338,monchiero,CN
+F351,mondovì,CN
+F355,monesiglio,CN
+F358,monforte d'alba,CN
+F385,montà,CN
+F405,montaldo di mondovì,CN
+F408,montaldo roero,CN
+F424,montanera,CN
+F550,montelupo albese,CN
+F558,montemale di cuneo,CN
+F608,monterosso grana,CN
+F654,monteu roero,CN
+F666,montezemolo,CN
+F669,monticello d'alba,CN
+F723,moretta,CN
+F743,morozzo,CN
+F809,murazzano,CN
+F811,murello,CN
+F846,narzole,CN
+F863,neive,CN
+F883,neviglie,CN
+F894,niella belbo,CN
+F895,niella tanaro,CN
+F961,novello,CN
+F972,nucetto,CN
+G066,oncino,CN
+G114,ormea,CN
+G183,ostana,CN
+G228,paesana,CN
+G240,pagno,CN
+G302,pamparato,CN
+G339,paroldo,CN
+G457,perletto,CN
+G458,perlo,CN
+G526,peveragno,CN
+G532,pezzolo valle uzzone,CN
+G561,pianfei,CN
+G575,piasco,CN
+G625,pietraporzio,CN
+G683,piobesi d'alba,CN
+G697,piozzo,CN
+G742,pocapaglia,CN
+G800,polonghera,CN
+G837,pontechianale,CN
+G970,pradleves,CN
+H011,prazzo,CN
+H059,priero,CN
+H068,priocca,CN
+H069,priola,CN
+H085,prunetto,CN
+H150,racconigi,CN
+H247,revello,CN
+H285,rifreddo,CN
+H326,rittana,CN
+H362,roaschia,CN
+H363,roascio,CN
+H377,robilante,CN
+H378,roburent,CN
+H385,roccabruna,CN
+H391,rocca cigliè,CN
+H395,rocca de' baldi,CN
+H407,roccaforte mondovì,CN
+H447,roccasparvera,CN
+H453,roccavione,CN
+H462,rocchetta belbo,CN
+H472,roddi,CN
+H473,roddino,CN
+H474,rodello,CN
+H578,rossana,CN
+H633,ruffia,CN
+H695,sale delle langhe,CN
+H704,sale san giovanni,CN
+H710,saliceto,CN
+H716,salmour,CN
+H727,saluzzo,CN
+H746,sambuco,CN
+H755,sampeyre,CN
+H770,san benedetto belbo,CN
+H812,san damiano macra,CN
+H851,sanfrè,CN
+H852,sanfront,CN
+I037,san michele mondovì,CN
+I210,sant'albano stura,CN
+I316,santa vittoria d'alba,CN
+I367,santo stefano belbo,CN
+I372,santo stefano roero,CN
+I470,savigliano,CN
+I484,scagnello,CN
+I512,scarnafigi,CN
+I646,serralunga d'alba,CN
+I659,serravalle langhe,CN
+I750,sinio,CN
+I817,somano,CN
+I822,sommariva del bosco,CN
+I823,sommariva perno,CN
+I985,stroppo,CN
+L048,tarantasca,CN
+L252,torre bormida,CN
+L241,torre mondovì,CN
+L278,torre san giorgio,CN
+L281,torresina,CN
+L367,treiso,CN
+L410,trezzo tinella,CN
+L427,trinità,CN
+L558,valdieri,CN
+L580,valgrana,CN
+L631,valloriate,CN
+L729,venasca,CN
+L758,verduno,CN
+L771,vernante,CN
+L804,verzuolo,CN
+L817,vezza d'alba,CN
+L841,vicoforte,CN
+L888,vignolo,CN
+L942,villafalletto,CN
+L974,villanova mondovì,CN
+L990,villanova solaro,CN
+M015,villar san costanzo,CN
+M055,vinadio,CN
+M063,viola,CN
+M136,vottignasco,CN
+A072,agliano terme,AT
+A173,albugnano,AT
+A312,antignano,AT
+A352,aramengo,AT
+A479,asti,AT
+A527,azzano d'asti,AT
+A588,baldichieri d'asti,AT
+A770,belveglio,AT
+A812,berzano di san pietro,AT
+B221,bruno,AT
+B236,bubbio,AT
+B306,buttigliera d'asti,AT
+B376,calamandrana,AT
+B418,calliano,AT
+B425,calosso,AT
+B469,camerano casasco,AT
+B594,canelli,AT
+B633,cantarana,AT
+B707,capriglio,AT
+B991,casorzo,AT
+C022,cassinasco,AT
+C049,castagnole delle lanze,AT
+C047,castagnole monferrato,AT
+C064,castel boglione,AT
+C127,castell'alfero,AT
+C154,castellero,AT
+C161,castelletto molina,AT
+A300,castello di annone,AT
+C226,castelnuovo belbo,AT
+C230,castelnuovo calcea,AT
+C232,castelnuovo don bosco,AT
+C253,castel rocchero,AT
+C438,cellarengo,AT
+C440,celle enomondo,AT
+C528,cerreto d'asti,AT
+C533,cerro tanaro,AT
+C583,cessole,AT
+C658,chiusano d'asti,AT
+C701,cinaglio,AT
+C739,cisterna d'asti,AT
+C804,coazzolo,AT
+C807,cocconato,AT
+D046,corsione,AT
+D050,cortandone,AT
+D051,cortanze,AT
+D052,cortazzone,AT
+D072,cortiglione,AT
+D101,cossombrato,AT
+D119,costigliole d'asti,AT
+D207,cunico,AT
+D388,dusino san michele,AT
+D554,ferrere,AT
+D678,fontanile,AT
+D802,frinco,AT
+E134,grana,AT
+E159,grazzano badoglio,AT
+E295,incisa scapaccino,AT
+E338,isola d'asti,AT
+E633,loazzolo,AT
+E917,maranzana,AT
+E944,maretto,AT
+F254,moasca,AT
+F308,mombaldone,AT
+F311,mombaruzzo,AT
+F316,mombercelli,AT
+F323,monale,AT
+F325,monastero bormida,AT
+F336,moncalvo,AT
+F343,moncucco torinese,AT
+F361,mongardino,AT
+F386,montabone,AT
+F390,montafia,AT
+F409,montaldo scarampi,AT
+F468,montechiaro d'asti,AT
+F527,montegrosso d'asti,AT
+F556,montemagno,AT
+F709,moransengo,AT
+F902,nizza monferrato,AT
+G048,olmo gentile,AT
+G358,passerano marmorito,AT
+G430,penango,AT
+G593,piea,AT
+G676,pino d'asti,AT
+G692,piovà massaia,AT
+G894,portacomaro,AT
+H102,quaranti,AT
+H219,refrancore,AT
+H250,revigliasco d'asti,AT
+H366,roatto,AT
+H376,robella,AT
+H392,rocca d'arazzo,AT
+H451,roccaverano,AT
+H466,rocchetta palafea,AT
+H468,rocchetta tanaro,AT
+H811,san damiano d'asti,AT
+H899,san giorgio scarampi,AT
+H987,san martino alfieri,AT
+I017,san marzano oliveto,AT
+I076,san paolo solbrito,AT
+I555,scurzolengo,AT
+I637,serole,AT
+I678,sessame,AT
+I698,settime,AT
+I781,soglio,AT
+L168,tigliole,AT
+L203,tonco,AT
+L204,tonengo,AT
+L531,vaglio serra,AT
+L574,valfenera,AT
+L807,vesime,AT
+L829,viale,AT
+L834,viarigi,AT
+L879,vigliano d'asti,AT
+L945,villafranca d'asti,AT
+L984,villanova d'asti,AT
+M019,villa san secondo,AT
+M058,vinchio,AT
+M302,montiglio monferrato,AT
+A052,acqui terme,AL
+A146,albera ligure,AL
+A182,alessandria,AL
+A189,alfiano natta,AL
+A197,alice bel colle,AL
+A227,altavilla monferrato,AL
+A245,alzano scrivia,AL
+A436,arquata scrivia,AL
+A523,avolasca,AL
+A605,balzola,AL
+A689,basaluzzo,AL
+A708,bassignana,AL
+A738,belforte monferrato,AL
+A793,bergamasco,AL
+A813,berzano di tortona,AL
+A889,bistagno,AL
+A998,borghetto di borbera,AL
+B029,borgoratto alessandrino,AL
+B037,borgo san martino,AL
+B071,bosco marengo,AL
+B080,bosio,AL
+B109,bozzole,AL
+B179,brignano-frascata,AL
+B311,cabella ligure,AL
+B453,camagna monferrato,AL
+B482,camino,AL
+B629,cantalupo ligure,AL
+B701,capriata d'orba,AL
+B736,carbonara scrivia,AL
+B765,carentino,AL
+B769,carezzano,AL
+B818,carpeneto,AL
+B836,carrega ligure,AL
+B840,carrosio,AL
+B847,cartosio,AL
+B870,casal cermelli,AL
+B882,casaleggio boiro,AL
+B885,casale monferrato,AL
+B902,casalnoceto,AL
+B941,casasco,AL
+C027,cassine,AL
+C030,cassinelle,AL
+C137,castellania,AL
+C142,castellar guidobono,AL
+C148,castellazzo bormida,AL
+C156,castelletto d'erro,AL
+C158,castelletto d'orba,AL
+C160,castelletto merli,AL
+C162,castelletto monferrato,AL
+C229,castelnuovo bormida,AL
+C243,castelnuovo scrivia,AL
+C274,castelspina,AL
+C387,cavatore,AL
+C432,cella monte,AL
+C503,cereseto,AL
+C507,cerreto grue,AL
+C531,cerrina monferrato,AL
+C962,coniolo,AL
+C977,conzano,AL
+D102,costa vescovato,AL
+D149,cremolino,AL
+D272,denice,AL
+D277,dernice,AL
+D447,fabbrica curone,AL
+D528,felizzano,AL
+D559,fraconalto,AL
+D759,francavilla bisio,AL
+D770,frascaro,AL
+D777,frassinello monferrato,AL
+D780,frassineto po,AL
+D797,fresonara,AL
+D813,frugarolo,AL
+D814,fubine monferrato,AL
+D835,gabiano,AL
+D890,gamalero,AL
+D910,garbagna,AL
+D944,gavi,AL
+E015,giarole,AL
+E164,gremiasco,AL
+E188,grognardo,AL
+E191,grondona,AL
+E255,guazzora,AL
+E360,isola sant'antonio,AL
+E543,lerma,AL
+E870,malvicino,AL
+F015,masio,AL
+F096,melazzo,AL
+F131,merana,AL
+F232,mirabello monferrato,AL
+F281,molare,AL
+F293,molino dei torti,AL
+F313,mombello monferrato,AL
+F320,momperone,AL
+F337,moncestino,AL
+F365,mongiardino ligure,AL
+F374,monleale,AL
+F387,montacuto,AL
+F403,montaldeo,AL
+F404,montaldo bormida,AL
+F455,montecastello,AL
+F469,montechiaro d'acqui,AL
+F518,montegioco,AL
+F562,montemarzino,AL
+F707,morano sul po,AL
+F713,morbello,AL
+F737,mornese,AL
+F751,morsasco,AL
+F814,murisengo,AL
+F965,novi ligure,AL
+F995,occimiano,AL
+F997,odalengo grande,AL
+F998,odalengo piccolo,AL
+G042,olivola,AL
+G124,orsara bormida,AL
+G193,ottiglio,AL
+G197,ovada,AL
+G199,oviglio,AL
+G204,ozzano monferrato,AL
+G215,paderna,AL
+G334,pareto,AL
+G338,parodi ligure,AL
+G367,pasturana,AL
+G397,pecetto di valenza,AL
+G619,pietra marazzi,AL
+G807,pomaro monferrato,AL
+G839,pontecurone,AL
+G858,pontestura,AL
+G861,ponti,AL
+G872,ponzano monferrato,AL
+G877,ponzone,AL
+G960,pozzol groppo,AL
+G961,pozzolo formigaro,AL
+G987,prasco,AL
+H021,predosa,AL
+H104,quargnento,AL
+H121,quattordio,AL
+H272,ricaldone,AL
+H334,rivalta bormida,AL
+H343,rivarone,AL
+H406,roccaforte ligure,AL
+H414,rocca grimalda,AL
+H465,rocchetta ligure,AL
+H569,rosignano monferrato,AL
+H677,sala monferrato,AL
+H694,sale,AL
+H810,san cristoforo,AL
+H878,san giorgio monferrato,AL
+I144,san salvatore monferrato,AL
+I150,san sebastiano curone,AL
+I190,sant'agata fossili,AL
+I429,sardigliano,AL
+I432,sarezzano,AL
+I645,serralunga di crea,AL
+I657,serravalle scrivia,AL
+I711,sezzadio,AL
+I738,silvano d'orba,AL
+I798,solero,AL
+I808,solonghello,AL
+I901,spigno monferrato,AL
+I911,spineto scrivia,AL
+I941,stazzano,AL
+I977,strevi,AL
+L027,tagliolo monferrato,AL
+L059,tassarolo,AL
+L139,terruggia,AL
+L143,terzo,AL
+L165,ticineto,AL
+L304,tortona,AL
+L403,treville,AL
+L432,trisobbio,AL
+L570,valenza,AL
+L633,valmacca,AL
+L881,vignale monferrato,AL
+L887,vignole borbera,AL
+L904,viguzzolo,AL
+L931,villadeati,AL
+L963,villalvernia,AL
+L970,villamiroglio,AL
+L972,villanova monferrato,AL
+M009,villaromagnano,AL
+M077,visone,AL
+M120,volpedo,AL
+M121,volpeglino,AL
+M123,voltaggio,AL
+M388,cassano spinola,AL
+M397,alluvioni piovera,AL
+M420,lu e cuccaro monferrato,AL
+A107,ailoche,BI
+A280,andorno micca,BI
+A784,benna,BI
+A859,biella,BI
+A876,bioglio,BI
+B058,borriana,BI
+B229,brusnengo,BI
+B417,callabiana,BI
+B457,camandona,BI
+B465,camburzano,BI
+B586,candelo,BI
+B708,caprile,BI
+B933,casapinta,BI
+C155,castelletto cervo,BI
+C363,cavaglià,BI
+C532,cerrione,BI
+C819,coggiola,BI
+D094,cossato,BI
+D165,crevacuore,BI
+D219,curino,BI
+D339,donato,BI
+D350,dorzano,BI
+D848,gaglianico,BI
+E024,gifflenga,BI
+E130,graglia,BI
+E821,magnano,BI
+F037,massazza,BI
+F042,masserano,BI
+F167,mezzana mortigliengo,BI
+F189,miagliano,BI
+F369,mongrando,BI
+F776,mottalciata,BI
+F833,muzzano,BI
+F878,netro,BI
+F992,occhieppo inferiore,BI
+F993,occhieppo superiore,BI
+G521,pettinengo,BI
+G577,piatto,BI
+G594,piedicavallo,BI
+G798,pollone,BI
+G820,ponderano,BI
+G927,portula,BI
+G980,pralungo,BI
+G974,pray,BI
+H538,ronco biellese,BI
+H553,roppolo,BI
+H561,rosazza,BI
+H662,sagliano micca,BI
+H681,sala biellese,BI
+H726,salussola,BI
+H821,sandigliano,BI
+I847,sordevolo,BI
+I868,sostegno,BI
+I980,strona,BI
+L075,tavigliano,BI
+L116,ternengo,BI
+L193,tollegno,BI
+L239,torrazzo,BI
+L556,valdengo,BI
+L586,vallanzengo,BI
+L620,valle san nicolao,BI
+L712,veglio,BI
+L785,verrone,BI
+L880,vigliano biellese,BI
+L933,villa del bosco,BI
+L978,villanova biellese,BI
+M098,viverone,BI
+M179,zimone,BI
+M196,zubiena,BI
+M201,zumaglia,BI
+M371,lessona,BI
+M373,campiglia cervo,BI
+M414,quaregna cerreto,BI
+M417,valdilana,BI
+A317,antrona schieranco,VB
+A325,anzola d'ossola,VB
+A409,arizzano,VB
+A427,arola,VB
+A497,aurano,VB
+A534,baceno,VB
+A610,bannio anzino,VB
+A725,baveno,VB
+A733,bee,VB
+A742,belgirate,VB
+A834,beura-cardezza,VB
+A925,bognanco,VB
+B207,brovello-carpugnino,VB
+B380,calasca-castiglione,VB
+B463,cambiasca,VB
+B610,cannero riviera,VB
+B615,cannobio,VB
+B694,caprezzo,VB
+B876,casale corte cerro,VB
+C478,ceppo morelli,VB
+C567,cesara,VB
+D099,cossogno,VB
+D134,craveggia,VB
+D168,crevoladossola,VB
+D177,crodo,VB
+D332,domodossola,VB
+D374,druogno,VB
+D706,formazza,VB
+D984,germagno,VB
+E003,ghiffa,VB
+E028,gignese,VB
+E153,gravellona toce,VB
+E269,gurro,VB
+E304,intragna,VB
+E685,loreglia,VB
+E790,macugnaga,VB
+E795,madonna del sasso,VB
+E853,malesco,VB
+F010,masera,VB
+F048,massiola,VB
+F146,mergozzo,VB
+F192,miazzina,VB
+F483,montecrestese,VB
+F639,montescheno,VB
+F932,nonio,VB
+G007,oggebbio,VB
+G062,omegna,VB
+G117,ornavasso,VB
+G280,pallanzeno,VB
+G600,piedimulera,VB
+G658,pieve vergonte,VB
+H030,premeno,VB
+H033,premia,VB
+H037,premosello-chiovenda,VB
+H106,quarna sopra,VB
+H107,quarna sotto,VB
+H203,re,VB
+H777,san bernardino verbano,VB
+I249,santa maria maggiore,VB
+I976,stresa,VB
+L187,toceno,VB
+L333,trarego viggiona,VB
+L336,trasquera,VB
+L450,trontano,VB
+L651,valstrona,VB
+L666,vanzone con san carlo,VB
+L691,varzo,VB
+L746,verbania,VB
+L889,vignone,VB
+L906,villadossola,VB
+M042,villette,VB
+M111,vogogna,VB
+M370,borgomezzavalle,VB
+M404,valle cannobina,VB
+A205,allein,AO
+A305,antey-saint-andré,AO
+A326,aosta,AO
+A424,arnad,AO
+A452,arvier,AO
+A521,avise,AO
+A094,ayas,AO
+A108,aymavilles,AO
+A643,bard,AO
+A877,bionaz,AO
+B192,brissogne,AO
+B230,brusson,AO
+C593,challand-saint-anselme,AO
+C594,challand-saint-victor,AO
+C595,chambave,AO
+B491,chamois,AO
+C596,champdepraz,AO
+B540,champorcher,AO
+C598,charvensod,AO
+C294,châtillon,AO
+C821,cogne,AO
+D012,courmayeur,AO
+D338,donnas,AO
+D356,doues,AO
+D402,emarèse,AO
+D444,etroubles,AO
+D537,fénis,AO
+D666,fontainemore,AO
+D839,gaby,AO
+E029,gignod,AO
+E165,gressan,AO
+E167,gressoney-la-trinité,AO
+E168,gressoney-saint-jean,AO
+E273,hône,AO
+E306,introd,AO
+E369,issime,AO
+E371,issogne,AO
+E391,jovençan,AO
+A308,la magdeleine,AO
+E458,la salle,AO
+E470,la thuile,AO
+E587,lillianes,AO
+F367,montjovet,AO
+F726,morgex,AO
+F987,nus,AO
+G045,ollomont,AO
+G012,oyace,AO
+G459,perloz,AO
+G794,pollein,AO
+G545,pontboset,AO
+G860,pontey,AO
+G854,pont-saint-martin,AO
+H042,pré-saint-didier,AO
+H110,quart,AO
+H262,rhêmes-notre-dame,AO
+H263,rhêmes-saint-georges,AO
+H497,roisan,AO
+H669,saint-christophe,AO
+H670,saint-denis,AO
+H671,saint-marcel,AO
+H672,saint-nicolas,AO
+H673,saint-oyen,AO
+H674,saint-pierre,AO
+H675,saint-rhémy-en-bosses,AO
+H676,saint-vincent,AO
+I442,sarre,AO
+L217,torgnon,AO
+L582,valgrisenche,AO
+L643,valpelline,AO
+L647,valsavarenche,AO
+L654,valtournenche,AO
+L783,verrayes,AO
+C282,verrès,AO
+L981,villeneuve,AO
+A085,agra,VA
+A167,albizzate,VA
+A290,angera,VA
+A371,arcisate,VA
+A441,arsago seprio,VA
+A531,azzate,VA
+A532,azzio,VA
+A619,barasso,VA
+A645,bardello,VA
+A728,bedero valcuvia,VA
+A819,besano,VA
+A825,besnate,VA
+A826,besozzo,VA
+A845,biandronno,VA
+A891,bisuschio,VA
+A918,bodio lomnago,VA
+B126,brebbia,VA
+B131,bregano,VA
+B150,brenta,VA
+B166,brezzo di bedero,VA
+B182,brinzio,VA
+B191,brissago-valtravaglia,VA
+B219,brunello,VA
+B228,brusimpiano,VA
+B258,buguggiate,VA
+B300,busto arsizio,VA
+B326,cadegliano-viconago,VA
+B368,cairate,VA
+B634,cantello,VA
+B732,caravate,VA
+B754,cardano al campo,VA
+B796,carnago,VA
+B805,caronno pertusella,VA
+B807,caronno varesino,VA
+B875,casale litta,VA
+B921,casalzuigno,VA
+B949,casciago,VA
+B987,casorate sempione,VA
+C004,cassano magnago,VA
+B999,cassano valcuvia,VA
+C139,castellanza,VA
+B312,castello cabiaglio,VA
+C273,castelseprio,VA
+C181,castelveccana,VA
+C300,castiglione olona,VA
+C343,castronno,VA
+C382,cavaria con premezzo,VA
+C409,cazzago brabbia,VA
+C732,cislago,VA
+C751,cittiglio,VA
+C796,clivio,VA
+C810,cocquio-trevisago,VA
+C911,comabbio,VA
+C922,comerio,VA
+D144,cremenaga,VA
+D185,crosio della valle,VA
+D192,cuasso al monte,VA
+D199,cugliate-fabiasco,VA
+D204,cunardo,VA
+D217,curiglia con monteviasco,VA
+D238,cuveglio,VA
+D239,cuvio,VA
+D256,daverio,VA
+D384,dumenza,VA
+D385,duno,VA
+D467,fagnano olona,VA
+D543,ferno,VA
+D551,ferrera di varese,VA
+D869,gallarate,VA
+D871,galliate lombardo,VA
+D946,gavirate,VA
+D951,gazzada schianno,VA
+D963,gemonio,VA
+D981,gerenzano,VA
+D987,germignaga,VA
+E079,golasecca,VA
+E101,gorla maggiore,VA
+E102,gorla minore,VA
+E104,gornate olona,VA
+E144,grantola,VA
+E292,inarzo,VA
+E299,induno olona,VA
+E367,ispra,VA
+E386,jerago con orago,VA
+E494,lavena ponte tresa,VA
+E496,laveno-mombello,VA
+E510,leggiuno,VA
+E665,lonate ceppino,VA
+E666,lonate pozzolo,VA
+E707,lozza,VA
+E734,luino,VA
+E769,luvinate,VA
+E856,malgesso,VA
+E863,malnate,VA
+E929,marchirolo,VA
+E965,marnate,VA
+F002,marzio,VA
+F007,masciago primo,VA
+F134,mercallo,VA
+F154,mesenzana,VA
+F526,montegrino valtravaglia,VA
+F703,monvalle,VA
+F711,morazzone,VA
+F736,mornago,VA
+G008,oggiona con santo stefano,VA
+G028,olgiate olona,VA
+G103,origgio,VA
+G105,orino,VA
+G906,porto ceresio,VA
+G907,porto valtravaglia,VA
+H173,rancio valcuvia,VA
+H174,ranco,VA
+H723,saltrio,VA
+H736,samarate,VA
+I441,saronno,VA
+I688,sesto calende,VA
+I793,solbiate arno,VA
+I794,solbiate olona,VA
+I819,somma lombardo,VA
+L003,sumirago,VA
+L032,taino,VA
+L115,ternate,VA
+L319,tradate,VA
+L342,travedona-monate,VA
+A705,tronzano lago maggiore,VA
+L480,uboldo,VA
+L577,valganna,VA
+L671,varano borghi,VA
+L682,varese,VA
+L703,vedano olona,VA
+L733,venegono inferiore,VA
+L734,venegono superiore,VA
+L765,vergiate,VA
+L876,viggiù,VA
+M101,vizzola ticino,VA
+H872,sangiano,VA
+M339,maccagno con pino e veddasca,VA
+M425,cadrezzate con osmate,VA
+A143,albavilla,CO
+A153,albese con cassano,CO
+A164,albiolo,CO
+A224,alserio,CO
+A249,alzate brianza,CO
+A319,anzano del parco,CO
+A333,appiano gentile,CO
+A391,argegno,CO
+A430,arosio,CO
+A476,asso,CO
+A670,barni,CO
+A778,bene lario,CO
+A791,beregazzo con figliaro,CO
+A870,binago,CO
+A898,bizzarone,CO
+A904,blessagno,CO
+A905,blevio,CO
+B134,bregnano,CO
+B144,brenna,CO
+B172,brienno,CO
+B218,brunate,CO
+B262,bulgarograsso,CO
+B313,cabiate,CO
+B346,cadorago,CO
+B355,caglio,CO
+B513,campione d'italia,CO
+B639,cantù,CO
+B641,canzo,CO
+B653,capiago intimiano,CO
+B730,carate urio,CO
+B742,carbonate,CO
+B778,carimate,CO
+B785,carlazzo,CO
+B851,carugo,CO
+B974,caslino d'erba,CO
+B977,casnate con bernate,CO
+C020,cassina rizzardi,CO
+C206,castelmarte,CO
+C220,castelnuovo bozzente,CO
+C381,cavargna,CO
+C482,cerano d'intelvi,CO
+C516,cermenate,CO
+C520,cernobbio,CO
+C724,cirimido,CO
+C787,claino con osteno,CO
+C902,colonno,CO
+C933,como,CO
+D041,corrido,CO
+D147,cremia,CO
+D196,cucciago,CO
+D232,cusino,CO
+D310,dizzasco,CO
+D329,domaso,CO
+D341,dongo,CO
+D355,dosso del liro,CO
+D416,erba,CO
+D445,eupilio,CO
+D462,faggeto lario,CO
+D482,faloppio,CO
+D531,fenegrò,CO
+D579,figino serenza,CO
+D605,fino mornasco,CO
+D930,garzeno,CO
+D974,gera lario,CO
+E139,grandate,CO
+E141,grandola ed uniti,CO
+E172,griante,CO
+E235,guanzate,CO
+E309,inverigo,CO
+E405,laglio,CO
+E416,laino,CO
+E428,lambrugo,CO
+E462,lasnigo,CO
+E569,lezzeno,CO
+E593,limido comasco,CO
+E607,lipomo,CO
+E623,livo,CO
+E638,locate varesino,CO
+E659,lomazzo,CO
+E679,longone al segrino,CO
+E735,luisago,CO
+E749,lurago d'erba,CO
+E750,lurago marinone,CO
+E753,lurate caccivio,CO
+E830,magreglio,CO
+E951,mariano comense,CO
+F017,maslianico,CO
+F120,menaggio,CO
+F151,merone,CO
+F305,moltrasio,CO
+F372,monguzzo,CO
+F427,montano lucino,CO
+F564,montemezzo,CO
+F688,montorfano,CO
+F788,mozzate,CO
+F828,musso,CO
+F877,nesso,CO
+F958,novedrate,CO
+G025,olgiate comasco,CO
+G056,oltrona di san mamette,CO
+G126,orsenigo,CO
+G415,peglio,CO
+G556,pianello del lario,CO
+G665,pigra,CO
+G737,plesio,CO
+G773,pognana lario,CO
+G821,ponna,CO
+G847,ponte lambro,CO
+G889,porlezza,CO
+H074,proserpio,CO
+H094,pusiano,CO
+H255,rezzago,CO
+H478,rodero,CO
+H521,ronago,CO
+H601,rovellasca,CO
+H602,rovello porro,CO
+H679,sala comacina,CO
+H760,san bartolomeo val cavargna,CO
+H840,san fermo della battaglia,CO
+I051,san nazzaro val cavargna,CO
+I529,schignano,CO
+I611,senna comasco,CO
+I856,sorico,CO
+I860,sormano,CO
+I943,stazzona,CO
+L071,tavernerio,CO
+L228,torno,CO
+L413,trezzone,CO
+L470,turate,CO
+L487,uggiate-trevano,CO
+L547,valbrona,CO
+L640,valmorea,CO
+H259,val rezzo,CO
+C936,valsolda,CO
+L715,veleso,CO
+L737,veniano,CO
+L748,vercana,CO
+L792,vertemate con minoprio,CO
+L956,villa guardia,CO
+M156,zelbio,CO
+I162,san siro,CO
+M315,gravedona ed uniti,CO
+M335,bellagio,CO
+M336,colverde,CO
+M341,tremezzina,CO
+M383,alta valle intelvi,CO
+M394,centro valle intelvi,CO
+M412,solbiate con cagno,CO
+A135,albaredo per san marco,SO
+A172,albosaggia,SO
+A273,andalo valtellino,SO
+A337,aprica,SO
+A382,ardenno,SO
+A777,bema,SO
+A787,berbenno di valtellina,SO
+A848,bianzone,SO
+B049,bormio,SO
+B255,buglio in monte,SO
+B366,caiolo,SO
+B530,campodolcino,SO
+B993,caspoggio,SO
+C186,castello dell'acqua,SO
+C325,castione andevenno,SO
+C418,cedrasco,SO
+C493,cercino,SO
+C623,chiavenna,SO
+C628,chiesa in valmalenco,SO
+C651,chiuro,SO
+C709,cino,SO
+C785,civo,SO
+C903,colorina,SO
+D088,cosio valtellino,SO
+D258,dazio,SO
+D266,delebio,SO
+D377,dubino,SO
+D456,faedo valtellino,SO
+D694,forcola,SO
+D830,fusine,SO
+D990,gerola alta,SO
+E090,gordona,SO
+E200,grosio,SO
+E201,grosotto,SO
+E342,madesimo,SO
+E443,lanzada,SO
+E621,livigno,SO
+E705,lovero,SO
+E896,mantello,SO
+F070,mazzo di valtellina,SO
+F115,mello,SO
+F153,mese,SO
+F393,montagna in valtellina,SO
+F712,morbegno,SO
+F956,novate mezzola,SO
+G410,pedesina,SO
+G572,piantedo,SO
+G576,piateda,SO
+G718,piuro,SO
+G431,poggiridenti,SO
+G829,ponte in valtellina,SO
+G937,postalesio,SO
+G993,prata camportaccio,SO
+H192,rasura,SO
+H493,rogolo,SO
+H752,samolaco,SO
+H868,san giacomo filippo,SO
+I636,sernio,SO
+I828,sondalo,SO
+I829,sondrio,SO
+I928,spriana,SO
+L035,talamona,SO
+L056,tartano,SO
+L084,teglio,SO
+L175,tirano,SO
+L244,torre di santa maria,SO
+L316,tovo di sant'agata,SO
+L330,traona,SO
+L392,tresivio,SO
+L557,valdidentro,SO
+L563,valdisotto,SO
+L576,valfurva,SO
+L638,val masino,SO
+L749,verceia,SO
+L799,vervio,SO
+L907,villa di chiavenna,SO
+L908,villa di tirano,SO
+A010,abbiategrasso,MI
+A127,albairate,MI
+A375,arconate,MI
+A389,arese,MI
+A413,arluno,MI
+A473,assago,MI
+A652,bareggio,MI
+A697,basiano,MI
+A699,basiglio,MI
+A751,bellinzago lombardo,MI
+A804,bernate ticino,MI
+A820,besate,MI
+A872,binasco,MI
+A920,boffalora sopra ticino,MI
+A940,bollate,MI
+B162,bresso,MI
+B235,bubbiano,MI
+B240,buccinasco,MI
+B286,buscate,MI
+B292,bussero,MI
+B301,busto garolfo,MI
+B448,calvignasco,MI
+B461,cambiago,MI
+B593,canegrate,MI
+B820,carpiano,MI
+B850,carugate,MI
+B938,casarile,MI
+B989,casorezzo,MI
+C003,cassano d'adda,MI
+C014,cassina de' pecchi,MI
+C033,cassinetta di lugagnano,MI
+C052,castano primo,MI
+C523,cernusco sul naviglio,MI
+C536,cerro al lambro,MI
+C537,cerro maggiore,MI
+C565,cesano boscone,MI
+C569,cesate,MI
+C707,cinisello balsamo,MI
+C733,cisliano,MI
+C895,cologno monzese,MI
+C908,colturano,MI
+C986,corbetta,MI
+D013,cormano,MI
+D018,cornaredo,MI
+D045,corsico,MI
+D198,cuggiono,MI
+D229,cusago,MI
+D231,cusano milanino,MI
+D244,dairago,MI
+D367,dresano,MI
+D845,gaggiano,MI
+D912,garbagnate milanese,MI
+D995,gessate,MI
+E094,gorgonzola,MI
+E170,grezzago,MI
+E258,gudo visconti,MI
+E313,inveruno,MI
+E317,inzago,MI
+E395,lacchiarella,MI
+E415,lainate,MI
+E514,legnano,MI
+E610,liscate,MI
+E639,locate di triulzi,MI
+E801,magenta,MI
+E819,magnago,MI
+E921,marcallo con casone,MI
+F003,masate,MI
+F084,mediglia,MI
+F100,melegnano,MI
+F119,melzo,MI
+F155,mesero,MI
+F205,milano,MI
+D033,morimondo,MI
+F783,motta visconti,MI
+F874,nerviano,MI
+F939,nosate,MI
+F955,novate milanese,MI
+F968,noviglio,MI
+G078,opera,MI
+G181,ossona,MI
+G206,ozzero,MI
+G220,paderno dugnano,MI
+G316,pantigliate,MI
+G324,parabiago,MI
+G385,paullo,MI
+C013,pero,MI
+G488,peschiera borromeo,MI
+G502,pessano con bornago,MI
+G634,pieve emanuele,MI
+G686,pioltello,MI
+G772,pogliano milanese,MI
+G955,pozzo d'adda,MI
+G965,pozzuolo martesana,MI
+H026,pregnana milanese,MI
+H240,rescaldina,MI
+H264,rho,MI
+H371,robecchetto con induno,MI
+H373,robecco sul naviglio,MI
+H470,rodano,MI
+H560,rosate,MI
+H623,rozzano,MI
+H803,san colombano al lambro,MI
+H827,san donato milanese,MI
+H884,san giorgio su legnano,MI
+H930,san giuliano milanese,MI
+I361,santo stefano ticino,MI
+I409,san vittore olona,MI
+I415,san zenone al lambro,MI
+I566,sedriano,MI
+I577,segrate,MI
+I602,senago,MI
+I690,sesto san giovanni,MI
+I696,settala,MI
+I700,settimo milanese,MI
+I786,solaro,MI
+L408,trezzano rosa,MI
+L409,trezzano sul naviglio,MI
+L411,trezzo sull'adda,MI
+L415,tribiano,MI
+L454,truccazzano,MI
+L471,turbigo,MI
+L665,vanzago,MI
+L667,vaprio d'adda,MI
+L773,vernate,MI
+L883,vignate,MI
+M053,vimodrone,MI
+M091,vittuone,MI
+M102,vizzolo predabissi,MI
+M176,zibido san giacomo,MI
+L928,villa cortese,MI
+L664,vanzaghello,MI
+A618,baranzate,MI
+M424,vermezzo con zelo,MI
+A057,adrara san martino,BG
+A058,adrara san rocco,BG
+A129,albano sant'alessandro,BG
+A163,albino,BG
+A214,almè,BG
+A216,almenno san bartolomeo,BG
+A217,almenno san salvatore,BG
+A246,alzano lombardo,BG
+A259,ambivere,BG
+A304,antegnate,BG
+A365,arcene,BG
+A383,ardesio,BG
+A440,arzago d'adda,BG
+A511,averara,BG
+A517,aviatico,BG
+A528,azzano san paolo,BG
+A533,azzone,BG
+A557,bagnatica,BG
+A631,barbata,BG
+A664,bariano,BG
+A684,barzana,BG
+A732,bedulita,BG
+A786,berbenno,BG
+A794,bergamo,BG
+A815,berzo san fermo,BG
+A846,bianzano,BG
+A903,blello,BG
+A937,bolgare,BG
+A950,boltiere,BG
+A963,bonate sopra,BG
+A962,bonate sotto,BG
+B010,borgo di terzo,BG
+B083,bossico,BG
+B088,bottanuco,BG
+B112,bracca,BG
+B123,branzi,BG
+B137,brembate,BG
+B138,brembate di sopra,BG
+B178,brignano gera d'adda,BG
+B217,brumano,BG
+B223,brusaporto,BG
+B393,calcinate,BG
+B395,calcio,BG
+B434,calusco d'adda,BG
+B442,calvenzano,BG
+B471,camerata cornello,BG
+B618,canonica d'adda,BG
+B661,capizzone,BG
+B703,capriate san gervasio,BG
+B710,caprino bergamasco,BG
+B731,caravaggio,BG
+B801,carobbio degli angeli,BG
+B803,carona,BG
+B854,carvico,BG
+B947,casazza,BG
+B971,casirate d'adda,BG
+B978,casnigo,BG
+C007,cassiglio,BG
+C079,castelli calepio,BG
+C255,castel rozzone,BG
+C324,castione della presolana,BG
+C337,castro,BG
+C396,cavernago,BG
+C410,cazzano sant'andrea,BG
+C456,cenate sopra,BG
+C457,cenate sotto,BG
+C459,cene,BG
+C506,cerete,BG
+C635,chignolo d'isola,BG
+C649,chiuduno,BG
+C728,cisano bergamasco,BG
+C730,ciserano,BG
+C759,cividate al piano,BG
+C800,clusone,BG
+C835,colere,BG
+C894,cologno al serio,BG
+C910,colzate,BG
+C937,comun nuovo,BG
+D015,corna imagna,BG
+D066,cortenuova,BG
+D110,costa di mezzate,BG
+D103,costa valle imagna,BG
+D117,costa volpino,BG
+D126,covo,BG
+D139,credaro,BG
+D221,curno,BG
+D233,cusio,BG
+D245,dalmine,BG
+D352,dossena,BG
+D406,endine gaiano,BG
+D411,entratico,BG
+D490,fara gera d'adda,BG
+D491,fara olivana con sola,BG
+D588,filago,BG
+D604,fino del monte,BG
+D606,fiorano al serio,BG
+D672,fontanella,BG
+D684,fonteno,BG
+D688,foppolo,BG
+D697,foresto sparso,BG
+D727,fornovo san giovanni,BG
+D817,fuipiano valle imagna,BG
+D903,gandellino,BG
+D905,gandino,BG
+D906,gandosso,BG
+D943,gaverina terme,BG
+D952,gazzaniga,BG
+E006,ghisalba,BG
+E100,gorlago,BG
+E103,gorle,BG
+E106,gorno,BG
+E148,grassobbio,BG
+E189,gromo,BG
+E192,grone,BG
+E219,grumello del monte,BG
+E353,isola di fondra,BG
+E370,isso,BG
+E422,lallio,BG
+E509,leffe,BG
+E524,lenna,BG
+E562,levate,BG
+E640,locatello,BG
+E704,lovere,BG
+E751,lurano,BG
+E770,luzzana,BG
+E794,madone,BG
+E901,mapello,BG
+E987,martinengo,BG
+F186,mezzoldo,BG
+F243,misano di gera d'adda,BG
+F276,moio de' calvi,BG
+F328,monasterolo del castello,BG
+F547,montello,BG
+F720,morengo,BG
+F738,mornico al serio,BG
+F786,mozzanica,BG
+F791,mozzo,BG
+F864,nembro,BG
+G049,olmo al brembo,BG
+G050,oltre il colle,BG
+G054,oltressenda alta,BG
+G068,oneta,BG
+G075,onore,BG
+G108,orio al serio,BG
+G118,ornica,BG
+G159,osio sopra,BG
+G160,osio sotto,BG
+G233,pagazzano,BG
+G249,paladina,BG
+G259,palazzago,BG
+G295,palosco,BG
+G346,parre,BG
+G350,parzanica,BG
+G412,pedrengo,BG
+G418,peia,BG
+G564,pianico,BG
+G574,piario,BG
+G579,piazza brembana,BG
+G583,piazzatorre,BG
+G588,piazzolo,BG
+G774,pognano,BG
+F941,ponte nossa,BG
+G853,ponteranica,BG
+G856,ponte san pietro,BG
+G864,pontida,BG
+G867,pontirolo nuovo,BG
+G968,pradalunga,BG
+H020,predore,BG
+H036,premolo,BG
+H046,presezzo,BG
+H091,pumenengo,BG
+H176,ranica,BG
+H177,ranzanico,BG
+H331,riva di solto,BG
+H492,rogno,BG
+H509,romano di lombardia,BG
+H535,roncobello,BG
+H544,roncola,BG
+H584,rota d'imagna,BG
+H615,rovetta,BG
+H910,san giovanni bianco,BG
+B310,san paolo d'argon,BG
+I079,san pellegrino terme,BG
+I168,santa brigida,BG
+I437,sarnico,BG
+I506,scanzorosciate,BG
+I530,schilpario,BG
+I567,sedrina,BG
+I597,selvino,BG
+I628,seriate,BG
+I629,serina,BG
+I812,solto collina,BG
+I830,songavazzo,BG
+I858,sorisole,BG
+I869,sotto il monte giovanni xxiii,BG
+I873,sovere,BG
+I916,spinone al lago,BG
+I919,spirano,BG
+I951,stezzano,BG
+I986,strozza,BG
+I997,suisio,BG
+L037,taleggio,BG
+L073,tavernola bergamasca,BG
+L087,telgate,BG
+L118,terno d'isola,BG
+L251,torre boldone,BG
+L257,torre de' busi,BG
+L265,torre de' roveri,BG
+L276,torre pallavicina,BG
+L388,trescore balneario,BG
+L400,treviglio,BG
+L404,treviolo,BG
+C789,ubiale clanezzo,BG
+L502,urgnano,BG
+L544,valbondione,BG
+L545,valbrembo,BG
+L579,valgoglio,BG
+L623,valleve,BG
+L642,valnegra,BG
+L655,valtorta,BG
+L707,vedeseta,BG
+L752,verdellino,BG
+L753,verdello,BG
+L795,vertova,BG
+L827,viadanica,BG
+L865,vigano san martino,BG
+L894,vigolo,BG
+L929,villa d'adda,BG
+A215,villa d'almè,BG
+L936,villa di serio,BG
+L938,villa d'ogna,BG
+M045,villongo,BG
+M050,vilminore di scalve,BG
+M144,zandobbio,BG
+M147,zanica,BG
+M184,zogno,BG
+D111,costa serina,BG
+A193,algua,BG
+D016,cornalba,BG
+F085,medolago,BG
+I813,solza,BG
+M333,sant'omobono terme,BG
+M334,val brembilla,BG
+A034,acquafredda,BS
+A060,adro,BS
+A082,agnosine,BS
+A188,alfianello,BS
+A288,anfo,BS
+A293,angolo terme,BS
+A451,artogne,BS
+A529,azzano mella,BS
+A569,bagnolo mella,BS
+A578,bagolino,BS
+A630,barbariga,BS
+A661,barghe,BS
+A702,bassano bresciano,BS
+A729,bedizzole,BS
+A799,berlingo,BS
+A816,berzo demo,BS
+A817,berzo inferiore,BS
+A861,bienno,BS
+A878,bione,BS
+B035,borgo san giacomo,BS
+B040,borgosatollo,BS
+B054,borno,BS
+B091,botticino,BS
+B100,bovegno,BS
+B102,bovezzo,BS
+B120,brandico,BS
+B124,braone,BS
+B149,breno,BS
+B157,brescia,BS
+B184,brione,BS
+B365,caino,BS
+B394,calcinato,BS
+B436,calvagese della riviera,BS
+B450,calvisano,BS
+B664,capo di ponte,BS
+B676,capovalle,BS
+B698,capriano del colle,BS
+B711,capriolo,BS
+B817,carpenedolo,BS
+C055,castegnato,BS
+C072,castelcovati,BS
+C208,castel mella,BS
+C293,castenedolo,BS
+C330,casto,BS
+C332,castrezzato,BS
+C408,cazzago san martino,BS
+C417,cedegolo,BS
+C439,cellatica,BS
+C549,cerveno,BS
+C585,ceto,BS
+C591,cevo,BS
+C618,chiari,BS
+C685,cigole,BS
+C691,cimbergo,BS
+C760,cividate camuno,BS
+C806,coccaglio,BS
+C850,collebeato,BS
+C883,collio,BS
+C893,cologne,BS
+C925,comezzano-cizzago,BS
+C948,concesio,BS
+D058,corte franca,BS
+D064,corteno golgi,BS
+D082,corzano,BS
+D251,darfo boario terme,BS
+D270,dello,BS
+D284,desenzano del garda,BS
+D391,edolo,BS
+D421,erbusco,BS
+D434,esine,BS
+D576,fiesse,BS
+D634,flero,BS
+D891,gambara,BS
+D917,gardone riviera,BS
+D918,gardone val trompia,BS
+D924,gargnano,BS
+D940,gavardo,BS
+D999,ghedi,BS
+E010,gianico,BS
+E116,gottolengo,BS
+E271,gussago,BS
+E280,idro,BS
+E297,incudine,BS
+E325,irma,BS
+E333,iseo,BS
+E364,isorella,BS
+E497,lavenone,BS
+E526,leno,BS
+E596,limone sul garda,BS
+E652,lodrino,BS
+E654,lograto,BS
+M312,lonato del garda,BS
+E673,longhena,BS
+E698,losine,BS
+E706,lozio,BS
+E738,lumezzane,BS
+E787,maclodio,BS
+E800,magasa,BS
+E841,mairano,BS
+E851,malegno,BS
+E865,malonno,BS
+E883,manerba del garda,BS
+E884,manerbio,BS
+E928,marcheno,BS
+E961,marmentino,BS
+E967,marone,BS
+F063,mazzano,BS
+F216,milzano,BS
+F373,moniga del garda,BS
+F375,monno,BS
+F532,monte isola,BS
+F672,monticelli brusati,BS
+F471,montichiari,BS
+F680,montirone,BS
+F806,mura,BS
+F820,muscoline,BS
+F851,nave,BS
+F884,niardo,BS
+F989,nuvolento,BS
+F990,nuvolera,BS
+G001,odolo,BS
+G006,offlaga,BS
+G061,ome,BS
+G074,ono san pietro,BS
+G149,orzinuovi,BS
+G150,orzivecchi,BS
+G170,ospitaletto,BS
+G179,ossimo,BS
+G213,padenghe sul garda,BS
+G217,paderno franciacorta,BS
+G247,paisco loveno,BS
+G248,paitone,BS
+G264,palazzolo sull'oglio,BS
+G327,paratico,BS
+G354,paspardo,BS
+G361,passirano,BS
+G391,pavone del mella,BS
+G407,san paolo,BS
+G474,pertica alta,BS
+G475,pertica bassa,BS
+G529,pezzaze,BS
+G546,pian camuno,BS
+G710,pisogne,BS
+G779,polaveno,BS
+G801,polpenazze del garda,BS
+G815,pompiano,BS
+G818,poncarale,BS
+G844,ponte di legno,BS
+G859,pontevico,BS
+G869,pontoglio,BS
+G959,pozzolengo,BS
+G977,pralboino,BS
+H043,preseglie,BS
+H055,prevalle,BS
+H078,provaglio d'iseo,BS
+H077,provaglio val sabbia,BS
+H086,puegnago sul garda,BS
+H140,quinzano d'oglio,BS
+H230,remedello,BS
+H256,rezzato,BS
+H410,roccafranca,BS
+H477,rodengo saiano,BS
+H484,roè volciano,BS
+H525,roncadelle,BS
+H598,rovato,BS
+H630,rudiano,BS
+H650,sabbio chiese,BS
+H699,sale marasino,BS
+H717,salò,BS
+H838,san felice del benaco,BS
+H865,san gervasio bresciano,BS
+I412,san zeno naviglio,BS
+I433,sarezzo,BS
+I476,saviore dell'adamello,BS
+I588,sellero,BS
+I607,seniga,BS
+I631,serle,BS
+I633,sirmione,BS
+I782,soiano del lago,BS
+I831,sonico,BS
+L002,sulzano,BS
+C698,tavernole sul mella,BS
+L094,temù,BS
+L169,tignale,BS
+L210,torbole casaglia,BS
+L312,toscolano-maderno,BS
+L339,travagliato,BS
+L372,tremosine sul garda,BS
+L380,trenzano,BS
+L406,treviso bresciano,BS
+L494,urago d'oglio,BS
+L626,vallio terme,BS
+L468,valvestino,BS
+L777,verolanuova,BS
+L778,verolavecchia,BS
+L812,vestone,BS
+L816,vezza d'oglio,BS
+L919,villa carcina,BS
+L923,villachiara,BS
+L995,villanuova sul clisi,BS
+M065,vione,BS
+M070,visano,BS
+M104,vobarno,BS
+M188,zone,BS
+G549,piancogno,BS
+A118,alagna,PV
+A134,albaredo arnaboldi,PV
+A171,albonese,PV
+A175,albuzzano,PV
+A387,arena po,PV
+A538,badia pavese,PV
+A550,bagnaria,PV
+A634,barbianello,PV
+A690,bascapè,PV
+A712,bastida pancarana,PV
+A718,battuda,PV
+A741,belgioioso,PV
+A792,bereguardo,PV
+A989,borgarello,PV
+B028,borgo priolo,PV
+B030,borgoratto mormorolo,PV
+B038,borgo san siro,PV
+B051,bornasco,PV
+B082,bosnasco,PV
+B117,brallo di pregola,PV
+B142,breme,PV
+B159,bressana bottarone,PV
+B201,broni,PV
+B447,calvignano,PV
+B567,campospinoso,PV
+B587,candia lomellina,PV
+B613,canneto pavese,PV
+B741,carbonara al ticino,PV
+B929,casanova lonati,PV
+B945,casatisma,PV
+B954,casei gerola,PV
+B988,casorate primo,PV
+C038,cassolnovo,PV
+C050,castana,PV
+C053,casteggio,PV
+C157,castelletto di branduzzo,PV
+C184,castello d'agogna,PV
+C213,castelnovetto,PV
+C360,cava manara,PV
+C414,cecima,PV
+C484,ceranova,PV
+C508,ceretto lomellina,PV
+C509,cergnago,PV
+C541,certosa di pavia,PV
+C551,cervesina,PV
+C637,chignolo po,PV
+C684,cigognola,PV
+C686,cilavegna,PV
+C813,codevilla,PV
+C958,confienza,PV
+C979,copiano,PV
+C982,corana,PV
+D081,corvino san quirico,PV
+D109,costa de' nobili,PV
+D127,cozzo,PV
+B824,cura carpignano,PV
+D348,dorno,PV
+D552,ferrera erbognone,PV
+D594,filighera,PV
+D732,fortunago,PV
+D771,frascarolo,PV
+D873,galliavola,PV
+D892,gambarana,PV
+D901,gambolò,PV
+D925,garlasco,PV
+D980,gerenzago,PV
+E062,giussago,PV
+E072,godiasco salice terme,PV
+E081,golferenzo,PV
+E152,gravellona lomellina,PV
+E195,gropello cairoli,PV
+E310,inverno e monteleone,PV
+E437,landriano,PV
+E439,langosco,PV
+E454,lardirago,PV
+E600,linarolo,PV
+E608,lirio,PV
+E662,lomello,PV
+B387,lungavilla,PV
+E804,magherno,PV
+E934,marcignago,PV
+E999,marzano,PV
+F080,mede,PV
+F122,menconico,PV
+F170,mezzana bigli,PV
+F171,mezzana rabattone,PV
+F175,mezzanino,PV
+F238,miradolo terme,PV
+F417,montalto pavese,PV
+F440,montebello della battaglia,PV
+F449,montecalvo versiggia,PV
+F638,montescano,PV
+F644,montesegale,PV
+F670,monticelli pavese,PV
+F701,montù beccaria,PV
+F739,mornico losana,PV
+F754,mortara,PV
+F891,nicorvo,PV
+G021,olevano di lomellina,PV
+G032,oliva gessi,PV
+G194,ottobiano,PV
+G275,palestro,PV
+G304,pancarana,PV
+G342,parona,PV
+G388,pavia,PV
+G612,pietra de' giorgi,PV
+G635,pieve albignola,PV
+G639,pieve del cairo,PV
+G650,pieve porto morone,PV
+G671,pinarolo po,PV
+G720,pizzale,PV
+G851,ponte nizza,PV
+G895,portalbera,PV
+H204,rea,PV
+H216,redavalle,PV
+H246,retorbido,PV
+H336,rivanazzano terme,PV
+H369,robbio,PV
+H375,robecco pavese,PV
+H396,rocca de' giorgi,PV
+H450,rocca susella,PV
+H491,rognano,PV
+H505,romagnese,PV
+H527,roncaro,PV
+H559,rosasco,PV
+H614,rovescala,PV
+H799,san cipriano po,PV
+H814,san damiano al colle,PV
+H859,san genesio ed uniti,PV
+H885,san giorgio di lomellina,PV
+I014,san martino siccomario,PV
+I048,sannazzaro de' burgondi,PV
+I175,santa cristina e bissone,PV
+I203,santa giuletta,PV
+I213,sant'alessio con vialone,PV
+I230,santa margherita di staffora,PV
+I237,santa maria della versa,PV
+I276,sant'angelo lomellina,PV
+I416,san zenone al po,PV
+I447,sartirana lomellina,PV
+I487,scaldasole,PV
+I599,semiana,PV
+I739,silvano pietra,PV
+E265,siziano,PV
+I825,sommo,PV
+I894,spessa,PV
+I968,stradella,PV
+B014,suardi,PV
+L237,torrazza coste,PV
+L250,torre beretti e castellaro,PV
+L256,torre d'arese,PV
+L262,torre de' negri,PV
+L269,torre d'isola,PV
+L285,torrevecchia pia,PV
+L292,torricella verzate,PV
+I236,travacò siccomario,PV
+L440,trivolzio,PV
+L449,tromello,PV
+L453,trovo,PV
+L562,val di nizza,PV
+L568,valeggio,PV
+L593,valle lomellina,PV
+L617,valle salimbene,PV
+L690,varzi,PV
+L716,velezzo lomellina,PV
+L720,vellezzo bellini,PV
+L784,verretto,PV
+L788,verrua po,PV
+L854,vidigulfo,PV
+L872,vigevano,PV
+L917,villa biscossi,PV
+L983,villanova d'ardenghi,PV
+L994,villanterio,PV
+M079,vistarino,PV
+M109,voghera,PV
+M119,volpara,PV
+M150,zavattarello,PV
+M152,zeccone,PV
+M161,zeme,PV
+M162,zenevredo,PV
+M166,zerbo,PV
+M167,zerbolò,PV
+M180,zinasco,PV
+M338,cornale e bastida,PV
+M372,corteolona e genzone,PV
+M419,colli verdi,PV
+A039,acquanegra cremonese,CR
+A076,agnadello,CR
+A299,annicco,CR
+A526,azzanello,CR
+A570,bagnolo cremasco,CR
+A972,bonemerse,CR
+A986,bordolano,CR
+B439,calvatone,CR
+B484,camisano,CR
+B498,campagnola cremasca,CR
+B650,capergnanica,CR
+B679,cappella cantone,CR
+B680,cappella de' picenardi,CR
+B686,capralba,CR
+B869,casalbuttano ed uniti,CR
+B881,casale cremasco-vidolasco,CR
+B889,casaletto ceredano,CR
+B890,casaletto di sopra,CR
+B891,casaletto vaprio,CR
+B898,casalmaggiore,CR
+B900,casalmorano,CR
+C089,casteldidone,CR
+C115,castel gabbiano,CR
+C153,castelleone,CR
+B129,castelverde,CR
+C290,castelvisconti,CR
+C435,cella dati,CR
+C634,chieve,CR
+C678,cicognolo,CR
+C703,cingia de' botti,CR
+D056,corte de' cortesi con cignone,CR
+D057,corte de' frati,CR
+D141,credera rubbiano,CR
+D142,crema,CR
+D150,cremona,CR
+D151,cremosano,CR
+D186,crotta d'adda,CR
+D203,cumignano sul naviglio,CR
+D278,derovere,CR
+D358,dovera,CR
+D574,fiesco,CR
+D710,formigara,CR
+D834,gabbioneta-binanuova,CR
+D841,gadesco-pieve delmona,CR
+D966,genivolta,CR
+D993,gerre de' caprioli,CR
+E082,gombito,CR
+E193,grontardo,CR
+E217,grumello cremonese ed uniti,CR
+E272,gussola,CR
+E356,isola dovarese,CR
+E380,izano,CR
+E793,madignano,CR
+E843,malagnino,CR
+E983,martignana di po,CR
+F434,monte cremasco,CR
+F681,montodine,CR
+F761,moscazzano,CR
+F771,motta baluffi,CR
+G004,offanengo,CR
+G047,olmeneta,CR
+G185,ostiano,CR
+G222,paderno ponchielli,CR
+G260,palazzo pignano,CR
+G306,pandino,CR
+G469,persico dosimo,CR
+G483,pescarolo ed uniti,CR
+G504,pessina cremonese,CR
+G558,pianengo,CR
+G603,pieranica,CR
+G647,pieve d'olmi,CR
+G651,pieve san giacomo,CR
+G721,pizzighettone,CR
+B914,pozzaglio ed uniti,CR
+H130,quintano,CR
+H276,ricengo,CR
+H314,ripalta arpina,CR
+H315,ripalta cremasca,CR
+H316,ripalta guerina,CR
+H341,rivarolo del re ed uniti,CR
+H357,rivolta d'adda,CR
+H372,robecco d'oglio,CR
+H508,romanengo,CR
+H731,salvirola,CR
+H767,san bassano,CR
+H815,san daniele po,CR
+H918,san giovanni in croce,CR
+I007,san martino del lago,CR
+I497,scandolara ravara,CR
+I498,scandolara ripa d'oglio,CR
+I627,sergnano,CR
+I683,sesto ed uniti,CR
+I790,solarolo rainerio,CR
+I827,soncino,CR
+I849,soresina,CR
+I865,sospiro,CR
+I906,spinadesco,CR
+I909,spineda,CR
+I914,spino d'adda,CR
+I935,stagno lombardo,CR
+L164,ticengo,CR
+L221,torlino vimercati,CR
+L225,tornata,CR
+L258,torre de' picenardi,CR
+L296,torricella del pizzo,CR
+L389,trescore cremasco,CR
+L426,trigolo,CR
+L535,vaiano cremasco,CR
+L539,vailate,CR
+L806,vescovato,CR
+M116,volongo,CR
+M127,voltido,CR
+M418,piadena drizzona,CR
+A038,acquanegra sul chiese,MN
+A470,asola,MN
+A575,bagnolo san vito,MN
+B110,bozzolo,MN
+B612,canneto sull'oglio,MN
+B901,casalmoro,MN
+B907,casaloldo,MN
+B911,casalromano,MN
+C059,castelbelforte,MN
+C076,castel d'ario,MN
+C118,castel goffredo,MN
+C195,castellucchio,MN
+C312,castiglione delle stiviere,MN
+C406,cavriana,MN
+C502,ceresara,MN
+C930,commessaggio,MN
+D227,curtatone,MN
+D351,dosolo,MN
+D949,gazoldo degli ippoliti,MN
+D959,gazzuolo,MN
+E078,goito,MN
+E089,gonzaga,MN
+E261,guidizzolo,MN
+E818,magnacavallo,MN
+E897,mantova,MN
+E922,marcaria,MN
+E949,mariana mantovana,MN
+E962,marmirolo,MN
+F086,medole,MN
+F267,moglia,MN
+F705,monzambano,MN
+B012,motteggiana,MN
+G186,ostiglia,MN
+G417,pegognaga,MN
+G717,piubega,MN
+G753,poggio rusco,MN
+G816,pomponesco,MN
+G862,ponti sul mincio,MN
+G917,porto mantovano,MN
+H129,quingentole,MN
+H143,quistello,MN
+H218,redondesco,MN
+H342,rivarolo mantovano,MN
+H481,rodigo,MN
+H541,roncoferraro,MN
+H604,roverbella,MN
+H652,sabbioneta,MN
+H771,san benedetto po,MN
+H870,san giacomo delle segnate,MN
+H883,san giorgio bigarello,MN
+H912,san giovanni del dosso,MN
+I005,san martino dall'argine,MN
+I532,schivenoglia,MN
+I632,sermide e felonica,MN
+I662,serravalle a po,MN
+I801,solferino,MN
+L015,sustinente,MN
+L020,suzzara,MN
+L826,viadana,MN
+M044,villimpenta,MN
+M125,volta mantovana,MN
+M340,borgo virgilio,MN
+M396,borgo mantovano,MN
+M406,borgocarbonara  ,MN
+A005,abbadia lariana,LC
+A112,airuno,LC
+A301,annone di brianza,LC
+A594,ballabio,LC
+A683,barzago,LC
+A686,barzanò,LC
+A687,barzio,LC
+A745,bellano,LC
+B081,bosisio parini,LC
+B194,brivio,LC
+B261,bulciago,LC
+B396,calco,LC
+B423,calolziocorte,LC
+B763,carenno,LC
+B937,casargo,LC
+B943,casatenovo,LC
+B996,cassago brianza,LC
+C024,cassina valsassina,LC
+C187,castello di brianza,LC
+C521,cernusco lombardone,LC
+C563,cesana brianza,LC
+C752,civate,LC
+C839,colico,LC
+C851,colle brianza,LC
+D065,cortenova,LC
+D112,costa masnaga,LC
+D131,crandola valsassina,LC
+D143,cremella,LC
+D145,cremeno,LC
+D280,dervio,LC
+D327,dolzago,LC
+D346,dorio,LC
+D398,ello,LC
+D428,erve,LC
+D436,esino lario,LC
+D865,galbiate,LC
+D913,garbagnate monastero,LC
+D926,garlate,LC
+E287,imbersago,LC
+E305,introbio,LC
+E507,lecco,LC
+E581,lierna,LC
+E656,lomagna,LC
+E858,malgrate,LC
+E879,mandello del lario,LC
+E947,margno,LC
+F133,merate,LC
+F248,missaglia,LC
+F265,moggio,LC
+F304,molteno,LC
+F561,monte marenzo,LC
+F657,montevecchia,LC
+F674,monticello brianza,LC
+F758,morterone,LC
+F887,nibionno,LC
+G009,oggiono,LC
+G026,olgiate molgora,LC
+G030,olginate,LC
+G040,oliveto lario,LC
+G161,osnago,LC
+G218,paderno d'adda,LC
+G241,pagnona,LC
+G336,parlasco,LC
+G368,pasturo,LC
+G456,perledo,LC
+G485,pescate,LC
+H028,premana,LC
+H063,primaluna,LC
+G223,robbiate,LC
+H486,rogeno,LC
+I243,santa maria hoè,LC
+I759,sirone,LC
+I761,sirtori,LC
+I994,sueglio,LC
+I996,suello,LC
+L022,taceno,LC
+L581,valgreghentino,LC
+L634,valmadrera,LC
+L680,varenna,LC
+L731,vendrogno,LC
+L751,vercurago,LC
+L866,viganò,LC
+M337,verderio,LC
+M348,la valletta brianza,LC
+M395,valvarrone,LC
+A004,abbadia cerreto,LO
+A811,bertonico,LO
+A919,boffalora d'adda,LO
+A995,borghetto lodigiano,LO
+B017,borgo san giovanni,LO
+B141,brembio,LO
+B887,casaletto lodigiano,LO
+B899,casalmaiocco,LO
+B910,casalpusterlengo,LO
+B961,caselle landi,LO
+B958,caselle lurani,LO
+C228,castelnuovo bocca d'adda,LO
+C304,castiglione d'adda,LO
+C329,castiraga vidardo,LO
+C394,cavenago d'adda,LO
+C555,cervignano d'adda,LO
+C816,codogno,LO
+C917,comazzo,LO
+D021,cornegliano laudense,LO
+D028,corno giovine,LO
+D029,cornovecchio,LO
+D068,corte palasio,LO
+D159,crespiatica,LO
+D660,fombio,LO
+D868,galgagnano,LO
+E127,graffignana,LO
+E238,guardamiglio,LO
+E627,livraga,LO
+E648,lodi,LO
+E651,lodi vecchio,LO
+E777,maccastorna,LO
+E840,mairago,LO
+E852,maleo,LO
+E994,marudo,LO
+F028,massalengo,LO
+F102,meleti,LO
+F149,merlino,LO
+F423,montanaso lombardo,LO
+F801,mulazzano,LO
+G107,orio litta,LO
+G166,ospedaletto lodigiano,LO
+G171,ossago lodigiano,LO
+G096,pieve fissiraga,LO
+H701,salerano sul lambro,LO
+H844,san fiorano,LO
+I012,san martino in strada,LO
+I140,san rocco al porto,LO
+I274,sant'angelo lodigiano,LO
+I362,santo stefano lodigiano,LO
+I561,secugnago,LO
+I612,senna lodigiana,LO
+I815,somaglia,LO
+I848,sordio,LO
+F260,tavazzano con villavesco,LO
+L125,terranova dei passerini,LO
+L469,turano lodigiano,LO
+L572,valera fratta,LO
+L977,villanova del sillaro,LO
+M158,zelo buon persico,LO
+M393,castelgerundo,LO
+A087,agrate brianza,MB
+A096,aicurzio,MB
+A159,albiate,MB
+A376,arcore,MB
+A668,barlassina,MB
+A759,bellusco,MB
+A802,bernareggio,MB
+A818,besana in brianza,MB
+A849,biassono,MB
+B105,bovisio-masciago,MB
+B187,briosco,MB
+B212,brugherio,MB
+B272,burago di molgora,MB
+B501,camparada,MB
+B729,carate brianza,MB
+B798,carnate,MB
+C395,cavenago di brianza,MB
+C512,ceriano laghetto,MB
+C566,cesano maderno,MB
+C820,cogliate,MB
+C952,concorezzo,MB
+D038,correzzana,MB
+D286,desio,MB
+E063,giussano,MB
+E504,lazzate,MB
+E550,lesmo,MB
+E591,limbiate,MB
+E617,lissone,MB
+E786,macherio,MB
+F078,meda,MB
+F165,mezzago,MB
+F247,misinto,MB
+F704,monza,MB
+F797,muggiò,MB
+F944,nova milanese,MB
+G116,ornago,MB
+H233,renate,MB
+H537,ronco briantino,MB
+I625,seregno,MB
+I709,seveso,MB
+I878,sovico,MB
+I998,sulbiate,MB
+L434,triuggio,MB
+L511,usmate velate,MB
+L677,varedo,MB
+L704,vedano al lambro,MB
+L709,veduggio con colzano,MB
+L744,verano brianza,MB
+M017,villasanta,MB
+M052,vimercate,MB
+B289,busnago,MB
+B671,caponago,MB
+D019,cornate d'adda,MB
+E530,lentate sul seveso,MB
+H529,roncello,MB
+A179,aldino,BZ
+A286,andriano,BZ
+A306,anterivo,BZ
+A332,appiano sulla strada del vino,BZ
+A507,avelengo,BZ
+A537,badia,BZ
+A635,barbiano,BZ
+A952,bolzano,BZ
+B116,braies,BZ
+B145,brennero,BZ
+B160,bressanone,BZ
+B203,bronzolo,BZ
+B220,brunico,BZ
+B364,caines,BZ
+B397,caldaro sulla strada del vino,BZ
+B529,campo di trens,BZ
+B570,campo tures,BZ
+C062,castelbello-ciardes,BZ
+C254,castelrotto,BZ
+A022,cermes,BZ
+C625,chienes,BZ
+C652,chiusa,BZ
+B799,cornedo all'isarco,BZ
+D048,cortaccia sulla strada del vino,BZ
+D075,cortina sulla strada del vino,BZ
+D079,corvara in badia,BZ
+D222,curon venosta,BZ
+D311,dobbiaco,BZ
+D392,egna,BZ
+D484,falzes,BZ
+D571,fiè allo sciliar,BZ
+D731,fortezza,BZ
+D821,funes,BZ
+D860,gais,BZ
+D923,gargazzone,BZ
+E069,glorenza,BZ
+E398,laces,BZ
+E412,lagundo,BZ
+E420,laion,BZ
+E421,laives,BZ
+E434,lana,BZ
+E457,lasa,BZ
+E481,lauregno,BZ
+E764,luson,BZ
+E829,magrè sulla strada del vino,BZ
+E862,malles venosta,BZ
+E938,marebbe,BZ
+E959,marlengo,BZ
+E981,martello,BZ
+F118,meltina,BZ
+F132,merano,BZ
+F371,monguelfo-tesido,BZ
+F392,montagna,BZ
+F766,moso in passiria,BZ
+F836,nalles,BZ
+F849,naturno,BZ
+F856,naz-sciaves,BZ
+F949,nova levante,BZ
+F950,nova ponente,BZ
+G083,ora,BZ
+G140,ortisei,BZ
+G328,parcines,BZ
+G443,perca,BZ
+G299,plaus,BZ
+G830,ponte gardena,BZ
+G936,postal,BZ
+H004,prato allo stelvio,BZ
+H019,predoi,BZ
+H081,proves,BZ
+H152,racines,BZ
+H189,rasun-anterselva,BZ
+H236,renon,BZ
+H284,rifiano,BZ
+H299,rio di pusteria,BZ
+H475,rodengo,BZ
+H719,salorno,BZ
+H786,san candido,BZ
+H858,san genesio atesino,BZ
+H952,san leonardo in passiria,BZ
+H956,san lorenzo di sebato,BZ
+H988,san martino in badia,BZ
+H989,san martino in passiria,BZ
+I065,san pancrazio,BZ
+I173,santa cristina valgardena,BZ
+I431,sarentino,BZ
+I519,scena,BZ
+I593,selva dei molini,BZ
+I591,selva di val gardena,BZ
+I604,senales,BZ
+I687,sesto,BZ
+I729,silandro,BZ
+I771,sluderno,BZ
+I948,stelvio,BZ
+L106,terento,BZ
+L108,terlano,BZ
+L111,termeno sulla strada del vino,BZ
+L149,tesimo,BZ
+L176,tires,BZ
+L178,tirolo,BZ
+L444,trodena nel parco naturale,BZ
+L455,tubre,BZ
+L490,ultimo,BZ
+L527,vadena,BZ
+L552,valdaora,BZ
+L564,val di vizze,BZ
+L595,valle aurina,BZ
+L601,valle di casies,BZ
+L660,vandoies,BZ
+L687,varna,BZ
+L745,verano,BZ
+L915,villabassa,BZ
+L971,villandro,BZ
+M067,vipiteno,BZ
+L724,velturno,BZ
+E491,la valle,BZ
+I603,senale-san felice,BZ
+A116,ala,TN
+A158,albiano,TN
+A178,aldeno,TN
+A274,andalo,TN
+A372,arco,TN
+A520,avio,TN
+A694,baselga di pinè,TN
+A730,bedollo,TN
+A821,besenello,TN
+A863,bieno,TN
+A902,bleggio superiore,TN
+A916,bocenago,TN
+A968,bondone,TN
+B006,borgo valsugana,TN
+B153,brentonico,TN
+B158,bresimo,TN
+B165,brez,TN
+B335,caderzone terme,TN
+B360,cagnò,TN
+B389,calceranica al lago,TN
+B400,caldes,TN
+B404,caldonazzo,TN
+B419,calliano,TN
+B514,campitello di fassa,TN
+B525,campodenno,TN
+B577,canal san bovo,TN
+B579,canazei,TN
+B697,capriana,TN
+B723,carano,TN
+B783,carisolo,TN
+B856,carzano,TN
+C183,castel condino,TN
+C103,castelfondo,TN
+C189,castello-molina di fiemme,TN
+C194,castello tesino,TN
+C216,castelnuovo,TN
+C372,cavalese,TN
+C380,cavareno,TN
+C392,cavedago,TN
+C393,cavedine,TN
+C400,cavizzana,TN
+C700,cimone,TN
+C712,cinte tesino,TN
+C727,cis,TN
+C756,civezzano,TN
+C794,cles,TN
+C797,cloz,TN
+C931,commezzadura,TN
+D188,croviana,TN
+D243,daiano,TN
+D246,dambel,TN
+D273,denno,TN
+D365,drena,TN
+D371,dro,TN
+D457,faedo,TN
+D468,fai della paganella,TN
+D565,fiavè,TN
+D573,fierozzo,TN
+D651,folgaria,TN
+D663,fondo,TN
+D714,fornace,TN
+D775,frassilongo,TN
+D928,garniga terme,TN
+E048,giovo,TN
+E065,giustino,TN
+E178,grigno,TN
+E288,imer,TN
+E334,isera,TN
+E492,lavarone,TN
+E500,lavis,TN
+E565,levico terme,TN
+E624,livo,TN
+E664,lona-lases,TN
+E757,luserna,TN
+E850,malé,TN
+E866,malosco,TN
+F045,massimeno,TN
+F068,mazzin,TN
+F168,mezzana,TN
+F176,mezzano,TN
+F183,mezzocorona,TN
+F187,mezzolombardo,TN
+F263,moena,TN
+F307,molveno,TN
+F728,mori,TN
+F835,nago-torbole,TN
+F920,nogaredo,TN
+F929,nomi,TN
+F947,novaledo,TN
+G168,ospedaletto,TN
+G173,ossana,TN
+G296,palù del fersina,TN
+G305,panchià,TN
+M303,ronzo-chienis,TN
+G419,peio,TN
+G428,pellizzano,TN
+G429,pelugo,TN
+G452,pergine valsugana,TN
+G656,pieve tesino,TN
+G681,pinzolo,TN
+G808,pomarolo,TN
+H018,predazzo,TN
+H146,rabbi,TN
+H254,revò,TN
+H330,riva del garda,TN
+H506,romallo,TN
+H517,romeno,TN
+H528,roncegno terme,TN
+H532,ronchi valsugana,TN
+H552,ronzone,TN
+H607,roverè della luna,TN
+H612,rovereto,TN
+H634,ruffrè-mendola,TN
+H639,rumo,TN
+H666,sagron mis,TN
+H754,samone,TN
+I042,san michele all'adige,TN
+I354,sant'orsola terme,TN
+I411,sanzeno,TN
+I439,sarnonico,TN
+I554,scurelle,TN
+I576,segonzano,TN
+I714,sfruz,TN
+I839,soraga di fassa,TN
+I871,sover,TN
+I899,spiazzo,TN
+I924,spormaggiore,TN
+I925,sporminore,TN
+I949,stenico,TN
+I964,storo,TN
+I975,strembo,TN
+L089,telve,TN
+L090,telve di sopra,TN
+L096,tenna,TN
+L097,tenno,TN
+L121,terragnolo,TN
+L145,terzolas,TN
+L147,tesero,TN
+L174,tione di trento,TN
+L200,ton,TN
+L211,torcegno,TN
+L322,trambileno,TN
+L378,trento,TN
+L575,valfloriana,TN
+L588,vallarsa,TN
+L678,varena,TN
+L769,vermiglio,TN
+L886,vignola-falesina,TN
+L957,villa lagarina,TN
+M113,volano,TN
+M173,ziano di fiemme,TN
+M314,comano terme,TN
+M313,ledro,TN
+M344,predaia,TN
+M345,san lorenzo dorsino,TN
+M343,valdaone,TN
+M366,dimaro folgarida,TN
+M365,pieve di bono-prezzo,TN
+M349,altavalle,TN
+M350,altopiano della vigolana,TN
+M351,amblar-don,TN
+M352,borgo chiese,TN
+M353,borgo lares,TN
+M354,castel ivano,TN
+M355,cembra lisignago,TN
+M356,contà,TN
+M357,madruzzo,TN
+M358,porte di rendena,TN
+M359,primiero san martino di castrozza,TN
+M360,sella giudicarie,TN
+M361,tre ville,TN
+M362,vallelaghi,TN
+M363,ville d'anaunia,TN
+M390,san giovanni di fassa,TN
+M407,terre d'adige,TN
+A061,affi,VR
+A137,albaredo d'adige,VR
+A292,angiari,VR
+A374,arcole,VR
+A540,badia calavena,VR
+A650,bardolino,VR
+A737,belfiore,VR
+A837,bevilacqua,VR
+A964,bonavigo,VR
+B070,boschi sant'anna,VR
+B073,bosco chiesanuova,VR
+B107,bovolone,VR
+B152,brentino belluno,VR
+B154,brenzone sul garda,VR
+B296,bussolengo,VR
+B304,buttapietra,VR
+B402,caldiero,VR
+B709,caprino veronese,VR
+B886,casaleone,VR
+C041,castagnaro,VR
+C078,castel d'azzano,VR
+C225,castelnuovo del garda,VR
+C370,cavaion veronese,VR
+C412,cazzano di tramigna,VR
+C498,cerea,VR
+C538,cerro veronese,VR
+C890,cologna veneta,VR
+C897,colognola ai colli,VR
+C943,concamarise,VR
+D118,costermano sul garda,VR
+D317,dolcè,VR
+D419,erbè,VR
+D420,erbezzo,VR
+D549,ferrara di monte baldo,VR
+D818,fumane,VR
+D915,garda,VR
+D957,gazzo veronese,VR
+E171,grezzana,VR
+E284,illasi,VR
+E349,isola della scala,VR
+E358,isola rizza,VR
+E489,lavagno,VR
+E502,lazise,VR
+E512,legnago,VR
+E848,malcesine,VR
+E911,marano di valpolicella,VR
+F172,mezzane di sotto,VR
+F218,minerbe,VR
+F461,montecchia di crosara,VR
+F508,monteforte d'alpone,VR
+F789,mozzecane,VR
+F861,negrar,VR
+F918,nogara,VR
+F921,nogarole rocca,VR
+G080,oppeano,VR
+G297,palù,VR
+G365,pastrengo,VR
+G481,pescantina,VR
+G489,peschiera del garda,VR
+G945,povegliano veronese,VR
+H048,pressana,VR
+H356,rivoli veronese,VR
+H522,roncà,VR
+H540,ronco all'adige,VR
+H606,roverchiara,VR
+H610,roveredo di guà,VR
+H608,roverè veronese,VR
+H714,salizzole,VR
+H783,san bonifacio,VR
+H916,san giovanni ilarione,VR
+H924,san giovanni lupatoto,VR
+H944,sanguinetto,VR
+I003,san martino buon albergo,VR
+H712,san mauro di saline,VR
+I105,san pietro di morubio,VR
+I109,san pietro in cariano,VR
+I259,sant'ambrogio di valpolicella,VR
+I292,sant'anna d'alfaedo,VR
+I414,san zeno di montagna,VR
+I594,selva di progno,VR
+I775,soave,VR
+I821,sommacampagna,VR
+I826,sona,VR
+I850,sorgà,VR
+L136,terrazzo,VR
+L287,torri del benaco,VR
+L364,tregnago,VR
+L396,trevenzuolo,VR
+L567,valeggio sul mincio,VR
+L722,velo veronese,VR
+L781,verona,VR
+D193,veronella,VR
+L810,vestenanova,VR
+L869,vigasio,VR
+L912,villa bartolomea,VR
+L949,villafranca di verona,VR
+M172,zevio,VR
+M178,zimella,VR
+A093,agugliaro,VI
+A154,albettone,VI
+A220,alonte,VI
+A231,altavilla vicentina,VI
+A236,altissimo,VI
+A377,arcugnano,VI
+A444,arsiero,VI
+A459,arzignano,VI
+A465,asiago,VI
+A467,asigliano veneto,VI
+A703,bassano del grappa,VI
+A954,bolzano vicentino,VI
+B132,breganze,VI
+B143,brendola,VI
+B161,bressanvido,VI
+B196,brogliano,VI
+B403,caldogno,VI
+B433,caltrano,VI
+B441,calvene,VI
+B485,camisano vicentino,VI
+B511,campiglia dei berici,VI
+B835,carrè,VI
+B844,cartigliano,VI
+C037,cassola,VI
+C056,castegnero,VI
+C119,castelgomberto,VI
+C605,chiampo,VI
+C650,chiuppano,VI
+C824,cogollo del cengio,VI
+D020,cornedo vicentino,VI
+D107,costabissara,VI
+D136,creazzo,VI
+D156,crespadoro,VI
+D379,dueville,VI
+D407,enego,VI
+D496,fara vicentino,VI
+D750,foza,VI
+D882,gallio,VI
+D897,gambellara,VI
+D902,gambugliano,VI
+E184,grisignano di zocco,VI
+E226,grumolo delle abbadesse,VI
+E354,isola vicentina,VI
+E403,laghi,VI
+E465,lastebasse,VI
+E671,longare,VI
+E682,lonigo,VI
+E731,lugo di vicenza,VI
+E864,malo,VI
+E912,marano vicentino,VI
+E970,marostica,VI
+F442,montebello vicentino,VI
+F464,montecchio maggiore,VI
+F465,montecchio precalcino,VI
+F486,monte di malo,VI
+F514,montegalda,VI
+F515,montegaldella,VI
+F662,monteviale,VI
+F675,monticello conte otto,VI
+F696,montorso vicentino,VI
+F829,mussolente,VI
+F838,nanto,VI
+F922,nogarole vicentino,VI
+F957,nove,VI
+F964,noventa vicentina,VI
+G095,orgiano,VI
+G406,pedemonte,VI
+G560,pianezze,VI
+G694,piovene rocchette,VI
+G776,pojana maggiore,VI
+G931,posina,VI
+G943,pove del grappa,VI
+G957,pozzoleone,VI
+H134,quinto vicentino,VI
+H214,recoaro terme,VI
+H361,roana,VI
+H512,romano d'ezzelino,VI
+H556,rosà,VI
+H580,rossano veneto,VI
+H594,rotzo,VI
+F810,salcedo,VI
+H829,sandrigo,VI
+I117,san pietro mussolino,VI
+I353,santorso,VI
+I401,san vito di leguzzano,VI
+I425,sarcedo,VI
+I430,sarego,VI
+I527,schiavon,VI
+I531,schio,VI
+I783,solagna,VI
+I867,sossano,VI
+I879,sovizzo,VI
+L156,tezze sul brenta,VI
+L157,thiene,VI
+D717,tonezza del cimone,VI
+L248,torrebelvicino,VI
+L297,torri di quartesolo,VI
+L433,trissino,VI
+L551,valdagno,VI
+L554,valdastico,VI
+L624,valli del pasubio,VI
+L723,velo d'astico,VI
+L840,vicenza,VI
+L952,villaga,VI
+M032,villaverla,VI
+M145,zanè,VI
+M170,zermeghedo,VI
+M194,zovencedo,VI
+M199,zugliano,VI
+M384,val liona,VI
+M401,barbarano mossano,VI
+M423,valbrenta,VI
+M426,colceresa,VI
+M427,lusiana conco,VI
+A083,agordo,BL
+A121,alano di piave,BL
+A206,alleghe,BL
+A443,arsiè,BL
+A501,auronzo di cadore,BL
+A757,belluno,BL
+A982,borca di cadore,BL
+B375,calalzo di cadore,BL
+C458,cencenighe agordino,BL
+C577,cesiomaggiore,BL
+C630,chies d'alpago,BL
+C672,cibiana di cadore,BL
+C872,colle santa lucia,BL
+C920,comelico superiore,BL
+A266,cortina d'ampezzo,BL
+D247,danta di cadore,BL
+D330,domegge di cadore,BL
+D470,falcade,BL
+D530,feltre,BL
+D686,fonzaso,BL
+B574,canale d'agordo,BL
+E113,gosaldo,BL
+E429,lamon,BL
+E490,la valle agordina,BL
+E588,limana,BL
+E622,livinallongo del col di lana,BL
+E687,lorenzago di cadore,BL
+E708,lozzo di cadore,BL
+G169,ospitale di cadore,BL
+G404,pedavena,BL
+G442,perarolo di cadore,BL
+G642,pieve di cadore,BL
+B662,ponte nelle alpi,BL
+H327,rivamonte agordino,BL
+H379,rocca pietore,BL
+H938,san gregorio nelle alpi,BL
+I063,san nicolò di comelico,BL
+I088,san pietro di cadore,BL
+I206,santa giustina,BL
+I347,san tomaso agordino,BL
+C919,santo stefano di cadore,BL
+I392,san vito di cadore,BL
+I563,sedico,BL
+I592,selva di cadore,BL
+I626,seren del grappa,BL
+I866,sospirolo,BL
+I876,soverzene,BL
+I673,sovramonte,BL
+L030,taibon agordino,BL
+L040,tambre,BL
+L584,vallada agordina,BL
+L590,valle di cadore,BL
+L890,vigo di cadore,BL
+M108,vodo cadore,BL
+M124,voltago agordino,BL
+M189,zoppè di cadore,BL
+M332,quero vas,BL
+M342,longarone,BL
+M375,alpago,BL
+M374,val di zoldo,BL
+M421,borgo valbelluna,BL
+A237,altivole,TV
+A360,arcade,TV
+A471,asolo,TV
+B061,borso del grappa,TV
+B128,breda di piave,TV
+B349,caerano di san marco,TV
+B678,cappella maggiore,TV
+B744,carbonera,TV
+B879,casale sul sile,TV
+B965,casier,TV
+C073,castelcucco,TV
+C111,castelfranco veneto,TV
+C190,castello di godego,TV
+C384,cavaso del tomba,TV
+C580,cessalto,TV
+C614,chiarano,TV
+C689,cimadolmo,TV
+C735,cison di valmarino,TV
+C815,codognè,TV
+C848,colle umberto,TV
+C957,conegliano,TV
+C992,cordignano,TV
+D030,cornuda,TV
+C670,crocetta del montello,TV
+D505,farra di soligo,TV
+D654,follina,TV
+D674,fontanelle,TV
+D680,fonte,TV
+D794,fregona,TV
+D854,gaiarine,TV
+E021,giavera del montello,TV
+E071,godega di sant'urbano,TV
+E092,gorgo al monticano,TV
+E373,istrana,TV
+E692,loria,TV
+E893,mansuè,TV
+E940,mareno di piave,TV
+F009,maser,TV
+F012,maserada sul piave,TV
+F088,meduna di livenza,TV
+F190,miane,TV
+F269,mogliano veneto,TV
+F332,monastier di treviso,TV
+F360,monfumo,TV
+F443,montebelluna,TV
+F725,morgano,TV
+F729,moriago della battaglia,TV
+F770,motta di livenza,TV
+F872,nervesa della battaglia,TV
+F999,oderzo,TV
+G115,ormelle,TV
+G123,orsago,TV
+G229,paese,TV
+G408,pederobba,TV
+G645,pieve di soligo,TV
+G846,ponte di piave,TV
+G875,ponzano veneto,TV
+G909,portobuffolè,TV
+G933,possagno,TV
+G944,povegliano,TV
+H022,preganziol,TV
+H131,quinto di treviso,TV
+H220,refrontolo,TV
+H238,resana,TV
+H253,revine lago,TV
+H280,riese pio x,TV
+H523,roncade,TV
+H706,salgareda,TV
+H781,san biagio di callalta,TV
+H843,san fior,TV
+I103,san pietro di feletto,TV
+I124,san polo di piave,TV
+I221,santa lucia di piave,TV
+I382,san vendemiano,TV
+I417,san zenone degli ezzelini,TV
+I435,sarmede,TV
+I578,segusino,TV
+I635,sernaglia della battaglia,TV
+F116,silea,TV
+I927,spresiano,TV
+L014,susegana,TV
+L058,tarzo,TV
+L402,trevignano,TV
+L407,treviso,TV
+L565,valdobbiadene,TV
+L700,vazzola,TV
+L706,vedelago,TV
+L856,vidor,TV
+M048,villorba,TV
+M089,vittorio veneto,TV
+M118,volpago del montello,TV
+M163,zenson di piave,TV
+M171,zero branco,TV
+M422,pieve del grappa,TV
+A302,annone veneto,VE
+B493,campagna lupia,VE
+B546,campolongo maggiore,VE
+B554,camponogara,VE
+B642,caorle,VE
+C383,cavarzere,VE
+C422,ceggia,VE
+C638,chioggia,VE
+C714,cinto caomaggiore,VE
+C938,cona,VE
+C950,concordia sagittaria,VE
+D325,dolo,VE
+D415,eraclea,VE
+D578,fiesso d'artico,VE
+D740,fossalta di piave,VE
+D741,fossalta di portogruaro,VE
+D748,fossò,VE
+E215,gruaro,VE
+C388,jesolo,VE
+E936,marcon,VE
+E980,martellago,VE
+F130,meolo,VE
+F229,mira,VE
+F241,mirano,VE
+F826,musile di piave,VE
+F904,noale,VE
+F963,noventa di piave,VE
+G565,pianiga,VE
+G914,portogruaro,VE
+G981,pramaggiore,VE
+H117,quarto d'altino,VE
+H735,salzano,VE
+H823,san donà di piave,VE
+I040,san michele al tagliamento,VE
+I242,santa maria di sala,VE
+I373,san stino di livenza,VE
+I551,scorzè,VE
+I908,spinea,VE
+I965,stra,VE
+L085,teglio veneto,VE
+L267,torre di mosto,VE
+L736,venezia,VE
+L899,vigonovo,VE
+M308,cavallino-treporti,VE
+A001,abano terme,PD
+A075,agna,PD
+A161,albignasego,PD
+A296,anguillara veneta,PD
+A434,arquà petrarca,PD
+A438,arre,PD
+A458,arzergrande,PD
+A568,bagnoli di sopra,PD
+A613,baone,PD
+A637,barbona,PD
+A714,battaglia terme,PD
+A906,boara pisani,PD
+B031,borgoricco,PD
+B106,bovolenta,PD
+B213,brugine,PD
+B345,cadoneghe,PD
+B524,campodarsego,PD
+B531,campodoro,PD
+B563,camposampiero,PD
+B564,campo san martino,PD
+B589,candiana,PD
+B749,carceri,PD
+B795,carmignano di brenta,PD
+B848,cartura,PD
+B877,casale di scodosia,PD
+B912,casalserugo,PD
+C057,castelbaldo,PD
+C544,cervarese santa croce,PD
+C713,cinto euganeo,PD
+C743,cittadella,PD
+C812,codevigo,PD
+C964,conselve,PD
+D040,correzzola,PD
+D226,curtarolo,PD
+D442,este,PD
+D679,fontaniva,PD
+D879,galliera veneta,PD
+D889,galzignano terme,PD
+D956,gazzo,PD
+E145,grantorto,PD
+E146,granze,PD
+E515,legnaro,PD
+E592,limena,PD
+E684,loreggia,PD
+E709,lozzo atestino,PD
+F011,maserà di padova,PD
+F013,masi,PD
+F033,massanzago,PD
+F092,megliadino san vitale,PD
+F148,merlara,PD
+F161,mestrino,PD
+F382,monselice,PD
+F394,montagnana,PD
+F529,montegrotto terme,PD
+F962,noventa padovana,PD
+G167,ospedaletto euganeo,PD
+G224,padova,PD
+G461,pernumia,PD
+G534,piacenza d'adige,PD
+G587,piazzola sul brenta,PD
+G688,piombino dese,PD
+G693,piove di sacco,PD
+G802,polverara,PD
+G823,ponso,PD
+G850,pontelongo,PD
+G855,ponte san nicolò,PD
+G963,pozzonovo,PD
+H622,rovolon,PD
+H625,rubano,PD
+H655,saccolongo,PD
+H893,san giorgio delle pertiche,PD
+H897,san giorgio in bosco,PD
+I008,san martino di lupari,PD
+I107,san pietro in gu,PD
+I120,san pietro viminario,PD
+I207,santa giustina in colle,PD
+I275,sant'angelo di piove di sacco,PD
+I319,sant'elena,PD
+I375,sant'urbano,PD
+I418,saonara,PD
+I595,selvazzano dentro,PD
+I799,solesino,PD
+I938,stanghella,PD
+L100,teolo,PD
+L132,terrassa padovana,PD
+L199,tombolo,PD
+L270,torreglia,PD
+L349,trebaseleghe,PD
+L414,tribano,PD
+L497,urbana,PD
+L710,veggiano,PD
+L805,vescovana,PD
+L878,vighizzolo d'este,PD
+L892,vigodarzere,PD
+L900,vigonza,PD
+L934,villa del conte,PD
+L937,villa estense,PD
+L947,villafranca padovana,PD
+L979,villanova di camposampiero,PD
+M103,vo',PD
+M300,due carrare,PD
+M402,borgo veneto,PD
+A059,adria,RO
+A400,ariano nel polesine,RO
+A435,arquà polesine,RO
+A539,badia polesine,RO
+A574,bagnolo di po,RO
+A795,bergantino,RO
+B069,bosaro,RO
+B432,calto,RO
+B578,canaro,RO
+B582,canda,RO
+C122,castelguglielmo,RO
+C207,castelmassa,RO
+C215,castelnovo bariano,RO
+C461,ceneselli,RO
+C500,ceregnano,RO
+C987,corbola,RO
+D105,costa di rovigo,RO
+D161,crespino,RO
+D568,ficarolo,RO
+D577,fiesso umbertiano,RO
+D776,frassinelle polesine,RO
+D788,fratta polesine,RO
+D855,gaiba,RO
+D942,gavello,RO
+E008,giacciano con baruchella,RO
+E240,guarda veneta,RO
+E522,lendinara,RO
+E689,loreo,RO
+E761,lusia,RO
+F095,melara,RO
+F994,occhiobello,RO
+G323,papozze,RO
+G525,pettorazza grimani,RO
+G673,pincara,RO
+G782,polesella,RO
+G836,pontecchio polesine,RO
+G923,porto tolle,RO
+H573,rosolina,RO
+H620,rovigo,RO
+H689,salara,RO
+H768,san bellino,RO
+H996,san martino di venezze,RO
+I953,stienta,RO
+L026,taglio di po,RO
+L359,trecenta,RO
+L939,villadose,RO
+L967,villamarzana,RO
+L985,villanova del ghebbo,RO
+L988,villanova marchesana,RO
+G926,porto viro,RO
+A103,aiello del friuli,UD
+A254,amaro,UD
+A267,ampezzo,UD
+A346,aquileia,UD
+A447,arta terme,UD
+A448,artegna,UD
+A491,attimis,UD
+A553,bagnaria arsa,UD
+A700,basiliano,UD
+A810,bertiolo,UD
+A855,bicinicco,UD
+A983,bordano,UD
+B259,buja,UD
+B309,buttrio,UD
+B483,camino al tagliamento,UD
+B536,campoformido,UD
+B788,carlino,UD
+B994,cassacco,UD
+C327,castions di strada,UD
+C389,cavazzo carnico,UD
+C494,cercivento,UD
+C556,cervignano del friuli,UD
+C641,chiopris-viscone,UD
+C656,chiusaforte,UD
+C758,cividale del friuli,UD
+C817,codroipo,UD
+C885,colloredo di monte albano,UD
+C918,comeglians,UD
+D027,corno di rosazzo,UD
+D085,coseano,UD
+D300,dignano,UD
+D316,dogna,UD
+D366,drenchia,UD
+D408,enemonzo,UD
+D455,faedis,UD
+D461,fagagna,UD
+D630,flaibano,UD
+D718,forni avoltri,UD
+D719,forni di sopra,UD
+D720,forni di sotto,UD
+D962,gemona del friuli,UD
+E083,gonars,UD
+E179,grimacco,UD
+E473,latisana,UD
+E476,lauco,UD
+E553,lestizza,UD
+E584,lignano sabbiadoro,UD
+E760,lusevera,UD
+E820,magnano in riviera,UD
+E833,majano,UD
+E847,malborghetto valbruna,UD
+E899,manzano,UD
+E910,marano lagunare,UD
+E982,martignacco,UD
+F144,mereto di tomba,UD
+F266,moggio udinese,UD
+F275,moimacco,UD
+F574,montenars,UD
+F756,mortegliano,UD
+F760,moruzzo,UD
+F832,muzzana del turgnano,UD
+F898,nimis,UD
+G163,osoppo,UD
+G198,ovaro,UD
+G238,pagnacco,UD
+G268,palazzolo dello stella,UD
+G284,palmanova,UD
+G300,paluzza,UD
+G352,pasian di prato,UD
+G381,paularo,UD
+G389,pavia di udine,UD
+G743,pocenia,UD
+G831,pontebba,UD
+G891,porpetto,UD
+G949,povoletto,UD
+G966,pozzuolo del friuli,UD
+G969,pradamano,UD
+H002,prato carnico,UD
+H014,precenicco,UD
+H029,premariacco,UD
+H038,preone,UD
+H040,prepotto,UD
+H089,pulfero,UD
+H161,ragogna,UD
+H196,ravascletto,UD
+H200,raveo,UD
+H206,reana del rojale,UD
+H229,remanzacco,UD
+H242,resia,UD
+H244,resiutta,UD
+H289,rigolato,UD
+H347,rive d'arcano,UD
+H533,ronchis,UD
+H629,ruda,UD
+H816,san daniele del friuli,UD
+H895,san giorgio di nogaro,UD
+H906,san giovanni al natisone,UD
+H951,san leonardo,UD
+I092,san pietro al natisone,UD
+I248,santa maria la longa,UD
+I404,san vito al torre,UD
+I405,san vito di fagagna,UD
+I464,sauris,UD
+I478,savogna,UD
+I562,sedegliano,UD
+I777,socchieve,UD
+I974,stregna,UD
+L018,sutrio,UD
+G736,taipana,UD
+L039,talmassons,UD
+L050,tarcento,UD
+L057,tarvisio,UD
+L065,tavagnacco,UD
+L144,terzo d'aquileia,UD
+L195,tolmezzo,UD
+L246,torreano,UD
+L309,torviscosa,UD
+L335,trasaghis,UD
+L382,treppo grande,UD
+L421,tricesimo,UD
+L438,trivignano udinese,UD
+L483,udine,UD
+L686,varmo,UD
+L743,venzone,UD
+L801,verzegnis,UD
+L909,villa santina,UD
+M073,visco,UD
+M200,zuglio,UD
+D700,forgaria nel friuli,UD
+M311,campolongo tapogliano,UD
+M317,rivignano teor,UD
+I421,sappada,UD
+M400,fiumicello villa vicentina,UD
+M399,treppo ligosullo,UD
+B712,capriva del friuli,GO
+D014,cormons,GO
+D312,doberdò del lago,GO
+D321,dolegna del collio,GO
+D504,farra d'isonzo,GO
+D645,fogliano redipuglia,GO
+E098,gorizia,GO
+E124,gradisca d'isonzo,GO
+E125,grado,GO
+E952,mariano del friuli,GO
+F081,medea,GO
+F356,monfalcone,GO
+F710,moraro,GO
+F767,mossa,GO
+H514,romans d'isonzo,GO
+H531,ronchi dei legionari,GO
+H665,sagrado,GO
+H787,san canzian d'isonzo,GO
+H845,san floriano del collio,GO
+H964,san lorenzo isontino,GO
+I082,san pier d'isonzo,GO
+I479,savogna d'isonzo,GO
+I939,staranzano,GO
+L474,turriaco,GO
+M043,villesse,GO
+D383,duino aurisina,TS
+F378,monrupino,TS
+F795,muggia,TS
+D324,san dorligo della valle,TS
+I715,sgonico,TS
+L424,trieste,TS
+A283,andreis,PN
+A354,arba,PN
+A516,aviano,PN
+A530,azzano decimo,PN
+A640,barcis,PN
+B215,brugnera,PN
+B247,budoia,PN
+B598,caneva,PN
+B940,casarsa della delizia,PN
+C217,castelnovo del friuli,PN
+C385,cavasso nuovo,PN
+C640,chions,PN
+C699,cimolais,PN
+C790,claut,PN
+C791,clauzetto,PN
+C991,cordenons,PN
+C993,cordovado,PN
+D426,erto e casso,PN
+D487,fanna,PN
+D621,fiume veneto,PN
+D670,fontanafredda,PN
+D804,frisanco,PN
+E889,maniago,PN
+F089,meduno,PN
+F596,montereale valcellina,PN
+F750,morsano al tagliamento,PN
+G353,pasiano di pordenone,PN
+G680,pinzano al tagliamento,PN
+G780,polcenigo,PN
+G886,porcia,PN
+G888,pordenone,PN
+G994,prata di pordenone,PN
+H010,pravisdomini,PN
+H609,roveredo in piano,PN
+H657,sacile,PN
+H891,san giorgio della richinvelda,PN
+H999,san martino al tagliamento,PN
+I136,san quirino,PN
+I403,san vito al tagliamento,PN
+I621,sequals,PN
+I686,sesto al reghena,PN
+I904,spilimbergo,PN
+L324,tramonti di sopra,PN
+L325,tramonti di sotto,PN
+L347,travesio,PN
+M085,vito d'asio,PN
+M096,vivaro,PN
+M190,zoppola,PN
+M265,vajont,PN
+M346,valvasone arzene,PN
+A111,airole,IM
+A338,apricale,IM
+A344,aquila d'arroscia,IM
+A418,armo,IM
+A499,aurigo,IM
+A536,badalucco,IM
+A581,bajardo,IM
+A984,bordighera,IM
+A993,borghetto d'arroscia,IM
+B020,borgomaro,IM
+B559,camporosso,IM
+B734,caravonica,IM
+C143,castellaro,IM
+C110,castel vittorio,IM
+C511,ceriana,IM
+C559,cervo,IM
+C578,cesio,IM
+C657,chiusanico,IM
+C660,chiusavecchia,IM
+C718,cipressa,IM
+C755,civezza,IM
+D087,cosio d'arroscia,IM
+D114,costarainera,IM
+D293,diano arentino,IM
+D296,diano castello,IM
+D297,diano marina,IM
+D298,diano san pietro,IM
+D318,dolceacqua,IM
+D319,dolcedo,IM
+E290,imperia,IM
+E346,isolabona,IM
+E719,lucinasco,IM
+F123,mendatica,IM
+F290,molini di triora,IM
+F528,montegrosso pian latte,IM
+G041,olivetta san michele,IM
+G164,ospedaletti,IM
+G454,perinaldo,IM
+G607,pietrabruna,IM
+G632,pieve di teco,IM
+G660,pigna,IM
+G814,pompeiana,IM
+G840,pontedassio,IM
+G890,pornassio,IM
+H027,prelà,IM
+H180,ranzo,IM
+H257,rezzo,IM
+H328,riva ligure,IM
+H460,rocchetta nervina,IM
+H763,san bartolomeo al mare,IM
+H780,san biagio della cima,IM
+H957,san lorenzo al mare,IM
+I138,sanremo,IM
+I365,santo stefano al mare,IM
+I556,seborga,IM
+I796,soldano,IM
+L024,taggia,IM
+L146,terzorio,IM
+L430,triora,IM
+L596,vallebona,IM
+L599,vallecrosia,IM
+L693,vasia,IM
+L741,ventimiglia,IM
+L809,vessalico,IM
+L943,villa faraldi,IM
+M387,montalto carpasio,IM
+A122,alassio,SV
+A145,albenga,SV
+A165,albissola marina,SV
+A166,albisola superiore,SV
+A226,altare,SV
+A278,andora,SV
+A422,arnasco,SV
+A593,balestrino,SV
+A647,bardineto,SV
+A796,bergeggi,SV
+A931,boissano,SV
+A999,borghetto santo spirito,SV
+B005,borgio verezzi,SV
+B048,bormida,SV
+B369,cairo montenotte,SV
+B409,calice ligure,SV
+B416,calizzano,SV
+B748,carcare,SV
+B927,casanova lerrone,SV
+C063,castelbianco,SV
+C276,castelvecchio di rocca barbena,SV
+C443,celle ligure,SV
+C463,cengio,SV
+C510,ceriale,SV
+C729,cisano sul neva,SV
+D095,cosseria,SV
+D264,dego,SV
+D424,erli,SV
+D600,finale ligure,SV
+D927,garlenda,SV
+E064,giustenice,SV
+E066,giusvalla,SV
+E414,laigueglia,SV
+E632,loano,SV
+E816,magliolo,SV
+E860,mallare,SV
+F046,massimino,SV
+F213,millesimo,SV
+F226,mioglia,SV
+F813,murialdo,SV
+F847,nasino,SV
+F926,noli,SV
+G076,onzo,SV
+D522,orco feglino,SV
+G144,ortovero,SV
+G155,osiglia,SV
+G281,pallare,SV
+G542,piana crixia,SV
+G605,pietra ligure,SV
+G741,plodio,SV
+G866,pontinvrea,SV
+H126,quiliano,SV
+H266,rialto,SV
+H452,roccavignale,SV
+I453,sassello,SV
+I480,savona,SV
+I926,spotorno,SV
+I946,stella,SV
+I947,stellanello,SV
+L152,testico,SV
+L190,toirano,SV
+L315,tovo san giacomo,SV
+L499,urbe,SV
+L528,vado ligure,SV
+L675,varazze,SV
+L730,vendone,SV
+L823,vezzi portio,SV
+L975,villanova d'albenga,SV
+M197,zuccarello,SV
+A388,arenzano,GE
+A506,avegno,GE
+A658,bargagli,GE
+A922,bogliasco,GE
+B067,borzonasca,GE
+B282,busalla,GE
+B490,camogli,GE
+B538,campo ligure,GE
+B551,campomorone,GE
+B726,carasco,GE
+B939,casarza ligure,GE
+B956,casella,GE
+C302,castiglione chiavarese,GE
+C481,ceranesi,GE
+C621,chiavari,GE
+C673,cicagna,GE
+C823,cogoleto,GE
+C826,cogorno,GE
+C995,coreglia ligure,GE
+D175,crocefieschi,GE
+D255,davagna,GE
+D509,fascia,GE
+D512,favale di malvaro,GE
+D677,fontanigorda,GE
+D969,genova,GE
+E109,gorreto,GE
+E341,isola del cantone,GE
+E488,lavagna,GE
+E519,leivi,GE
+E695,lorsica,GE
+E737,lumarzo,GE
+F020,masone,GE
+F098,mele,GE
+F173,mezzanego,GE
+F202,mignanego,GE
+F256,moconesi,GE
+F354,moneglia,GE
+F445,montebruno,GE
+F682,montoggio,GE
+F858,ne,GE
+F862,neirone,GE
+G093,orero,GE
+G646,pieve ligure,GE
+G913,portofino,GE
+H073,propata,GE
+H183,rapallo,GE
+H212,recco,GE
+H258,rezzoaglio,GE
+H536,ronco scrivia,GE
+H546,rondanina,GE
+H581,rossiglione,GE
+H599,rovegno,GE
+H802,san colombano certenoli,GE
+I225,santa margherita ligure,GE
+I346,sant'olcese,GE
+I368,santo stefano d'aveto,GE
+I475,savignone,GE
+I640,serra riccò,GE
+I693,sestri levante,GE
+I852,sori,GE
+L167,tiglieto,GE
+L298,torriglia,GE
+L416,tribogna,GE
+L507,uscio,GE
+L546,valbrevenna,GE
+M105,vobbia,GE
+M182,zoagli,GE
+A261,ameglia,SP
+A373,arcola,SP
+A836,beverino,SP
+A932,bolano,SP
+A961,bonassola,SP
+A992,borghetto di vara,SP
+B214,brugnato,SP
+B410,calice al cornoviglio,SP
+B838,carro,SP
+B839,carrodano,SP
+C240,castelnuovo magra,SP
+D265,deiva marina,SP
+D655,follo,SP
+D758,framura,SP
+E463,la spezia,SP
+E542,lerici,SP
+E560,levanto,SP
+E842,maissana,SP
+F609,monterosso al mare,SP
+G143,luni,SP
+G664,pignone,SP
+G925,portovenere,SP
+H275,riccò del golfo di spezia,SP
+H304,riomaggiore,SP
+H461,rocchetta di vara,SP
+I363,santo stefano di magra,SP
+I449,sarzana,SP
+E070,sesta godano,SP
+L681,varese ligure,SP
+L774,vernazza,SP
+L819,vezzano ligure,SP
+M177,zignago,SP
+A067,agazzano,PC
+A223,alseno,PC
+A823,besenzone,PC
+A831,bettola,PC
+A909,bobbio,PC
+B025,borgonovo val tidone,PC
+B332,cadeo,PC
+B405,calendasco,PC
+B643,caorso,PC
+B812,carpaneto piacentino,PC
+C145,castell'arquato,PC
+C261,castel san giovanni,PC
+C288,castelvetro piacentino,PC
+C513,cerignale,PC
+C838,coli,PC
+D054,corte brugnatella,PC
+D061,cortemaggiore,PC
+D502,farini,PC
+D555,ferriere,PC
+D611,fiorenzuola d'arda,PC
+D958,gazzola,PC
+E114,gossolengo,PC
+E132,gragnano trebbiense,PC
+E196,gropparello,PC
+E726,lugagnano val d'arda,PC
+F671,monticelli d'ongina,PC
+F724,morfasso,PC
+G195,ottone,PC
+G535,piacenza,PC
+G557,pianello val tidone,PC
+G696,piozzano,PC
+G747,podenzano,PC
+G842,ponte dell'olio,PC
+G852,pontenure,PC
+H350,rivergaro,PC
+H593,rottofreno,PC
+H887,san giorgio piacentino,PC
+G788,san pietro in cerro,PC
+I434,sarmato,PC
+L348,travo,PC
+L772,vernasca,PC
+L897,vigolzone,PC
+L980,villanova sull'arda,PC
+M165,zerba,PC
+L848,ziano piacentino,PC
+M386,alta val tidone,PC
+A138,albareto,PR
+A646,bardi,PR
+A731,bedonia,PR
+A788,berceto,PR
+A987,bore,PR
+B042,borgo val di taro,PR
+B293,busseto,PR
+B408,calestano,PR
+C852,collecchio,PR
+C904,colorno,PR
+C934,compiano,PR
+D026,corniglio,PR
+D526,felino,PR
+B034,fidenza,PR
+D673,fontanellato,PR
+D685,fontevivo,PR
+D728,fornovo di taro,PR
+E438,langhirano,PR
+E547,lesignano de' bagni,PR
+F082,medesano,PR
+F340,monchio delle corti,PR
+F473,montechiarugolo,PR
+F882,neviano degli arduini,PR
+F914,noceto,PR
+G255,palanzano,PR
+G337,parma,PR
+G424,pellegrino parmense,PR
+H384,roccabianca,PR
+H682,sala baganza,PR
+H720,salsomaggiore terme,PR
+I153,san secondo parmense,PR
+I803,solignano,PR
+I840,soragna,PR
+E548,terenzo,PR
+L183,tizzano val parma,PR
+L229,tornolo,PR
+L299,torrile,PR
+L346,traversetolo,PR
+L641,valmozzola,PR
+L672,varano de' melegari,PR
+L689,varsi,PR
+M325,sissa trecasali,PR
+M367,polesine zibello,PR
+M411,sorbolo mezzani,PR
+A162,albinea,RE
+A573,bagnolo in piano,RE
+A586,baiso,RE
+A850,bibbiano,RE
+A988,boretto,RE
+B156,brescello,RE
+B328,cadelbosco di sopra,RE
+B499,campagnola emilia,RE
+B502,campegine,RE
+B825,carpineti,RE
+B893,casalgrande,RE
+B967,casina,RE
+C141,castellarano,RE
+C218,castelnovo di sotto,RE
+C219,castelnovo ne' monti,RE
+C405,cavriago,RE
+C669,canossa,RE
+D037,correggio,RE
+D450,fabbrico,RE
+D934,gattatico,RE
+E232,gualtieri,RE
+E253,guastalla,RE
+E772,luzzara,RE
+F463,montecchio emilia,RE
+F960,novellara,RE
+G947,poviglio,RE
+H122,quattro castella,RE
+H225,reggiolo,RE
+H223,reggio nell'emilia,RE
+H298,rio saliceto,RE
+H500,rolo,RE
+H628,rubiera,RE
+I011,san martino in rio,RE
+I123,san polo d'enza,RE
+I342,sant'ilario d'enza,RE
+I496,scandiano,RE
+L184,toano,RE
+L815,vetto,RE
+L820,vezzano sul crostolo,RE
+L831,viano,RE
+L969,villa minozzo,RE
+M364,ventasso,RE
+A713,bastiglia,MO
+A959,bomporto,MO
+B539,campogalliano,MO
+B566,camposanto,MO
+B819,carpi,MO
+C107,castelfranco emilia,MO
+C242,castelnuovo rangone,MO
+C287,castelvetro di modena,MO
+C398,cavezzo,MO
+C951,concordia sulla secchia,MO
+D486,fanano,MO
+D599,finale emilia,MO
+D607,fiorano modenese,MO
+D617,fiumalbo,MO
+D711,formigine,MO
+D783,frassinoro,MO
+E264,guiglia,MO
+E426,lama mocogno,MO
+E904,maranello,MO
+E905,marano sul panaro,MO
+F087,medolla,MO
+F240,mirandola,MO
+F257,modena,MO
+F484,montecreto,MO
+F503,montefiorino,MO
+F642,montese,MO
+F930,nonantola,MO
+F966,novi di modena,MO
+G250,palagano,MO
+G393,pavullo nel frignano,MO
+G649,pievepelago,MO
+G789,polinago,MO
+H061,prignano sulla secchia,MO
+H195,ravarino,MO
+H303,riolunato,MO
+H794,san cesario sul panaro,MO
+H835,san felice sul panaro,MO
+I128,san possidonio,MO
+I133,san prospero,MO
+I462,sassuolo,MO
+I473,savignano sul panaro,MO
+F357,serramazzoni,MO
+I689,sestola,MO
+I802,soliera,MO
+I903,spilamberto,MO
+L885,vignola,MO
+M183,zocca,MO
+A324,anzola dell'emilia,BO
+A392,argelato,BO
+A665,baricella,BO
+A785,bentivoglio,BO
+A944,bologna,BO
+B044,borgo tossignano,BO
+B249,budrio,BO
+B399,calderara di reno,BO
+B572,camugnano,BO
+B880,casalecchio di reno,BO
+B892,casalfiumanese,BO
+C075,castel d'aiano,BO
+C086,castel del rio,BO
+B969,castel di casio,BO
+C121,castel guelfo di bologna,BO
+C185,castello d'argile,BO
+C204,castel maggiore,BO
+C265,castel san pietro terme,BO
+C292,castenaso,BO
+C296,castiglione dei pepoli,BO
+D166,crevalcore,BO
+D360,dozza,BO
+D668,fontanelice,BO
+D847,gaggio montano,BO
+D878,galliera,BO
+E136,granarolo dell'emilia,BO
+E187,grizzana morandi,BO
+E289,imola,BO
+A771,lizzano in belvedere,BO
+E655,loiano,BO
+E844,malalbergo,BO
+B689,marzabotto,BO
+F083,medicina,BO
+F219,minerbio,BO
+F288,molinella,BO
+F363,monghidoro,BO
+F597,monterenzio,BO
+F627,monte san pietro,BO
+F706,monzuno,BO
+F718,mordano,BO
+G205,ozzano dell'emilia,BO
+G570,pianoro,BO
+G643,pieve di cento,BO
+H678,sala bolognese,BO
+G566,san benedetto val di sambro,BO
+H896,san giorgio di piano,BO
+G467,san giovanni in persiceto,BO
+H945,san lazzaro di savena,BO
+I110,san pietro in casale,BO
+I191,sant'agata bolognese,BO
+G972,sasso marconi,BO
+L762,vergato,BO
+M185,zola predosa,BO
+M320,valsamoggia,BO
+M369,alto reno terme,BO
+A393,argenta,FE
+A965,bondeno,FE
+C469,cento,FE
+C814,codigoro,FE
+C912,comacchio,FE
+C980,copparo,FE
+D548,ferrara,FE
+E320,jolanda di savoia,FE
+E410,lagosanto,FE
+F016,masi torello,FE
+F156,mesola,FE
+G184,ostellato,FE
+G768,poggio renatico,FE
+G916,portomaggiore,FE
+L868,vigarano mainarda,FE
+M110,voghiera,FE
+E107,goro,FE
+M323,fiscaglia,FE
+M381,terre del reno,FE
+M410,riva del po,FE
+M409,tresignana,FE
+A191,alfonsine,RA
+A547,bagnacavallo,RA
+A551,bagnara di romagna,RA
+B188,brisighella,RA
+B982,casola valsenio,RA
+C065,castel bolognese,RA
+C553,cervia,RA
+C963,conselice,RA
+D121,cotignola,RA
+D458,faenza,RA
+D829,fusignano,RA
+E730,lugo,RA
+F029,massa lombarda,RA
+H199,ravenna,RA
+H302,riolo terme,RA
+H642,russi,RA
+I196,sant'agata sul santerno,RA
+I787,solarolo,RA
+A565,bagno di romagna,FC
+A809,bertinoro,FC
+B001,borghi,FC
+C339,castrocaro terme e terra del sole,FC
+C573,cesena,FC
+C574,cesenatico,FC
+C777,civitella di romagna,FC
+D357,dovadola,FC
+D704,forlì,FC
+D705,forlimpopoli,FC
+D867,galeata,FC
+D899,gambettola,FC
+D935,gatteo,FC
+E675,longiano,FC
+F097,meldola,FC
+F139,mercato saraceno,FC
+F259,modigliana,FC
+F668,montiano,FC
+G904,portico e san benedetto,FC
+H017,predappio,FC
+H034,premilcuore,FC
+H437,rocca san casciano,FC
+H542,roncofreddo,FC
+I027,san mauro pascoli,FC
+I310,santa sofia,FC
+I444,sarsina,FC
+I472,savignano sul rubicone,FC
+I779,sogliano al rubicone,FC
+L361,tredozio,FC
+L764,verghereto,FC
+A747,bellaria-igea marina,RN
+C357,cattolica,RN
+D004,coriano,RN
+D961,gemmano,RN
+F244,misano adriatico,RN
+F346,mondaino,RN
+F502,montefiore conca,RN
+F523,montegridolfo,RN
+F715,morciano di romagna,RN
+H274,riccione,RN
+H294,rimini,RN
+H724,saludecio,RN
+H801,san clemente,RN
+H921,san giovanni in marignano,RN
+I304,santarcangelo di romagna,RN
+L797,verucchio,RN
+C080,casteldelci,RN
+E838,maiolo,RN
+F137,novafeltria,RN
+G433,pennabilli,RN
+H949,san leo,RN
+I201,sant'agata feltria,RN
+L034,talamello,RN
+M324,poggio torriana,RN
+M368,montescudo-monte colombo,RN
+A496,aulla,MS
+A576,bagnone,MS
+B832,carrara,MS
+B979,casola in lunigiana,MS
+C914,comano,MS
+D590,filattiera,MS
+D629,fivizzano,MS
+D735,fosdinovo,MS
+E574,licciana nardi,MS
+F023,massa,MS
+F679,montignoso,MS
+F802,mulazzo,MS
+G746,podenzana,MS
+G870,pontremoli,MS
+L386,tresana,MS
+L946,villafranca in lunigiana,MS
+M169,zeri,MS
+A241,altopascio,LU
+A560,bagni di lucca,LU
+A657,barga,LU
+B007,borgo a mozzano,LU
+B455,camaiore,LU
+B557,camporgiano,LU
+B648,capannori,LU
+B760,careggine,LU
+C236,castelnuovo di garfagnana,LU
+C303,castiglione di garfagnana,LU
+C996,coreglia antelminelli,LU
+D730,forte dei marmi,LU
+D734,fosciandora,LU
+D874,gallicano,LU
+E715,lucca,LU
+F035,massarosa,LU
+F225,minucciano,LU
+F283,molazzana,LU
+F452,montecarlo,LU
+G480,pescaglia,LU
+G582,piazza al serchio,LU
+G628,pietrasanta,LU
+G648,pieve fosciana,LU
+G882,porcari,LU
+I142,san romano in garfagnana,LU
+I622,seravezza,LU
+I942,stazzema,LU
+L533,vagli sotto,LU
+L833,viareggio,LU
+L913,villa basilica,LU
+L926,villa collemandina,LU
+M319,fabbriche di vergemoli,LU
+M347,sillano giuncugnano,LU
+A071,agliana,PT
+B251,buggiano,PT
+E432,lamporecchio,PT
+E451,larciano,PT
+E960,marliana,PT
+F025,massa e cozzile,PT
+F384,monsummano terme,PT
+F410,montale,PT
+A561,montecatini-terme,PT
+G491,pescia,PT
+G636,pieve a nievole,PT
+G713,pistoia,PT
+G833,ponte buggianese,PT
+H109,quarrata,PT
+H744,sambuca pistoiese,PT
+I660,serravalle pistoiese,PT
+L522,uzzano,PT
+C631,chiesina uzzanese,PT
+M376,abetone cutigliano,PT
+M377,san marcello piteglio,PT
+A564,bagno a ripoli,FI
+A632,barberino di mugello,FI
+B036,borgo san lorenzo,FI
+B406,calenzano,FI
+B507,campi bisenzio,FI
+B684,capraia e limite,FI
+C101,castelfiorentino,FI
+C529,cerreto guidi,FI
+C540,certaldo,FI
+D299,dicomano,FI
+D403,empoli,FI
+D575,fiesole,FI
+D612,firenze,FI
+D613,firenzuola,FI
+D815,fucecchio,FI
+D895,gambassi terme,FI
+E169,greve in chianti,FI
+E291,impruneta,FI
+E466,lastra a signa,FI
+E668,londa,FI
+E971,marradi,FI
+F398,montaione,FI
+F551,montelupo fiorentino,FI
+F648,montespertoli,FI
+G270,palazzuolo sul senio,FI
+G420,pelago,FI
+G825,pontassieve,FI
+H222,reggello,FI
+H286,rignano sull'arno,FI
+H635,rufina,FI
+H791,san casciano in val di pesa,FI
+H937,san godenzo,FI
+B962,scandicci,FI
+I684,sesto fiorentino,FI
+I728,signa,FI
+L529,vaglia,FI
+L838,vicchio,FI
+M059,vinci,FI
+M321,figline e incisa valdarno,FI
+M326,scarperia e san piero,FI
+M408,barberino tavarnelle,FI
+A852,bibbona,LI
+B509,campiglia marittima,LI
+B553,campo nell'elba,LI
+B669,capoliveri,LI
+B685,capraia isola,LI
+C044,castagneto carducci,LI
+C415,cecina,LI
+C869,collesalvetti,LI
+E625,livorno,LI
+E930,marciana,LI
+E931,marciana marina,LI
+G687,piombino,LI
+E680,porto azzurro,LI
+G912,portoferraio,LI
+H570,rosignano marittimo,LI
+I390,san vincenzo,LI
+I454,sassetta,LI
+L019,suvereto,LI
+M391,rio,LI
+A864,bientina,PI
+B303,buti,PI
+B390,calci,PI
+B392,calcinaia,PI
+B647,capannoli,PI
+B878,casale marittimo,PI
+B950,cascina,PI
+C113,castelfranco di sotto,PI
+C174,castellina marittima,PI
+C244,castelnuovo di val di cecina,PI
+C609,chianni,PI
+D510,fauglia,PI
+E250,guardistallo,PI
+E413,lajatico,PI
+F458,montecatini val di cecina,PI
+F640,montescudaio,PI
+F661,monteverdi marittimo,PI
+F686,montopoli in val d'arno,PI
+G090,orciano pisano,PI
+G254,palaia,PI
+G395,peccioli,PI
+G702,pisa,PI
+G804,pomarance,PI
+G822,ponsacco,PI
+G843,pontedera,PI
+H319,riparbella,PI
+A562,san giuliano terme,PI
+I046,san miniato,PI
+I177,santa croce sull'arno,PI
+I217,santa luce,PI
+I232,santa maria a monte,PI
+L138,terricciola,PI
+L702,vecchiano,PI
+L850,vicopisano,PI
+M126,volterra,PI
+M327,casciana terme lari,PI
+M328,crespina lorenzana,PI
+A291,anghiari,AR
+A390,arezzo,AR
+A541,badia tedalda,AR
+A851,bibbiena,AR
+B243,bucine,AR
+B670,capolona,AR
+B693,caprese michelangelo,AR
+C102,castel focognano,AR
+C263,castel san niccolò,AR
+C318,castiglion fibocchi,AR
+C319,castiglion fiorentino,AR
+C407,cavriglia,AR
+C648,chitignano,AR
+C663,chiusi della verna,AR
+C774,civitella in val di chiana,AR
+D077,cortona,AR
+D649,foiano della chiana,AR
+E693,loro ciuffenna,AR
+E718,lucignano,AR
+E933,marciano della chiana,AR
+F565,montemignaio,AR
+F594,monterchi,AR
+F628,monte san savino,AR
+F656,montevarchi,AR
+G139,ortignano raggiolo,AR
+G653,pieve santo stefano,AR
+G879,poppi,AR
+H901,san giovanni valdarno,AR
+I155,sansepolcro,AR
+I681,sestino,AR
+I991,subbiano,AR
+L038,talla,AR
+L123,terranuova bracciolini,AR
+M322,castelfranco piandiscò,AR
+M329,pratovecchio stia,AR
+M392,laterina pergine valdarno,AR
+A006,abbadia san salvatore,SI
+A461,asciano,SI
+B269,buonconvento,SI
+B984,casole d'elsa,SI
+C172,castellina in chianti,SI
+C227,castelnuovo berardenga,SI
+C313,castiglione d'orcia,SI
+C587,cetona,SI
+C608,chianciano terme,SI
+C661,chiusdino,SI
+C662,chiusi,SI
+C847,colle di val d'elsa,SI
+D858,gaiole in chianti,SI
+F592,montepulciano,SI
+F598,monteriggioni,SI
+F605,monteroni d'arbia,SI
+F676,monticiano,SI
+F815,murlo,SI
+G547,piancastagnaio,SI
+G602,pienza,SI
+G752,poggibonsi,SI
+H153,radda in chianti,SI
+H156,radicofani,SI
+H157,radicondoli,SI
+H185,rapolano terme,SI
+H790,san casciano dei bagni,SI
+H875,san gimignano,SI
+I135,san quirico d'orcia,SI
+I445,sarteano,SI
+I726,siena,SI
+A468,sinalunga,SI
+I877,sovicille,SI
+L303,torrita di siena,SI
+L384,trequanda,SI
+M378,montalcino,SI
+A369,arcidosso,GR
+B497,campagnatico,GR
+B646,capalbio,GR
+C085,castel del piano,GR
+C147,castell'azzara,GR
+C310,castiglione della pescaia,GR
+C705,cinigiano,GR
+C782,civitella paganico,GR
+D656,follonica,GR
+D948,gavorrano,GR
+E202,grosseto,GR
+E348,isola del giglio,GR
+E810,magliano in toscana,GR
+E875,manciano,GR
+F032,massa marittima,GR
+F437,monte argentario,GR
+F677,montieri,GR
+G088,orbetello,GR
+G716,pitigliano,GR
+H417,roccalbegna,GR
+H449,roccastrada,GR
+I187,santa fiora,GR
+I504,scansano,GR
+I510,scarlino,GR
+I571,seggiano,GR
+I841,sorano,GR
+F612,monterotondo marittimo,GR
+I601,semproniano,GR
+B626,cantagallo,PO
+B794,carmignano,PO
+F572,montemurlo,PO
+G754,poggio a caiano,PO
+G999,prato,PO
+L537,vaiano,PO
+L775,vernio,PO
+A475,assisi,PG
+A710,bastia umbra,PG
+A832,bettona,PG
+A835,bevagna,PG
+B504,campello sul clitunno,PG
+B609,cannara,PG
+B948,cascia,PG
+C252,castel ritaldi,PG
+C309,castiglione del lago,PG
+C527,cerreto di spoleto,PG
+C742,citerna,PG
+C744,città della pieve,PG
+C745,città di castello,PG
+C845,collazzone,PG
+C990,corciano,PG
+D108,costacciaro,PG
+D279,deruta,PG
+D653,foligno,PG
+D745,fossato di vico,PG
+D787,fratta todina,PG
+E012,giano dell'umbria,PG
+E229,gualdo cattaneo,PG
+E230,gualdo tadino,PG
+E256,gubbio,PG
+E613,lisciano niccone,PG
+E805,magione,PG
+E975,marsciano,PG
+F024,massa martana,PG
+F456,monte castello di vibio,PG
+F492,montefalco,PG
+F540,monteleone di spoleto,PG
+F629,monte santa maria tiberina,PG
+F685,montone,PG
+F911,nocera umbra,PG
+F935,norcia,PG
+G212,paciano,PG
+G308,panicale,PG
+G359,passignano sul trasimeno,PG
+G478,perugia,PG
+G601,piegaro,PG
+G618,pietralunga,PG
+G758,poggiodomo,PG
+H015,preci,PG
+H935,san giustino,PG
+I263,sant'anatolia di narco,PG
+I522,scheggia e pascelupo,PG
+I523,scheggino,PG
+I585,sellano,PG
+I727,sigillo,PG
+I888,spello,PG
+I921,spoleto,PG
+L188,todi,PG
+L216,torgiano,PG
+L397,trevi,PG
+L466,tuoro sul trasimeno,PG
+D786,umbertide,PG
+L573,valfabbrica,PG
+L627,vallo di nera,PG
+L653,valtopina,PG
+A045,acquasparta,TR
+A207,allerona,TR
+A242,alviano,TR
+A262,amelia,TR
+A439,arrone,TR
+A490,attigliano,TR
+A691,baschi,TR
+B446,calvi dell'umbria,TR
+C117,castel giorgio,TR
+C289,castel viscardo,TR
+D454,fabro,TR
+D538,ferentillo,TR
+D570,ficulle,TR
+E045,giove,TR
+E241,guardea,TR
+E729,lugnano in teverina,TR
+F457,montecastrilli,TR
+F462,montecchio,TR
+F510,montefranco,TR
+F513,montegabbione,TR
+F543,monteleone d'orvieto,TR
+F844,narni,TR
+G148,orvieto,TR
+G189,otricoli,TR
+G344,parrano,TR
+G432,penna in teverina,TR
+G790,polino,TR
+G881,porano,TR
+H857,san gemini,TR
+I381,san venanzo,TR
+I981,stroncone,TR
+L117,terni,TR
+M258,avigliano umbro,TR
+A035,acqualagna,PU
+A327,apecchio,PU
+A740,belforte all'isauro,PU
+B026,borgo pace,PU
+B352,cagli,PU
+B636,cantiano,PU
+B816,carpegna,PU
+B846,cartoceto,PU
+D488,fano,PU
+D541,fermignano,PU
+D749,fossombrone,PU
+D791,fratte rosa,PU
+D807,frontino,PU
+D808,frontone,PU
+D836,gabicce mare,PU
+E122,gradara,PU
+E351,isola del piano,PU
+E743,lunano,PU
+E785,macerata feltria,PU
+F135,mercatello sul metauro,PU
+F136,mercatino conca,PU
+F310,mombaroccio,PU
+F347,mondavio,PU
+F348,mondolfo,PU
+F450,montecalvo in foglia,PU
+F467,monte cerignone,PU
+F474,monteciccardo,PU
+F478,montecopiolo,PU
+F497,montefelcino,PU
+F524,monte grimano terme,PU
+F533,montelabbate,PU
+F589,monte porzio,PU
+G416,peglio,PU
+G453,pergola,PU
+G479,pesaro,PU
+G514,petriano,PU
+G551,piandimeleto,PU
+G627,pietrarubbia,PU
+G682,piobbico,PU
+H809,san costanzo,PU
+H958,san lorenzo in campo,PU
+I287,sant'angelo in vado,PU
+I344,sant'ippolito,PU
+I460,sassofeltrio,PU
+I654,serra sant'abbondio,PU
+L078,tavoleto,PU
+L081,tavullia,PU
+L498,urbania,PU
+L500,urbino,PU
+M331,vallefoglia,PU
+M380,colli al metauro,PU
+M379,terre roveresche,PU
+M413,sassocorvaro auditore,PU
+A092,agugliano,AN
+A271,ancona,AN
+A366,arcevia,AN
+A626,barbara,AN
+A769,belvedere ostrense,AN
+B468,camerano,AN
+B470,camerata picena,AN
+C060,castelbellino,AN
+C100,castelfidardo,AN
+C152,castelleone di suasa,AN
+C248,castelplanio,AN
+C524,cerreto d'esi,AN
+C615,chiaravalle,AN
+D007,corinaldo,AN
+D211,cupramontana,AN
+D451,fabriano,AN
+D472,falconara marittima,AN
+D597,filottrano,AN
+D965,genga,AN
+E388,jesi,AN
+E690,loreto,AN
+E837,maiolati spontini,AN
+F145,mergo,AN
+F381,monsano,AN
+F453,montecarotto,AN
+F560,montemarciano,AN
+F600,monte roberto,AN
+F634,monte san vito,AN
+F745,morro d'alba,AN
+F978,numana,AN
+G003,offagna,AN
+G157,osimo,AN
+F401,ostra,AN
+F581,ostra vetere,AN
+G771,poggio san marcello,AN
+G803,polverigi,AN
+H575,rosora,AN
+H979,san marcello,AN
+I071,san paolo di jesi,AN
+I251,santa maria nuova,AN
+I461,sassoferrato,AN
+I608,senigallia,AN
+I643,serra de' conti,AN
+I653,serra san quirico,AN
+I758,sirolo,AN
+I932,staffolo,AN
+M318,trecastelli,AN
+A329,apiro,MC
+A334,appignano,MC
+A739,belforte del chienti,MC
+A947,bolognola,MC
+B398,caldarola,MC
+B474,camerino,MC
+B562,camporotondo di fiastrone,MC
+C251,castelraimondo,MC
+C267,castelsantangelo sul nera,MC
+C582,cessapalombo,MC
+C704,cingoli,MC
+C770,civitanova marche,MC
+C886,colmurano,MC
+D042,corridonia,MC
+D429,esanatoglia,MC
+D564,fiastra,MC
+D628,fiuminata,MC
+D853,gagliole,MC
+E228,gualdo,MC
+E694,loro piceno,MC
+E783,macerata,MC
+F051,matelica,MC
+F268,mogliano,MC
+F454,montecassiano,MC
+F460,monte cavallo,MC
+F482,montecosaro,MC
+F496,montefano,MC
+F552,montelupone,MC
+F621,monte san giusto,MC
+F622,monte san martino,MC
+F749,morrovalle,MC
+F793,muccia,MC
+G436,penna san giovanni,MC
+G515,petriolo,MC
+G657,pieve torina,MC
+G690,pioraco,MC
+D566,poggio san vicino,MC
+F567,pollenza,MC
+G919,porto recanati,MC
+F632,potenza picena,MC
+H211,recanati,MC
+H323,ripe san ginesio,MC
+H876,san ginesio,MC
+I156,san severino marche,MC
+I286,sant'angelo in pontano,MC
+I436,sarnano,MC
+I569,sefro,MC
+I651,serrapetrona,MC
+I661,serravalle di chienti,MC
+L191,tolentino,MC
+L366,treia,MC
+L501,urbisaglia,MC
+L517,ussita,MC
+M078,visso,MC
+M382,valfornace,MC
+A044,acquasanta terme,AP
+A047,acquaviva picena,AP
+A335,appignano del tronto,AP
+A437,arquata del tronto,AP
+A462,ascoli piceno,AP
+B727,carassai,AP
+C093,castel di lama,AP
+C321,castignano,AP
+C331,castorano,AP
+C877,colli del tronto,AP
+C935,comunanza,AP
+D096,cossignano,AP
+D210,cupra marittima,AP
+D652,folignano,AP
+D691,force,AP
+E207,grottammare,AP
+E868,maltignano,AP
+F044,massignano,AP
+F380,monsampolo del tronto,AP
+F415,montalto delle marche,AP
+F487,montedinove,AP
+F501,montefiore dell'aso,AP
+F516,montegallo,AP
+F570,montemonaco,AP
+F591,monteprandone,AP
+G005,offida,AP
+G289,palmiano,AP
+H321,ripatransone,AP
+H390,roccafluvione,AP
+H588,rotella,AP
+H769,san benedetto del tronto,AP
+I912,spinetoli,AP
+L728,venarotta,AP
+A233,altidona,FM
+A252,amandola,FM
+A760,belmonte piceno,FM
+B534,campofilone,FM
+D477,falerone,FM
+D542,fermo,FM
+D760,francavilla d'ete,FM
+E208,grottazzolina,FM
+E447,lapedona,FM
+E807,magliano di tenna,FM
+F021,massa fermana,FM
+F379,monsampietro morico,FM
+F428,montappone,FM
+F493,montefalcone appennino,FM
+F509,montefortino,FM
+F517,monte giberto,FM
+F520,montegiorgio,FM
+F522,montegranaro,FM
+F536,monteleone di fermo,FM
+F549,montelparo,FM
+F599,monte rinaldo,FM
+F614,monterubbiano,FM
+F626,monte san pietrangeli,FM
+F653,monte urano,FM
+F664,monte vidon combatte,FM
+F665,monte vidon corrado,FM
+F697,montottone,FM
+F722,moresco,FM
+G137,ortezzano,FM
+G403,pedaso,FM
+G516,petritoli,FM
+G873,ponzano di fermo,FM
+G920,porto san giorgio,FM
+G921,porto sant'elpidio,FM
+H182,rapagnano,FM
+I315,santa vittoria in matenano,FM
+I324,sant'elpidio a mare,FM
+C070,servigliano,FM
+I774,smerillo,FM
+L279,torre san patrizio,FM
+A040,acquapendente,VT
+A412,arlena di castro,VT
+A577,bagnoregio,VT
+A628,barbarano romano,VT
+A704,bassano romano,VT
+A706,bassano in teverina,VT
+A857,blera,VT
+A949,bolsena,VT
+A955,bomarzo,VT
+B388,calcata,VT
+B597,canepina,VT
+B604,canino,VT
+B663,capodimonte,VT
+B688,capranica,VT
+B691,caprarola,VT
+B735,carbognano,VT
+C269,castel sant'elia,VT
+C315,castiglione in teverina,VT
+C446,celleno,VT
+C447,cellere,VT
+C765,civita castellana,VT
+C780,civitella d'agliano,VT
+C988,corchiano,VT
+D452,fabrica di roma,VT
+D475,faleria,VT
+D503,farnese,VT
+D870,gallese,VT
+E126,gradoli,VT
+E128,graffignano,VT
+E210,grotte di castro,VT
+E330,ischia di castro,VT
+E467,latera,VT
+E713,lubriano,VT
+E978,marta,VT
+F419,montalto di castro,VT
+F499,montefiascone,VT
+F603,monte romano,VT
+F606,monterosi,VT
+F868,nepi,VT
+G065,onano,VT
+G111,oriolo romano,VT
+G135,orte,VT
+G571,piansano,VT
+H071,proceno,VT
+H534,ronciglione,VT
+H913,villa san giovanni in tuscia,VT
+H969,san lorenzo nuovo,VT
+I855,soriano nel cimino,VT
+L017,sutri,VT
+D024,tarquinia,VT
+L150,tessennano,VT
+L310,tuscania,VT
+L569,valentano,VT
+L612,vallerano,VT
+A701,vasanello,VT
+L713,vejano,VT
+L814,vetralla,VT
+L882,vignanello,VT
+M082,viterbo,VT
+M086,vitorchiano,VT
+A019,accumoli,RI
+A258,amatrice,RI
+A315,antrodoco,RI
+A464,ascrea,RI
+A765,belmonte in sabina,RI
+A981,borbona,RI
+B008,borgorose,RI
+A996,borgo velino,RI
+B627,cantalice,RI
+B631,cantalupo in sabina,RI
+B934,casaprota,RI
+A472,casperia,RI
+C098,castel di tora,RI
+C224,castelnuovo di farfa,RI
+C268,castel sant'angelo,RI
+C746,cittaducale,RI
+C749,cittareale,RI
+C841,collalto sabino,RI
+C857,colle di tora,RI
+C859,collegiove,RI
+C876,collevecchio,RI
+C880,colli sul velino,RI
+C946,concerviano,RI
+C959,configni,RI
+C969,contigliano,RI
+D124,cottanello,RI
+D493,fara in sabina,RI
+D560,fiamignano,RI
+D689,forano,RI
+D785,frasso sabino,RI
+E160,greccio,RI
+E393,labro,RI
+E535,leonessa,RI
+E681,longone sabino,RI
+E812,magliano sabina,RI
+E927,marcetelli,RI
+F193,micigliano,RI
+F319,mompeo,RI
+F430,montasola,RI
+F446,montebuono,RI
+F541,monteleone sabino,RI
+F579,montenero sabino,RI
+F619,monte san giovanni in sabina,RI
+F687,montopoli di sabina,RI
+F746,morro reatino,RI
+F876,nespolo,RI
+B595,orvinio,RI
+G232,paganico sabino,RI
+G498,pescorocchiano,RI
+G513,petrella salto,RI
+G756,poggio bustone,RI
+G757,poggio catino,RI
+G763,poggio mirteto,RI
+G764,poggio moiano,RI
+G765,poggio nativo,RI
+G770,poggio san lorenzo,RI
+G934,posta,RI
+G951,pozzaglia sabina,RI
+H282,rieti,RI
+H354,rivodutri,RI
+H427,roccantica,RI
+H446,rocca sinibalda,RI
+H713,salisano,RI
+I499,scandriglia,RI
+I581,selci,RI
+I959,stimigliano,RI
+L046,tarano,RI
+L189,toffia,RI
+L293,torricella in sabina,RI
+L286,torri in sabina,RI
+G507,turania,RI
+L525,vacone,RI
+L676,varco sabino,RI
+A062,affile,RM
+A084,agosta,RM
+A132,albano laziale,RM
+A210,allumiere,RM
+A297,anguillara sabazia,RM
+A309,anticoli corrado,RM
+A323,anzio,RM
+A370,arcinazzo romano,RM
+A401,ariccia,RM
+A446,arsoli,RM
+A449,artena,RM
+A749,bellegra,RM
+B114,bracciano,RM
+B472,camerata nuova,RM
+B496,campagnano di roma,RM
+B576,canale monterano,RM
+B635,canterano,RM
+B649,capena,RM
+B687,capranica prenestina,RM
+B828,carpineto romano,RM
+B932,casape,RM
+C116,castel gandolfo,RM
+C203,castel madama,RM
+C237,castelnuovo di porto,RM
+C266,castel san pietro romano,RM
+C390,cave,RM
+C518,cerreto laziale,RM
+C543,cervara di roma,RM
+C552,cerveteri,RM
+C677,ciciliano,RM
+C702,cineto romano,RM
+C773,civitavecchia,RM
+C784,civitella san paolo,RM
+C858,colleferro,RM
+C900,colonna,RM
+D561,fiano romano,RM
+D586,filacciano,RM
+D707,formello,RM
+D773,frascati,RM
+D875,gallicano nel lazio,RM
+D945,gavignano,RM
+D964,genazzano,RM
+D972,genzano di roma,RM
+D978,gerano,RM
+E091,gorga,RM
+E204,grottaferrata,RM
+E263,guidonia montecelio,RM
+E382,jenne,RM
+E392,labico,RM
+C767,lanuvio,RM
+E576,licenza,RM
+E813,magliano romano,RM
+B632,mandela,RM
+E900,manziana,RM
+E908,marano equo,RM
+E924,marcellina,RM
+E958,marino,RM
+F064,mazzano romano,RM
+F127,mentana,RM
+F477,monte compatri,RM
+F504,monteflavio,RM
+F534,montelanico,RM
+F545,montelibretti,RM
+F590,monte porzio catone,RM
+F611,monterotondo,RM
+F692,montorio romano,RM
+F730,moricone,RM
+F734,morlupo,RM
+F857,nazzano,RM
+F865,nemi,RM
+F871,nerola,RM
+F880,nettuno,RM
+G022,olevano romano,RM
+G274,palestrina,RM
+G293,palombara sabina,RM
+G444,percile,RM
+G704,pisoniano,RM
+G784,poli,RM
+G811,pomezia,RM
+G874,ponzano romano,RM
+H267,riano,RM
+H288,rignano flaminio,RM
+H300,riofreddo,RM
+H387,rocca canterano,RM
+H401,rocca di cave,RM
+H404,rocca di papa,RM
+H411,roccagiovine,RM
+H432,rocca priora,RM
+H441,rocca santo stefano,RM
+H494,roiate,RM
+H501,roma,RM
+H618,roviano,RM
+H658,sacrofano,RM
+H745,sambuci,RM
+H942,san gregorio da sassola,RM
+I125,san polo dei cavalieri,RM
+I255,santa marinella,RM
+I284,sant'angelo romano,RM
+I352,sant'oreste,RM
+I400,san vito romano,RM
+I424,saracinesco,RM
+I573,segni,RM
+I992,subiaco,RM
+L182,tivoli,RM
+L192,tolfa,RM
+L302,torrita tiberina,RM
+L401,trevignano romano,RM
+L611,vallepietra,RM
+L625,vallinfreda,RM
+L639,valmontone,RM
+L719,velletri,RM
+L851,vicovaro,RM
+M095,vivaro romano,RM
+M141,zagarolo,RM
+M207,lariano,RM
+M212,ladispoli,RM
+M213,ardea,RM
+M272,ciampino,RM
+M295,san cesareo,RM
+M297,fiumicino,RM
+M309,fonte nuova,RM
+A341,aprilia,LT
+A707,bassiano,LT
+B527,campodimele,LT
+C104,castelforte,LT
+C740,cisterna di latina,LT
+D003,cori,LT
+D662,fondi,LT
+D708,formia,LT
+D843,gaeta,LT
+E375,itri,LT
+E472,latina,LT
+E527,lenola,LT
+E798,maenza,LT
+F224,minturno,LT
+F616,monte san biagio,LT
+F937,norma,LT
+G865,pontinia,LT
+G871,ponza,LT
+G698,priverno,LT
+H076,prossedi,LT
+H413,roccagorga,LT
+H421,rocca massima,LT
+H444,roccasecca dei volsci,LT
+H647,sabaudia,LT
+H836,san felice circeo,LT
+I339,santi cosma e damiano,LT
+I634,sermoneta,LT
+I712,sezze,LT
+I832,sonnino,LT
+I892,sperlonga,LT
+I902,spigno saturnia,LT
+L120,terracina,LT
+L742,ventotene,LT
+A032,acquafondata,FR
+A054,acuto,FR
+A123,alatri,FR
+A244,alvito,FR
+A256,amaseno,FR
+A269,anagni,FR
+A348,aquino,FR
+A363,arce,FR
+A421,arnara,FR
+A433,arpino,FR
+A486,atina,FR
+A502,ausonia,FR
+A763,belmonte castello,FR
+A720,boville ernica,FR
+B195,broccostella,FR
+B543,campoli appennino,FR
+B862,casalattico,FR
+B919,casalvieri,FR
+C034,cassino,FR
+C177,castelliri,FR
+C223,castelnuovo parano,FR
+C340,castrocielo,FR
+C338,castro dei volsci,FR
+C413,ceccano,FR
+C479,ceprano,FR
+C545,cervaro,FR
+C836,colfelice,FR
+C864,collepardo,FR
+C870,colle san magno,FR
+C998,coreno ausonio,FR
+D440,esperia,FR
+D483,falvaterra,FR
+D539,ferentino,FR
+D591,filettino,FR
+A310,fiuggi,FR
+D667,fontana liri,FR
+D682,fontechiari,FR
+D810,frosinone,FR
+D819,fumone,FR
+D881,gallinaro,FR
+E057,giuliano di roma,FR
+E236,guarcino,FR
+E340,isola del liri,FR
+F620,monte san giovanni campano,FR
+F740,morolo,FR
+G276,paliano,FR
+G362,pastena,FR
+G374,patrica,FR
+G500,pescosolido,FR
+G591,picinisco,FR
+G592,pico,FR
+G598,piedimonte san germano,FR
+G659,piglio,FR
+G662,pignataro interamna,FR
+G749,pofi,FR
+G838,pontecorvo,FR
+G935,posta fibreno,FR
+H324,ripi,FR
+H393,rocca d'arce,FR
+H443,roccasecca,FR
+H779,san biagio saracinisco,FR
+H824,san donato val di comino,FR
+H880,san giorgio a liri,FR
+H917,san giovanni incarico,FR
+I256,sant'ambrogio sul garigliano,FR
+I265,sant'andrea del garigliano,FR
+I302,sant'apollinare,FR
+I321,sant'elia fiumerapido,FR
+I351,santopadre,FR
+I408,san vittore del lazio,FR
+I669,serrone,FR
+I697,settefrati,FR
+I716,sgurgola,FR
+I838,sora,FR
+I973,strangolagalli,FR
+L009,supino,FR
+L105,terelle,FR
+L243,torre cajetani,FR
+L290,torrice,FR
+L398,trevi nel lazio,FR
+L437,trivigliano,FR
+L598,vallecorsa,FR
+L605,vallemaio,FR
+L614,vallerotonda,FR
+L780,veroli,FR
+L836,vicalvi,FR
+L843,vico nel lazio,FR
+A081,villa latina,FR
+L905,villa santa lucia,FR
+I364,villa santo stefano,FR
+M083,viticuso,FR
+A018,acciano,AQ
+A100,aielli,AQ
+A187,alfedena,AQ
+A318,anversa degli abruzzi,AQ
+A481,ateleta,AQ
+A515,avezzano,AQ
+A603,balsorano,AQ
+A656,barete,AQ
+A667,barisciano,AQ
+A678,barrea,AQ
+A884,bisegna,AQ
+B256,bugnara,AQ
+B358,cagnano amiterno,AQ
+B382,calascio,AQ
+B526,campo di giove,AQ
+B569,campotosto,AQ
+B606,canistro,AQ
+B624,cansano,AQ
+B651,capestrano,AQ
+B656,capistrello,AQ
+B658,capitignano,AQ
+B672,caporciano,AQ
+B677,cappadocia,AQ
+B725,carapelle calvisio,AQ
+B842,carsoli,AQ
+C083,castel del monte,AQ
+C090,castel di ieri,AQ
+C096,castel di sangro,AQ
+C126,castellafiume,AQ
+C278,castelvecchio calvisio,AQ
+C279,castelvecchio subequo,AQ
+C426,celano,AQ
+C492,cerchio,AQ
+C766,civita d'antino,AQ
+C778,civitella alfedena,AQ
+C783,civitella roveto,AQ
+C811,cocullo,AQ
+C844,collarmele,AQ
+C862,collelongo,AQ
+C866,collepietro,AQ
+C999,corfinio,AQ
+D465,fagnano alto,AQ
+D681,fontecchio,AQ
+D736,fossa,AQ
+D850,gagliano aterno,AQ
+E040,gioia dei marsi,AQ
+E096,goriano sicoli,AQ
+E307,introdacqua,AQ
+A345,l'aquila,AQ
+E505,lecce nei marsi,AQ
+E723,luco dei marsi,AQ
+E724,lucoli,AQ
+E811,magliano de' marsi,AQ
+F022,massa d'albe,AQ
+M255,molina aterno,AQ
+F595,montereale,AQ
+F732,morino,AQ
+F852,navelli,AQ
+F996,ocre,AQ
+G002,ofena,AQ
+G079,opi,AQ
+G102,oricola,AQ
+G142,ortona dei marsi,AQ
+G145,ortucchio,AQ
+G200,ovindoli,AQ
+G210,pacentro,AQ
+G449,pereto,AQ
+G484,pescasseroli,AQ
+G492,pescina,AQ
+G493,pescocostanzo,AQ
+G524,pettorano sul gizio,AQ
+G726,pizzoli,AQ
+G766,poggio picenze,AQ
+G992,prata d'ansidonia,AQ
+H007,pratola peligna,AQ
+H056,prezza,AQ
+H166,raiano,AQ
+H353,rivisondoli,AQ
+H389,roccacasale,AQ
+H399,rocca di botte,AQ
+H400,rocca di cambio,AQ
+H402,rocca di mezzo,AQ
+H429,rocca pia,AQ
+H434,roccaraso,AQ
+H772,san benedetto dei marsi,AQ
+H773,san benedetto in perillis,AQ
+H819,san demetrio ne' vestini,AQ
+I121,san pio delle camere,AQ
+I326,sante marie,AQ
+I336,sant'eusanio forconese,AQ
+I360,santo stefano di sessanio,AQ
+I389,san vincenzo valle roveto,AQ
+I501,scanno,AQ
+I543,scontrone,AQ
+I546,scoppito,AQ
+I553,scurcola marsicana,AQ
+I558,secinaro,AQ
+I804,sulmona,AQ
+L025,tagliacozzo,AQ
+L173,tione degli abruzzi,AQ
+L227,tornimparte,AQ
+L334,trasacco,AQ
+L958,villalago,AQ
+M021,villa santa lucia degli abruzzi,AQ
+M023,villa sant'angelo,AQ
+M031,villavallelonga,AQ
+M041,villetta barrea,AQ
+M090,vittorito,AQ
+A125,alba adriatica,TE
+A270,ancarano,TE
+A445,arsita,TE
+A488,atri,TE
+A692,basciano,TE
+A746,bellante,TE
+A885,bisenti,TE
+B515,campli,TE
+B640,canzano,TE
+C040,castel castagna,TE
+C128,castellalto,TE
+C169,castelli,TE
+C316,castiglione messer raimondo,TE
+C322,castilenti,TE
+C449,cellino attanasio,TE
+C517,cermignano,TE
+C781,civitella del tronto,TE
+C311,colledara,TE
+C901,colonnella,TE
+C972,controguerra,TE
+D043,corropoli,TE
+D076,cortino,TE
+D179,crognaleto,TE
+D489,fano adriano,TE
+E058,giulianova,TE
+E343,isola del gran sasso d'italia,TE
+F500,montefino,TE
+F690,montorio al vomano,TE
+F747,morro d'oro,TE
+F764,mosciano sant'angelo,TE
+F870,nereto,TE
+F942,notaresco,TE
+G437,penna sant'andrea,TE
+G608,pietracamela,TE
+F831,pineto,TE
+H440,rocca santa maria,TE
+F585,roseto degli abruzzi,TE
+I318,sant'egidio alla vibrata,TE
+I348,sant'omero,TE
+I741,silvi,TE
+L103,teramo,TE
+L207,torano nuovo,TE
+L295,torricella sicura,TE
+L307,tortoreto,TE
+L314,tossicia,TE
+L597,valle castellana,TE
+E989,martinsicuro,TE
+A008,abbateggio,PE
+A120,alanno,PE
+A945,bolognano,PE
+B193,brittoli,PE
+B294,bussi sul tirino,PE
+B681,cappelle sul tavo,PE
+B722,caramanico terme,PE
+B827,carpineto della nora,PE
+C308,castiglione a casauria,PE
+C354,catignano,PE
+C474,cepagatti,PE
+C750,città sant'angelo,PE
+C771,civitaquana,PE
+C779,civitella casanova,PE
+C853,collecorvino,PE
+D078,corvara,PE
+D201,cugnoli,PE
+D394,elice,PE
+D501,farindola,PE
+E558,lettomanoppello,PE
+E691,loreto aprutino,PE
+E892,manoppello,PE
+F441,montebello di bertona,PE
+F646,montesilvano,PE
+F765,moscufo,PE
+F908,nocciano,PE
+G438,penne,PE
+G482,pescara,PE
+G499,pescosansonesco,PE
+G555,pianella,PE
+G589,picciano,PE
+G621,pietranico,PE
+G878,popoli,PE
+H425,roccamorice,PE
+H562,rosciano,PE
+H715,salle,PE
+I332,sant'eufemia a maiella,PE
+I376,san valentino in abruzzo citeriore,PE
+I482,scafa,PE
+I649,serramonacesca,PE
+I922,spoltore,PE
+L186,tocco da casauria,PE
+L263,torre de' passeri,PE
+L475,turrivalignani,PE
+L846,vicoli,PE
+L922,villa celiera,PE
+A235,altino,CH
+A367,archi,CH
+A398,ari,CH
+A402,arielli,CH
+A485,atessa,CH
+A956,bomba,CH
+B057,borrello,CH
+B238,bucchianico,CH
+B268,montebello sul sangro,CH
+B620,canosa sannita,CH
+B826,carpineto sinello,CH
+B853,carunchio,CH
+B859,casacanditella,CH
+B861,casalanguida,CH
+B865,casalbordino,CH
+B896,casalincontrada,CH
+B985,casoli,CH
+C114,castel frentano,CH
+C123,castelguidone,CH
+C298,castiglione messer marino,CH
+C428,celenza sul trigno,CH
+C632,chieti,CH
+C768,civitaluparella,CH
+C776,civitella messer raimondo,CH
+C855,colledimacine,CH
+C856,colledimezzo,CH
+D137,crecchio,CH
+D209,cupello,CH
+D315,dogliola,CH
+D494,fara filiorum petri,CH
+D495,fara san martino,CH
+D592,filetto,CH
+D738,fossacesia,CH
+D757,fraine,CH
+D763,francavilla al mare,CH
+D796,fresagrandinaria,CH
+D803,frisa,CH
+D823,furci,CH
+D898,gamberale,CH
+D996,gessopalena,CH
+E052,gissi,CH
+E056,giuliano teatino,CH
+E243,guardiagrele,CH
+E266,guilmi,CH
+E424,lama dei peligni,CH
+E435,lanciano,CH
+E531,lentella,CH
+E559,lettopalena,CH
+E611,liscia,CH
+F196,miglianico,CH
+F433,montazzoli,CH
+F498,monteferrante,CH
+F535,montelapiano,CH
+F578,montenerodomo,CH
+F582,monteodorisio,CH
+F785,mozzagrogna,CH
+G128,orsogna,CH
+G141,ortona,CH
+G237,paglieta,CH
+G271,palena,CH
+G290,palmoli,CH
+G294,palombaro,CH
+G434,pennadomo,CH
+G435,pennapiedimonte,CH
+G441,perano,CH
+G724,pizzoferrato,CH
+G760,poggiofiorito,CH
+G799,pollutri,CH
+H052,pretoro,CH
+H098,quadri,CH
+H184,rapino,CH
+H320,ripa teatina,CH
+H424,roccamontepiano,CH
+H439,rocca san giovanni,CH
+H442,roccascalegna,CH
+H448,roccaspinalveti,CH
+H495,roio del sangro,CH
+H566,rosello,CH
+H784,san buono,CH
+H923,san giovanni lipioni,CH
+D690,san giovanni teatino,CH
+H991,san martino sulla marrucina,CH
+I148,san salvo,CH
+I244,santa maria imbaro,CH
+I335,sant'eusanio del sangro,CH
+I394,san vito chietino,CH
+I520,scerni,CH
+I526,schiavi di abruzzo,CH
+L047,taranta peligna,CH
+L194,tollo,CH
+L218,torino di sangro,CH
+L224,tornareccio,CH
+L253,torrebruna,CH
+L284,torrevecchia teatina,CH
+L291,torricella peligna,CH
+L363,treglio,CH
+L459,tufillo,CH
+L526,vacri,CH
+E372,vasto,CH
+L961,villalfonsina,CH
+L964,villamagna,CH
+M022,villa santa maria,CH
+G613,pietraferrazzana,CH
+D480,fallo,CH
+A050,acquaviva collecroce,CB
+A616,baranello,CB
+A930,bojano,CB
+A971,bonefro,CB
+B295,busso,CB
+B519,campobasso,CB
+B522,campochiaro,CB
+B528,campodipietra,CB
+B544,campolieto,CB
+B550,campomarino,CB
+B858,casacalenda,CB
+B871,casalciprano,CB
+C066,castelbottaccio,CB
+C175,castellino del biferno,CB
+C197,castelmauro,CB
+C346,castropignano,CB
+C486,cercemaggiore,CB
+C488,cercepiccola,CB
+C764,civitacampomarano,CB
+C854,colle d'anchise,CB
+C875,colletorto,CB
+C772,duronia,CB
+D550,ferrazzano,CB
+D737,fossalto,CB
+D896,gambatesa,CB
+E030,gildone,CB
+E244,guardialfiera,CB
+E248,guardiaregia,CB
+E259,guglionesi,CB
+E381,jelsi,CB
+E456,larino,CB
+E599,limosano,CB
+E722,lucito,CB
+E748,lupara,CB
+E780,macchia valfortore,CB
+E799,mafalda,CB
+F055,matrice,CB
+F233,mirabello sannitico,CB
+F294,molise,CB
+F322,monacilioni,CB
+F391,montagano,CB
+F475,montecilfone,CB
+F495,montefalcone nel sannio,CB
+F548,montelongo,CB
+F569,montemitro,CB
+F576,montenero di bisaccia,CB
+F689,montorio nei frentani,CB
+F748,morrone del sannio,CB
+G086,oratino,CB
+G257,palata,CB
+G506,petacciato,CB
+G512,petrella tifernina,CB
+G609,pietracatella,CB
+G610,pietracupa,CB
+G910,portocannone,CB
+H083,provvidenti,CB
+H273,riccia,CB
+H311,ripabottoni,CB
+H313,ripalimosani,CB
+H454,roccavivara,CB
+H589,rotello,CB
+H693,salcito,CB
+H782,san biase,CB
+H833,san felice del molise,CB
+H867,san giacomo degli schiavoni,CB
+H920,san giovanni in galdo,CB
+H928,san giuliano del sannio,CB
+H929,san giuliano di puglia,CB
+H990,san martino in pensilis,CB
+I023,san massimo,CB
+I122,san polo matese,CB
+I181,santa croce di magliano,CB
+I289,sant'angelo limosano,CB
+I320,sant'elia a pianisi,CB
+I618,sepino,CB
+I910,spinete,CB
+L069,tavenna,CB
+L113,termoli,CB
+L215,torella del sannio,CB
+L230,toro,CB
+L435,trivento,CB
+L458,tufara,CB
+L505,ururi,CB
+M057,vinchiaturo,CB
+A051,acquaviva d'isernia,IS
+A080,agnone,IS
+A567,bagnoli del trigno,IS
+A761,belmonte del sannio,IS
+B630,cantalupo nel sannio,IS
+B682,capracotta,IS
+B810,carovilli,IS
+B830,carpinone,IS
+C082,castel del giudice,IS
+C246,castelpetroso,IS
+C247,castelpizzuto,IS
+C270,castel san vincenzo,IS
+C200,castelverrino,IS
+C534,cerro al volturno,IS
+C620,chiauci,IS
+C769,civitanova del sannio,IS
+C878,colli a volturno,IS
+C941,conca casale,IS
+D595,filignano,IS
+D703,forlì del sannio,IS
+D715,fornelli,IS
+D811,frosolone,IS
+E335,isernia,IS
+E669,longano,IS
+E778,macchia d'isernia,IS
+E779,macchiagodena,IS
+F239,miranda,IS
+F429,montaquila,IS
+F580,montenero val cocchiara,IS
+F601,monteroduni,IS
+G486,pesche,IS
+G495,pescolanciano,IS
+G497,pescopennataro,IS
+G523,pettoranello del molise,IS
+G606,pietrabbondante,IS
+G727,pizzone,IS
+B317,poggio sannita,IS
+G954,pozzilli,IS
+H308,rionero sannitico,IS
+H420,roccamandolfi,IS
+H445,roccasicura,IS
+H458,rocchetta a volturno,IS
+I096,san pietro avellana,IS
+I189,sant'agapito,IS
+I238,santa maria del molise,IS
+I282,sant'angelo del pesco,IS
+B466,sant'elena sannita,IS
+I507,scapoli,IS
+I679,sessano del molise,IS
+I682,sesto campano,IS
+L696,vastogirardi,IS
+L725,venafro,IS
+A106,ailano,CE
+A200,alife,CE
+A243,alvignano,CE
+A403,arienzo,CE
+A512,aversa,CE
+A579,baia e latina,CE
+A755,bellona,CE
+B361,caianello,CE
+B362,caiazzo,CE
+B445,calvi risorta,CE
+B477,camigliano,CE
+B581,cancello ed arnone,CE
+B667,capodrise,CE
+B704,capriati a volturno,CE
+B715,capua,CE
+B779,carinaro,CE
+B781,carinola,CE
+B860,casagiove,CE
+B872,casal di principe,CE
+B916,casaluce,CE
+B935,casapulla,CE
+B963,caserta,CE
+B494,castel campagnano,CE
+C097,castel di sasso,CE
+C178,castello del matese,CE
+C211,castel morrone,CE
+C291,castel volturno,CE
+C558,cervino,CE
+C561,cesa,CE
+C716,ciorlano,CE
+C939,conca della campania,CE
+D228,curti,CE
+D361,dragoni,CE
+D683,fontegreca,CE
+D709,formicola,CE
+D769,francolise,CE
+D799,frignano,CE
+D884,gallo matese,CE
+D886,galluccio,CE
+E011,giano vetusto,CE
+E039,gioia sannitica,CE
+E158,grazzanise,CE
+E173,gricignano di aversa,CE
+E554,letino,CE
+E570,liberi,CE
+E754,lusciano,CE
+E784,macerata campania,CE
+E791,maddaloni,CE
+E932,marcianise,CE
+E998,marzano appio,CE
+F203,mignano monte lungo,CE
+F352,mondragone,CE
+G130,orta di atella,CE
+G333,parete,CE
+G364,pastorano,CE
+G541,piana di monte verna,CE
+G596,piedimonte matese,CE
+G620,pietramelara,CE
+G630,pietravairano,CE
+G661,pignataro maggiore,CE
+G849,pontelatone,CE
+G903,portico di caserta,CE
+G991,prata sannita,CE
+G995,pratella,CE
+H045,presenzano,CE
+H202,raviscanina,CE
+H210,recale,CE
+H268,riardo,CE
+H398,rocca d'evandro,CE
+H423,roccamonfina,CE
+H436,roccaromana,CE
+H459,rocchetta e croce,CE
+H165,ruviano,CE
+H798,san cipriano d'aversa,CE
+H834,san felice a cancello,CE
+H939,san gregorio matese,CE
+H978,san marcellino,CE
+I056,san nicola la strada,CE
+I113,san pietro infine,CE
+I130,san potito sannitico,CE
+I131,san prisco,CE
+I233,santa maria a vico,CE
+I234,santa maria capua vetere,CE
+I247,santa maria la fossa,CE
+I261,san tammaro,CE
+I273,sant'angelo d'alife,CE
+I306,sant'arpino,CE
+I676,sessa aurunca,CE
+I885,sparanise,CE
+I993,succivo,CE
+L083,teano,CE
+L155,teverola,CE
+L205,tora e piccilli,CE
+L379,trentola ducenta,CE
+L540,vairano patenora,CE
+L594,valle agricola,CE
+L591,valle di maddaloni,CE
+D801,villa di briano,CE
+L844,villa literno,CE
+M092,vitulazio,CE
+D471,falciano del massico,CE
+M262,cellole,CE
+M260,casapesenna,CE
+F043,san marco evangelista,CE
+A110,airola,BN
+A265,amorosi,BN
+A328,apice,BN
+A330,apollosa,BN
+A431,arpaia,BN
+A432,arpaise,BN
+A696,baselice,BN
+A783,benevento,BN
+A970,bonea,BN
+B239,bucciano,BN
+B267,buonalbergo,BN
+B444,calvi,BN
+B541,campolattaro,BN
+B542,campoli del monte taburno,BN
+B873,casalduni,BN
+C106,castelfranco in miscano,BN
+C245,castelpagano,BN
+C250,castelpoto,BN
+C280,castelvenere,BN
+C284,castelvetere in val fortore,BN
+C359,cautano,BN
+C476,ceppaloni,BN
+C525,cerreto sannita,BN
+C719,circello,BN
+C846,colle sannita,BN
+D230,cusano mutri,BN
+D380,dugenta,BN
+D386,durazzano,BN
+D469,faicchio,BN
+D644,foglianise,BN
+D650,foiano di val fortore,BN
+D693,forchia,BN
+D755,fragneto l'abate,BN
+D756,fragneto monforte,BN
+D784,frasso telesino,BN
+E034,ginestra degli schiavoni,BN
+E249,guardia sanframondi,BN
+E589,limatola,BN
+F113,melizzano,BN
+F274,moiano,BN
+F287,molinara,BN
+F494,montefalcone di val fortore,BN
+F636,montesarchio,BN
+F717,morcone,BN
+G227,paduli,BN
+G243,pago veiano,BN
+G311,pannarano,BN
+G318,paolisi,BN
+G386,paupisi,BN
+G494,pesco sannita,BN
+G626,pietraroja,BN
+G631,pietrelcina,BN
+G827,ponte,BN
+G848,pontelandolfo,BN
+H087,puglianello,BN
+H227,reino,BN
+H764,san bartolomeo in galdo,BN
+H894,san giorgio del sannio,BN
+H898,san giorgio la molara,BN
+H953,san leucio del sannio,BN
+H955,san lorenzello,BN
+H967,san lorenzo maggiore,BN
+H973,san lupo,BN
+H984,san marco dei cavoti,BN
+I002,san martino sannita,BN
+I049,san nazzaro,BN
+I062,san nicola manfredi,BN
+I145,san salvatore telesino,BN
+I179,santa croce del sannio,BN
+I197,sant'agata de' goti,BN
+I277,sant'angelo a cupolo,BN
+I455,sassinoro,BN
+I809,solopaca,BN
+L086,telese terme,BN
+L185,tocco caudio,BN
+L254,torrecuso,BN
+M093,vitulano,BN
+F557,sant'arcangelo trimonte,BN
+A024,acerra,NA
+A064,afragola,NA
+A068,agerola,NA
+A268,anacapri,NA
+A455,arzano,NA
+A535,bacoli,NA
+A617,barano d'ischia,NA
+B076,boscoreale,NA
+B077,boscotrecase,NA
+B227,brusciano,NA
+B371,caivano,NA
+B452,calvizzano,NA
+B565,camposano,NA
+B696,capri,NA
+B740,carbonara di nola,NA
+B759,cardito,NA
+B905,casalnuovo di napoli,NA
+B922,casamarciano,NA
+B924,casamicciola terme,NA
+B925,casandrino,NA
+B946,casavatore,NA
+B980,casola di napoli,NA
+B990,casoria,NA
+C129,castellammare di stabia,NA
+C188,castello di cisterna,NA
+C495,cercola,NA
+C675,cicciano,NA
+C697,cimitile,NA
+C929,comiziano,NA
+D170,crispano,NA
+D702,forio,NA
+D789,frattamaggiore,NA
+D790,frattaminore,NA
+E054,giugliano in campania,NA
+E131,gragnano,NA
+E224,grumo nevano,NA
+E329,ischia,NA
+E396,lacco ameno,NA
+E557,lettere,NA
+E620,liveri,NA
+E906,marano di napoli,NA
+E954,mariglianella,NA
+E955,marigliano,NA
+F030,massa lubrense,NA
+F111,melito di napoli,NA
+F162,meta,NA
+F488,monte di procida,NA
+F799,mugnano di napoli,NA
+F839,napoli,NA
+F924,nola,NA
+G190,ottaviano,NA
+G283,palma campania,NA
+G568,piano di sorrento,NA
+G670,pimonte,NA
+G762,poggiomarino,NA
+G795,pollena trocchia,NA
+G812,pomigliano d'arco,NA
+G813,pompei,NA
+G902,portici,NA
+G964,pozzuoli,NA
+H072,procida,NA
+H101,qualiano,NA
+H114,quarto,NA
+H243,ercolano,NA
+H433,roccarainola,NA
+H860,san gennaro vesuviano,NA
+H892,san giorgio a cremano,NA
+H931,san giuseppe vesuviano,NA
+I073,san paolo bel sito,NA
+I151,san sebastiano al vesuvio,NA
+I208,sant'agnello,NA
+I262,sant'anastasia,NA
+I293,sant'antimo,NA
+I300,sant'antonio abate,NA
+I391,san vitaliano,NA
+I469,saviano,NA
+I540,scisciano,NA
+I652,serrara fontana,NA
+I820,somma vesuviana,NA
+I862,sorrento,NA
+I978,striano,NA
+L142,terzigno,NA
+L245,torre annunziata,NA
+L259,torre del greco,NA
+L460,tufino,NA
+L845,vico equense,NA
+G309,villaricca,NA
+M072,visciano,NA
+M115,volla,NA
+M273,santa maria la carità,NA
+M280,trecase,NA
+M289,massa di somma,NA
+A101,aiello del sabato,AV
+A228,altavilla irpina,AV
+A284,andretta,AV
+A347,aquilonia,AV
+A399,ariano irpino,AV
+A489,atripalda,AV
+A508,avella,AV
+A509,avellino,AV
+A566,bagnoli irpino,AV
+A580,baiano,AV
+A881,bisaccia,AV
+A975,bonito,AV
+B367,cairano,AV
+B374,calabritto,AV
+B415,calitri,AV
+B590,candida,AV
+B674,caposele,AV
+B706,capriglia irpina,AV
+B776,carife,AV
+B866,casalbore,AV
+B997,cassano irpino,AV
+C058,castel baronia,AV
+C105,castelfranci,AV
+C283,castelvetere sul calore,AV
+C557,cervinara,AV
+C576,cesinali,AV
+C606,chianche,AV
+C659,chiusano di san domenico,AV
+C971,contrada,AV
+C976,conza della campania,AV
+D331,domicella,AV
+D638,flumeri,AV
+D671,fontanarosa,AV
+D701,forino,AV
+D798,frigento,AV
+D998,gesualdo,AV
+E161,greci,AV
+E206,grottaminarda,AV
+E214,grottolella,AV
+E245,guardia lombardi,AV
+E397,lacedonia,AV
+E448,lapio,AV
+E487,lauro,AV
+E605,lioni,AV
+E746,luogosano,AV
+E891,manocalzati,AV
+E997,marzano di nola,AV
+F110,melito irpino,AV
+F141,mercogliano,AV
+F230,mirabella eclano,AV
+F397,montaguto,AV
+F448,montecalvo irpino,AV
+F491,montefalcione,AV
+F506,monteforte irpino,AV
+F511,montefredane,AV
+F512,montefusco,AV
+F546,montella,AV
+F559,montemarano,AV
+F566,montemiletto,AV
+F660,monteverde,AV
+F744,morra de sanctis,AV
+F762,moschiano,AV
+F798,mugnano del cardinale,AV
+F988,nusco,AV
+G165,ospedaletto d'alpinolo,AV
+G242,pago del vallo di lauro,AV
+G340,parolise,AV
+G370,paternopoli,AV
+G519,petruro irpino,AV
+G611,pietradefusi,AV
+G629,pietrastornina,AV
+G990,prata di principato ultra,AV
+H006,pratola serra,AV
+H097,quadrelle,AV
+H128,quindici,AV
+H382,roccabascerana,AV
+H438,rocca san felice,AV
+H592,rotondi,AV
+H733,salza irpina,AV
+H975,san mango sul calore,AV
+I016,san martino valle caudina,AV
+I034,san michele di serino,AV
+I061,san nicola baronia,AV
+I129,san potito ultra,AV
+I163,san sossio baronia,AV
+I219,santa lucia di serino,AV
+I264,sant'andrea di conza,AV
+I279,sant'angelo all'esca,AV
+I280,sant'angelo a scala,AV
+I281,sant'angelo dei lombardi,AV
+I301,santa paolina,AV
+I357,santo stefano del sole,AV
+I471,savignano irpino,AV
+I493,scampitella,AV
+I606,senerchia,AV
+I630,serino,AV
+I756,sirignano,AV
+I805,solofra,AV
+I843,sorbo serpico,AV
+I893,sperone,AV
+I990,sturno,AV
+L004,summonte,AV
+L061,taurano,AV
+L062,taurasi,AV
+L102,teora,AV
+L214,torella dei lombardi,AV
+L272,torre le nocelle,AV
+L301,torrioni,AV
+L399,trevico,AV
+L461,tufo,AV
+L589,vallata,AV
+L616,vallesaccarda,AV
+L739,venticano,AV
+L965,villamaina,AV
+L973,villanova del battista,AV
+M130,volturara irpina,AV
+M203,zungoli,AV
+M330,montoro,AV
+A023,acerno,SA
+A091,agropoli,SA
+A128,albanella,SA
+A186,alfano,SA
+A230,altavilla silentina,SA
+A251,amalfi,SA
+A294,angri,SA
+A343,aquara,SA
+A460,ascea,SA
+A484,atena lucana,SA
+A487,atrani,SA
+A495,auletta,SA
+A674,baronissi,SA
+A717,battipaglia,SA
+A756,bellosguardo,SA
+B115,bracigliano,SA
+B242,buccino,SA
+B266,buonabitacolo,SA
+B351,caggiano,SA
+B437,calvanico,SA
+B476,camerota,SA
+B492,campagna,SA
+B555,campora,SA
+B608,cannalonga,SA
+B644,capaccio paestum,SA
+B868,casalbuono,SA
+B888,casaletto spartano,SA
+B895,casal velino,SA
+B959,caselle in pittari,SA
+C069,castelcivita,SA
+C125,castellabate,SA
+C231,castelnuovo cilento,SA
+C235,castelnuovo di conza,SA
+C259,castel san giorgio,SA
+C262,castel san lorenzo,SA
+C306,castiglione del genovesi,SA
+C361,cava de' tirreni,SA
+C444,celle di bulgheria,SA
+C470,centola,SA
+C485,ceraso,SA
+C584,cetara,SA
+C676,cicerale,SA
+C879,colliano,SA
+C940,conca dei marini,SA
+C973,controne,SA
+C974,contursi terme,SA
+C984,corbara,SA
+D011,corleto monforte,SA
+D195,cuccaro vetere,SA
+D390,eboli,SA
+D527,felitto,SA
+D615,fisciano,SA
+D826,furore,SA
+D832,futani,SA
+E026,giffoni sei casali,SA
+E027,giffoni valle piana,SA
+E037,gioi,SA
+E060,giungano,SA
+E365,ispani,SA
+E480,laureana cilento,SA
+E485,laurino,SA
+E486,laurito,SA
+E498,laviano,SA
+E767,lustra,SA
+E814,magliano vetere,SA
+E839,maiori,SA
+F138,mercato san severino,SA
+F223,minori,SA
+F278,moio della civitella,SA
+F426,montano antilia,SA
+F479,montecorice,SA
+F480,montecorvino pugliano,SA
+F481,montecorvino rovella,SA
+F507,monteforte cilento,SA
+F618,monte san giacomo,SA
+F625,montesano sulla marcellana,SA
+F731,morigerati,SA
+F912,nocera inferiore,SA
+F913,nocera superiore,SA
+F967,novi velia,SA
+G011,ogliastro cilento,SA
+G023,olevano sul tusciano,SA
+G039,oliveto citra,SA
+G063,omignano,SA
+G121,orria,SA
+G192,ottati,SA
+G226,padula,SA
+G230,pagani,SA
+G292,palomonte,SA
+G426,pellezzano,SA
+G447,perdifumo,SA
+G455,perito,SA
+G476,pertosa,SA
+G509,petina,SA
+G538,piaggine,SA
+G707,pisciotta,SA
+G793,polla,SA
+G796,pollica,SA
+G834,pontecagnano faiano,SA
+G932,positano,SA
+G939,postiglione,SA
+G976,praiano,SA
+H062,prignano cilento,SA
+H198,ravello,SA
+H277,ricigliano,SA
+H394,roccadaspide,SA
+H412,roccagloriosa,SA
+H431,roccapiemonte,SA
+H485,rofrano,SA
+H503,romagnano al monte,SA
+H564,roscigno,SA
+H644,rutino,SA
+H654,sacco,SA
+H683,sala consilina,SA
+H686,salento,SA
+H703,salerno,SA
+H732,salvitelle,SA
+H800,san cipriano picentino,SA
+H907,san giovanni a piro,SA
+H943,san gregorio magno,SA
+H977,san mango piemonte,SA
+I019,san marzano sul sarno,SA
+I031,san mauro cilento,SA
+I032,san mauro la bruca,SA
+I089,san pietro al tanagro,SA
+I143,san rufo,SA
+I253,santa marina,SA
+I278,sant'angelo a fasanella,SA
+I307,sant'arsenio,SA
+I317,sant'egidio del monte albino,SA
+I260,santomenna,SA
+I377,san valentino torio,SA
+I410,sanza,SA
+I422,sapri,SA
+I438,sarno,SA
+I451,sassano,SA
+I483,scafati,SA
+I486,scala,SA
+I648,serramezzana,SA
+I666,serre,SA
+I677,sessa cilento,SA
+I720,siano,SA
+M253,sicignano degli alburni,SA
+G887,stella cilento,SA
+I960,stio,SA
+D292,teggiano,SA
+L212,torchiara,SA
+L233,torraca,SA
+L274,torre orsaia,SA
+L306,tortorella,SA
+L323,tramonti,SA
+L377,trentinara,SA
+G540,valle dell'angelo,SA
+L628,vallo della lucania,SA
+L656,valva,SA
+L835,vibonati,SA
+L860,vietri sul mare,SA
+M294,bellizzi,SA
+A015,accadia,FG
+A150,alberona,FG
+A320,anzano di puglia,FG
+A339,apricena,FG
+A463,ascoli satriano,FG
+A854,biccari,FG
+B104,bovino,FG
+B357,cagnano varano,FG
+B584,candela,FG
+B724,carapelle,FG
+B784,carlantino,FG
+B829,carpino,FG
+B904,casalnuovo monterotaro,FG
+B917,casalvecchio di puglia,FG
+C198,castelluccio dei sauri,FG
+C202,castelluccio valmaggiore,FG
+C222,castelnuovo della daunia,FG
+C429,celenza valfortore,FG
+C442,celle di san vito,FG
+C514,cerignola,FG
+C633,chieuti,FG
+D269,deliceto,FG
+D459,faeto,FG
+D643,foggia,FG
+E332,ischitella,FG
+E363,isole tremiti,FG
+E549,lesina,FG
+E716,lucera,FG
+E885,manfredonia,FG
+F059,mattinata,FG
+F538,monteleone di puglia,FG
+F631,monte sant'angelo,FG
+F777,motta montecorvino,FG
+G125,orsara di puglia,FG
+G131,orta nova,FG
+G312,panni,FG
+G487,peschici,FG
+G604,pietramontecorvino,FG
+G761,poggio imperiale,FG
+H287,rignano garganico,FG
+H467,rocchetta sant'antonio,FG
+H480,rodi garganico,FG
+H568,roseto valfortore,FG
+H926,san giovanni rotondo,FG
+H985,san marco in lamis,FG
+H986,san marco la catola,FG
+I054,san nicandro garganico,FG
+I072,san paolo di civitate,FG
+I158,san severo,FG
+I193,sant'agata di puglia,FG
+I641,serracapriola,FG
+I962,stornara,FG
+I963,stornarella,FG
+L273,torremaggiore,FG
+L447,troia,FG
+L842,vico del gargano,FG
+L858,vieste,FG
+M131,volturara appula,FG
+M132,volturino,FG
+M266,ordona,FG
+M267,zapponeta,FG
+A048,acquaviva delle fonti,BA
+A055,adelfia,BA
+A149,alberobello,BA
+A225,altamura,BA
+A662,bari,BA
+A874,binetto,BA
+A892,bitetto,BA
+A893,bitonto,BA
+A894,bitritto,BA
+B716,capurso,BA
+B923,casamassima,BA
+B998,cassano delle murge,BA
+C134,castellana grotte,BA
+C436,cellamare,BA
+C975,conversano,BA
+C983,corato,BA
+E038,gioia del colle,BA
+E047,giovinazzo,BA
+E155,gravina in puglia,BA
+E223,grumo appula,BA
+E645,locorotondo,BA
+F262,modugno,BA
+F280,mola di bari,BA
+F284,molfetta,BA
+F376,monopoli,BA
+F915,noci,BA
+F923,noicattaro,BA
+G291,palo del colle,BA
+G769,poggiorsini,BA
+G787,polignano a mare,BA
+H096,putignano,BA
+H643,rutigliano,BA
+H645,ruvo di puglia,BA
+H749,sammichele di bari,BA
+I053,sannicandro di bari,BA
+I330,santeramo in colle,BA
+L109,terlizzi,BA
+L220,toritto,BA
+L425,triggiano,BA
+L472,turi,BA
+L571,valenzano,BA
+A514,avetrana,TA
+B808,carosino,TA
+C136,castellaneta,TA
+D171,crispiano,TA
+D463,faggiano,TA
+D754,fragagnano,TA
+E036,ginosa,TA
+E205,grottaglie,TA
+E469,laterza,TA
+E537,leporano,TA
+E630,lizzano,TA
+E882,manduria,TA
+E986,martina franca,TA
+E995,maruggio,TA
+F027,massafra,TA
+F531,monteiasi,TA
+F563,montemesola,TA
+F587,monteparano,TA
+F784,mottola,TA
+G251,palagianello,TA
+G252,palagiano,TA
+H090,pulsano,TA
+H409,roccaforzata,TA
+H882,san giorgio ionico,TA
+I018,san marzano di san giuseppe,TA
+I467,sava,TA
+L049,taranto,TA
+L294,torricella,TA
+M298,statte,TA
+B180,brindisi,BR
+B809,carovigno,BR
+C424,ceglie messapica,BR
+C448,cellino san marco,BR
+C741,cisternino,BR
+D422,erchie,BR
+D508,fasano,BR
+D761,francavilla fontana,BR
+E471,latiano,BR
+F152,mesagne,BR
+G098,oria,BR
+G187,ostuni,BR
+H822,san donaci,BR
+I045,san michele salentino,BR
+I066,san pancrazio salentino,BR
+I119,san pietro vernotico,BR
+I396,san vito dei normanni,BR
+L213,torchiarolo,BR
+L280,torre santa susanna,BR
+L920,villa castelli,BR
+A042,acquarica del capo,LE
+A184,alessano,LE
+A185,alezio,LE
+A208,alliste,LE
+A281,andrano,LE
+A350,aradeo,LE
+A425,arnesano,LE
+A572,bagnolo del salento,LE
+B086,botrugno,LE
+B413,calimera,LE
+B506,campi salentina,LE
+B616,cannole,LE
+B690,caprarica di lecce,LE
+B792,carmiano,LE
+B822,carpignano salentino,LE
+B936,casarano,LE
+C334,castri di lecce,LE
+C335,castrignano de' greci,LE
+C336,castrignano del capo,LE
+C377,cavallino,LE
+C865,collepasso,LE
+C978,copertino,LE
+D006,corigliano d'otranto,LE
+D044,corsano,LE
+D223,cursi,LE
+D237,cutrofiano,LE
+D305,diso,LE
+D851,gagliano del capo,LE
+D862,galatina,LE
+D863,galatone,LE
+D883,gallipoli,LE
+E053,giuggianello,LE
+E061,giurdignano,LE
+E227,guagnano,LE
+E506,lecce,LE
+E538,lequile,LE
+E563,leverano,LE
+E629,lizzanello,LE
+E815,maglie,LE
+E979,martano,LE
+E984,martignano,LE
+F054,matino,LE
+F101,melendugno,LE
+F109,melissano,LE
+F117,melpignano,LE
+F194,miggiano,LE
+F221,minervino di lecce,LE
+F604,monteroni di lecce,LE
+F623,montesano salentino,LE
+F716,morciano di leuca,LE
+F816,muro leccese,LE
+F842,nardò,LE
+F881,neviano,LE
+F916,nociglia,LE
+F970,novoli,LE
+G136,ortelle,LE
+G188,otranto,LE
+G285,palmariggi,LE
+G325,parabita,LE
+G378,patù,LE
+G751,poggiardo,LE
+H047,presicce,LE
+H147,racale,LE
+H632,ruffano,LE
+H708,salice salentino,LE
+H729,salve,LE
+H757,sanarica,LE
+H793,san cesario di lecce,LE
+H826,san donato di lecce,LE
+I059,sannicola,LE
+I115,san pietro in lama,LE
+I172,santa cesarea terme,LE
+I549,scorrano,LE
+I559,seclì,LE
+I780,sogliano cavour,LE
+I800,soleto,LE
+I887,specchia,LE
+I923,spongano,LE
+I930,squinzano,LE
+I950,sternatia,LE
+L008,supersano,LE
+L010,surano,LE
+L011,surbo,LE
+L064,taurisano,LE
+L074,taviano,LE
+L166,tiggiano,LE
+L383,trepuzzi,LE
+L419,tricase,LE
+L462,tuglie,LE
+L484,ugento,LE
+L485,uggiano la chiesa,LE
+L711,veglie,LE
+L776,vernole,LE
+M187,zollino,LE
+M264,san cassiano,LE
+M261,castro,LE
+M263,porto cesareo,LE
+A285,andria,BT
+A669,barletta,BT
+A883,bisceglie,BT
+B619,canosa di puglia,BT
+E946,margherita di savoia,BT
+F220,minervino murge,BT
+H839,san ferdinando di puglia,BT
+I907,spinazzola,BT
+L328,trani,BT
+B915,trinitapoli,BT
+A013,abriola,PZ
+A020,acerenza,PZ
+A131,albano di lucania,PZ
+A321,anzi,PZ
+A415,armento,PZ
+A482,atella,PZ
+A519,avigliano,PZ
+A604,balvano,PZ
+A612,banzi,PZ
+A615,baragiano,PZ
+A666,barile,PZ
+A743,bella,PZ
+B173,brienza,PZ
+B181,brindisi montagna,PZ
+B440,calvello,PZ
+B443,calvera,PZ
+B549,campomaggiore,PZ
+B580,cancellara,PZ
+B743,carbone,PZ
+B906,san paolo albanese,PZ
+C120,castelgrande,PZ
+C199,castelluccio inferiore,PZ
+C201,castelluccio superiore,PZ
+C209,castelmezzano,PZ
+C271,castelsaraceno,PZ
+C345,castronuovo di sant'andrea,PZ
+C539,cersosimo,PZ
+C619,chiaromonte,PZ
+D010,corleto perticara,PZ
+D414,episcopia,PZ
+D497,fardella,PZ
+D593,filiano,PZ
+D696,forenza,PZ
+D766,francavilla in sinni,PZ
+D876,gallicchio,PZ
+D971,genzano di lucania,PZ
+E221,grumento nova,PZ
+E246,guardia perticara,PZ
+E409,lagonegro,PZ
+E474,latronico,PZ
+E482,laurenzana,PZ
+E483,lauria,PZ
+E493,lavello,PZ
+E919,maratea,PZ
+E976,marsico nuovo,PZ
+E977,marsicovetere,PZ
+F006,maschito,PZ
+F104,melfi,PZ
+F249,missanello,PZ
+F295,moliterno,PZ
+F568,montemilone,PZ
+F573,montemurro,PZ
+F817,muro lucano,PZ
+F866,nemoli,PZ
+F917,noepoli,PZ
+G081,oppido lucano,PZ
+G261,palazzo san gervasio,PZ
+G496,pescopagano,PZ
+G590,picerno,PZ
+G616,pietragalla,PZ
+G623,pietrapertosa,PZ
+G663,pignola,PZ
+G942,potenza,PZ
+H186,rapolla,PZ
+H187,rapone,PZ
+H307,rionero in vulture,PZ
+H312,ripacandida,PZ
+H348,rivello,PZ
+H426,roccanova,PZ
+H590,rotonda,PZ
+H641,ruoti,PZ
+H646,ruvo del monte,PZ
+H795,san chirico nuovo,PZ
+H796,san chirico raparo,PZ
+H808,san costantino albanese,PZ
+H831,san fele,PZ
+H994,san martino d'agri,PZ
+I157,san severino lucano,PZ
+I288,sant'angelo le fratte,PZ
+I305,sant'arcangelo,PZ
+I426,sarconi,PZ
+I457,sasso di castalda,PZ
+G614,satriano di lucania,PZ
+H730,savoia di lucania,PZ
+I610,senise,PZ
+I917,spinoso,PZ
+L082,teana,PZ
+L126,terranova di pollino,PZ
+L181,tito,PZ
+L197,tolve,PZ
+L326,tramutola,PZ
+L357,trecchina,PZ
+L439,trivigno,PZ
+L532,vaglio basilicata,PZ
+L738,venosa,PZ
+L859,vietri di potenza,PZ
+L873,viggianello,PZ
+L874,viggiano,PZ
+E033,ginestra,PZ
+M269,paterno,PZ
+A017,accettura,MT
+A196,aliano,MT
+A801,bernalda,MT
+B391,calciano,MT
+C723,cirigliano,MT
+C888,colobraro,MT
+D128,craco,MT
+D547,ferrandina,MT
+D909,garaguso,MT
+E093,gorgoglione,MT
+E147,grassano,MT
+E213,grottole,MT
+E326,irsina,MT
+F052,matera,MT
+F201,miglionico,MT
+F399,montalbano jonico,MT
+F637,montescaglioso,MT
+A942,nova siri,MT
+G037,oliveto lucano,MT
+G712,pisticci,MT
+G786,policoro,MT
+G806,pomarico,MT
+H591,rotondella,MT
+H687,salandra,MT
+H888,san giorgio lucano,MT
+I029,san mauro forte,MT
+I954,stigliano,MT
+L418,tricarico,MT
+L477,tursi,MT
+D513,valsinni,MT
+M256,scanzano jonico,MT
+A033,acquaformosa,CS
+A041,acquappesa,CS
+A053,acri,CS
+A102,aiello calabro,CS
+A105,aieta,CS
+A160,albidona,CS
+A183,alessandria del carretto,CS
+A234,altilia,CS
+A240,altomonte,CS
+A253,amantea,CS
+A263,amendolara,CS
+A340,aprigliano,CS
+A762,belmonte calabro,CS
+A768,belsito,CS
+A773,belvedere marittimo,CS
+A842,bianchi,CS
+A887,bisignano,CS
+A912,bocchigliero,CS
+A973,bonifati,CS
+B270,buonvicino,CS
+B424,calopezzati,CS
+B426,caloveto,CS
+B500,campana,CS
+B607,canna,CS
+B774,cariati,CS
+B802,carolei,CS
+B813,carpanzano,CS
+C002,cassano all'ionio,CS
+C301,castiglione cosentino,CS
+C108,castrolibero,CS
+C348,castroregio,CS
+C349,castrovillari,CS
+C430,celico,CS
+C437,cellara,CS
+C489,cerchiara di calabria,CS
+C515,cerisano,CS
+C554,cervicati,CS
+C560,cerzeto,CS
+C588,cetraro,CS
+C763,civita,CS
+C795,cleto,CS
+C905,colosimi,CS
+D086,cosenza,CS
+D180,cropalati,CS
+D184,crosia,CS
+D289,diamante,CS
+D304,dipignano,CS
+D328,domanico,CS
+D464,fagnano castello,CS
+D473,falconara albanese,CS
+D582,figline vegliaturo,CS
+D614,firmo,CS
+D624,fiumefreddo bruzio,CS
+D764,francavilla marittima,CS
+D774,frascineto,CS
+D828,fuscaldo,CS
+E180,grimaldi,CS
+E185,grisolia,CS
+E242,guardia piemontese,CS
+E407,lago,CS
+E417,laino borgo,CS
+E419,laino castello,CS
+E450,lappano,CS
+E475,lattarico,CS
+E677,longobardi,CS
+E678,longobucco,CS
+E745,lungro,CS
+E773,luzzi,CS
+E835,maierà,CS
+E859,malito,CS
+E872,malvito,CS
+E878,mandatoriccio,CS
+E888,mangone,CS
+E914,marano marchesato,CS
+E915,marano principato,CS
+F001,marzi,CS
+F125,mendicino,CS
+F370,mongrassano,CS
+F416,montalto uffugo,CS
+F519,montegiordano,CS
+F708,morano calabro,CS
+F735,mormanno,CS
+F775,mottafollone,CS
+F907,nocara,CS
+G110,oriolo,CS
+G129,orsomarso,CS
+G298,paludi,CS
+G307,panettieri,CS
+G317,paola,CS
+G320,papasidero,CS
+G331,parenti,CS
+G372,paterno calabro,CS
+G411,pedivigliano,CS
+G553,piane crati,CS
+G615,pietrafitta,CS
+G622,pietrapaola,CS
+G733,plataci,CS
+G975,praia a mare,CS
+H235,rende,CS
+H416,rocca imperiale,CS
+H488,roggiano gravina,CS
+H490,rogliano,CS
+H565,rose,CS
+H572,roseto capo spulico,CS
+H585,rota greca,CS
+H621,rovito,CS
+H765,san basile,CS
+H774,san benedetto ullano,CS
+H806,san cosmo albanese,CS
+H818,san demetrio corone,CS
+H825,san donato di ninea,CS
+H841,san fili,CS
+H877,sangineto,CS
+H881,san giorgio albanese,CS
+H919,san giovanni in fiore,CS
+H961,san lorenzo bellizzi,CS
+H962,san lorenzo del vallo,CS
+H971,san lucido,CS
+H981,san marco argentano,CS
+H992,san martino di finita,CS
+I060,san nicola arcella,CS
+I108,san pietro in amantea,CS
+I114,san pietro in guarano,CS
+I165,san sosti,CS
+I171,santa caterina albanese,CS
+I183,santa domenica talao,CS
+I192,sant'agata di esaro,CS
+C717,santa maria del cedro,CS
+I309,santa sofia d'epiro,CS
+I359,santo stefano di rogliano,CS
+I388,san vincenzo la costa,CS
+I423,saracena,CS
+I485,scala coeli,CS
+I489,scalea,CS
+D290,scigliano,CS
+I642,serra d'aiello,CS
+I895,spezzano albanese,CS
+I896,spezzano della sila,CS
+L055,tarsia,CS
+L124,terranova da sibari,CS
+L134,terravecchia,CS
+L206,torano castello,CS
+L305,tortora,CS
+L353,trebisacce,CS
+L524,vaccarizzo albanese,CS
+L747,verbicaro,CS
+B903,villapiana,CS
+M202,zumpano,CS
+M385,casali del manco,CS
+M403,corigliano-rossano,CS
+A155,albi,CZ
+A255,amaroni,CZ
+A257,amato,CZ
+A272,andali,CZ
+A397,argusto,CZ
+A542,badolato,CZ
+A736,belcastro,CZ
+B002,borgia,CZ
+B085,botricello,CZ
+B717,caraffa di catanzaro,CZ
+B758,cardinale,CZ
+B790,carlopoli,CZ
+C352,catanzaro,CZ
+C453,cenadi,CZ
+C472,centrache,CZ
+C542,cerva,CZ
+C616,chiaravalle centrale,CZ
+C674,cicala,CZ
+C960,conflenti,CZ
+D049,cortale,CZ
+D181,cropani,CZ
+D218,curinga,CZ
+D257,davoli,CZ
+D261,decollatura,CZ
+D476,falerna,CZ
+D544,feroleto antico,CZ
+D744,fossato serralta,CZ
+D852,gagliato,CZ
+D932,gasperina,CZ
+E031,gimigliano,CZ
+E050,girifalco,CZ
+E068,gizzeria,CZ
+E239,guardavalle,CZ
+E328,isca sullo ionio,CZ
+E274,jacurso,CZ
+E806,magisano,CZ
+E834,maida,CZ
+E923,marcedusa,CZ
+E925,marcellinara,CZ
+E990,martirano,CZ
+E991,martirano lombardo,CZ
+F200,miglierina,CZ
+F432,montauro,CZ
+F586,montepaone,CZ
+F780,motta santa lucia,CZ
+F910,nocera terinese,CZ
+G034,olivadi,CZ
+G272,palermiti,CZ
+G439,pentone,CZ
+G517,petrizzi,CZ
+G518,petronà,CZ
+D546,pianopoli,CZ
+G734,platania,CZ
+H846,san floro,CZ
+H976,san mango d'aquino,CZ
+I093,san pietro a maida,CZ
+I095,san pietro apostolo,CZ
+I164,san sostene,CZ
+I170,santa caterina dello ionio,CZ
+I266,sant'andrea apostolo dello ionio,CZ
+I393,san vito sullo ionio,CZ
+I463,satriano,CZ
+I589,sellia,CZ
+I590,sellia marina,CZ
+I655,serrastretta,CZ
+I671,sersale,CZ
+I704,settingiano,CZ
+I745,simeri crichi,CZ
+I844,sorbo san basile,CZ
+I872,soverato,CZ
+I874,soveria mannelli,CZ
+I875,soveria simeri,CZ
+I929,squillace,CZ
+I937,stalettì,CZ
+L070,taverna,CZ
+L177,tiriolo,CZ
+L240,torre di ruggiero,CZ
+I322,vallefiorita,CZ
+M140,zagarise,CZ
+M208,lamezia terme,CZ
+A065,africo,RC
+A077,agnana calabra,RC
+A303,anoia,RC
+A314,antonimina,RC
+A385,ardore,RC
+A544,bagaladi,RC
+A552,bagnara calabra,RC
+A780,benestare,RC
+A843,bianco,RC
+A897,bivongi,RC
+B097,bova,RC
+B098,bovalino,RC
+B099,bova marina,RC
+B118,brancaleone,RC
+B234,bruzzano zeffirio,RC
+B379,calanna,RC
+B481,camini,RC
+B516,campo calabro,RC
+B591,candidoni,RC
+B617,canolo,RC
+B718,caraffa del bianco,RC
+B756,cardeto,RC
+B766,careri,RC
+B966,casignana,RC
+C285,caulonia,RC
+C695,ciminà,RC
+C710,cinquefrondi,RC
+C747,cittanova,RC
+C954,condofuri,RC
+D089,cosoleto,RC
+D268,delianuova,RC
+D545,feroleto della chiesa,RC
+D557,ferruzzano,RC
+D619,fiumara,RC
+D864,galatro,RC
+D975,gerace,RC
+E025,giffone,RC
+E041,gioia tauro,RC
+E044,gioiosa ionica,RC
+E212,grotteria,RC
+E402,laganadi,RC
+E479,laureana di borrello,RC
+D976,locri,RC
+E873,mammola,RC
+E956,marina di gioiosa ionica,RC
+E968,maropati,RC
+E993,martone,RC
+F105,melicuccà,RC
+F106,melicucco,RC
+F112,melito di porto salvo,RC
+F301,molochio,RC
+F324,monasterace,RC
+D746,montebello jonico,RC
+F779,motta san giovanni,RC
+G082,oppido mamertina,RC
+G277,palizzi,RC
+G288,palmi,RC
+G394,pazzano,RC
+G729,placanica,RC
+G735,platì,RC
+G791,polistena,RC
+G905,portigliola,RC
+H224,reggio di calabria,RC
+H265,riace,RC
+H359,rizziconi,RC
+H408,roccaforte del greco,RC
+H456,roccella ionica,RC
+H489,roghudi,RC
+H558,rosarno,RC
+H013,samo,RC
+H889,san giorgio morgeto,RC
+H903,san giovanni di gerace,RC
+H959,san lorenzo,RC
+H970,san luca,RC
+I102,san pietro di caridà,RC
+I132,san procopio,RC
+I139,san roberto,RC
+I176,santa cristina d'aspromonte,RC
+I198,sant'agata del bianco,RC
+I214,sant'alessio in aspromonte,RC
+I333,sant'eufemia d'aspromonte,RC
+I341,sant'ilario dello ionio,RC
+I371,santo stefano in aspromonte,RC
+I536,scido,RC
+I537,scilla,RC
+I600,seminara,RC
+I656,serrata,RC
+I725,siderno,RC
+I753,sinopoli,RC
+I936,staiti,RC
+I955,stignano,RC
+I956,stilo,RC
+L063,taurianova,RC
+L127,terranova sappo minulio,RC
+L673,varapodio,RC
+M018,villa san giovanni,RC
+M277,san ferdinando,RC
+A772,belvedere di spinello,KR
+B319,caccuri,KR
+B771,carfizzi,KR
+B857,casabona,KR
+B968,castelsilano,KR
+C501,cerenzia,KR
+C725,cirò,KR
+C726,cirò marina,KR
+D123,cotronei,KR
+D122,crotone,KR
+D189,crucoli,KR
+D236,cutro,KR
+E339,isola di capo rizzuto,KR
+F108,melissa,KR
+F157,mesoraca,KR
+G278,pallagorio,KR
+G508,petilia policastro,KR
+H383,roccabernarda,KR
+H403,rocca di neto,KR
+I026,san mauro marchesato,KR
+I057,san nicola dell'alto,KR
+I308,santa severina,KR
+I468,savelli,KR
+I494,scandale,KR
+I982,strongoli,KR
+L492,umbriatico,KR
+L802,verzino,KR
+A043,acquaro,VV
+A386,arena,VV
+B169,briatico,VV
+B197,brognaturo,VV
+B655,capistrano,VV
+C581,cessaniti,VV
+D253,dasà,VV
+D303,dinami,VV
+D364,drapia,VV
+D453,fabrizia,VV
+D587,filadelfia,VV
+D589,filandari,VV
+D596,filogaso,VV
+D762,francavilla angitola,VV
+D767,francica,VV
+D988,gerocarne,VV
+E321,ionadi,VV
+E389,joppolo,VV
+E590,limbadi,VV
+E836,maierato,VV
+F207,mileto,VV
+F364,mongiana,VV
+F607,monterosso calabro,VV
+F843,nardodipace,VV
+F893,nicotera,VV
+G335,parghelia,VV
+G722,pizzo,VV
+G728,pizzoni,VV
+G785,polia,VV
+H271,ricadi,VV
+H516,rombiolo,VV
+H785,san calogero,VV
+H807,san costantino calabro,VV
+H941,san gregorio d'ippona,VV
+I058,san nicola da crissa,VV
+I350,sant'onofrio,VV
+I639,serra san bruno,VV
+I744,simbario,VV
+I853,sorianello,VV
+I854,soriano calabro,VV
+I884,spadola,VV
+I905,spilinga,VV
+I945,stefanaconi,VV
+L452,tropea,VV
+L607,vallelonga,VV
+L699,vazzano,VV
+F537,vibo valentia,VV
+M138,zaccanopoli,VV
+M143,zambrone,VV
+M204,zungri,VV
+A176,alcamo,TP
+B288,buseto palizzolo,TP
+B385,calatafimi-segesta,TP
+B521,campobello di mazara,TP
+C130,castellammare del golfo,TP
+C286,castelvetrano,TP
+D234,custonaci,TP
+D423,erice,TP
+D518,favignana,TP
+E023,gibellina,TP
+E974,marsala,TP
+F061,mazara del vallo,TP
+G208,paceco,TP
+G315,pantelleria,TP
+G347,partanna,TP
+G767,poggioreale,TP
+H688,salaparuta,TP
+H700,salemi,TP
+I291,santa ninfa,TP
+I407,san vito lo capo,TP
+L331,trapani,TP
+G319,valderice,TP
+M081,vita,TP
+M281,petrosino,TP
+A195,alia,PA
+A202,alimena,PA
+A203,aliminusa,PA
+A229,altavilla milicia,PA
+A239,altofonte,PA
+A546,bagheria,PA
+A592,balestrate,PA
+A719,baucina,PA
+A764,belmonte mezzagno,PA
+A882,bisacquino,PA
+A946,bolognetta,PA
+A958,bompietro,PA
+A991,borgetto,PA
+B315,caccamo,PA
+B430,caltavuturo,PA
+B533,campofelice di fitalia,PA
+B532,campofelice di roccella,PA
+B535,campofiorito,PA
+B556,camporeale,PA
+B645,capaci,PA
+B780,carini,PA
+C067,castelbuono,PA
+C074,casteldaccia,PA
+C135,castellana sicula,PA
+C344,castronovo di sicilia,PA
+C420,cefalà diana,PA
+C421,cefalù,PA
+C496,cerda,PA
+C654,chiusa sclafani,PA
+C696,ciminna,PA
+C708,cinisi,PA
+C871,collesano,PA
+C968,contessa entellina,PA
+D009,corleone,PA
+D567,ficarazzi,PA
+D907,gangi,PA
+D977,geraci siculo,PA
+E013,giardinello,PA
+E055,giuliana,PA
+E074,godrano,PA
+E149,gratteri,PA
+E337,isnello,PA
+E350,isola delle femmine,PA
+E459,lascari,PA
+E541,lercara friddi,PA
+E957,marineo,PA
+F184,mezzojuso,PA
+F246,misilmeri,PA
+F377,monreale,PA
+F544,montelepre,PA
+F553,montemaggiore belsito,PA
+G263,palazzo adriano,PA
+G273,palermo,PA
+G348,partinico,PA
+G510,petralia soprana,PA
+G511,petralia sottana,PA
+G543,piana degli albanesi,PA
+G792,polizzi generosa,PA
+G797,pollina,PA
+H070,prizzi,PA
+H422,roccamena,PA
+H428,roccapalumba,PA
+H797,san cipirello,PA
+H933,san giuseppe jato,PA
+I028,san mauro castelverde,PA
+I174,santa cristina gela,PA
+I188,santa flavia,PA
+I534,sciara,PA
+I541,sclafani bagni,PA
+L112,termini imerese,PA
+L131,terrasini,PA
+L282,torretta,PA
+L317,trabia,PA
+L332,trappeto,PA
+L519,ustica,PA
+L603,valledolmo,PA
+L740,ventimiglia di sicilia,PA
+L837,vicari,PA
+L916,villabate,PA
+L951,villafrati,PA
+I538,scillato,PA
+M268,blufi,PA
+A177,alcara li fusi,ME
+A194,alì,ME
+A201,alì terme,ME
+A313,antillo,ME
+A638,barcellona pozzo di gotto,ME
+A698,basicò,ME
+B198,brolo,ME
+B660,capizzi,ME
+B666,capo d'orlando,ME
+B695,capri leone,ME
+B804,caronia,ME
+B918,casalvecchio siculo,ME
+C094,castel di lucio,ME
+C051,castell'umberto,ME
+C210,castelmola,ME
+C347,castroreale,ME
+C568,cesarò,ME
+C956,condrò,ME
+D474,falcone,ME
+D569,ficarra,ME
+D622,fiumedinisi,ME
+D635,floresta,ME
+D661,fondachelli-fantina,ME
+D733,forza d'agrò,ME
+D765,francavilla di sicilia,ME
+D793,frazzanò,ME
+D824,furci siculo,ME
+D825,furnari,ME
+D844,gaggi,ME
+D861,galati mamertino,ME
+D885,gallodoro,ME
+E014,giardini-naxos,ME
+E043,gioiosa marea,ME
+E142,graniti,ME
+E233,gualtieri sicaminò,ME
+E374,itala,ME
+E523,leni,ME
+E555,letojanni,ME
+E571,librizzi,ME
+E594,limina,ME
+E606,lipari,ME
+E674,longi,ME
+E855,malfa,ME
+E869,malvagna,ME
+E876,mandanici,ME
+F066,mazzarrà sant'andrea,ME
+F147,merì,ME
+F158,messina,ME
+F206,milazzo,ME
+F210,militello rosmarino,ME
+F242,mirto,ME
+F251,mistretta,ME
+F277,moio alcantara,ME
+F359,monforte san giorgio,ME
+F368,mongiuffi melia,ME
+F395,montagnareale,ME
+F400,montalbano elicona,ME
+F772,motta camastra,ME
+F773,motta d'affermo,ME
+F848,naso,ME
+F901,nizza di sicilia,ME
+F951,novara di sicilia,ME
+G036,oliveri,ME
+G209,pace del mela,ME
+G234,pagliara,ME
+G377,patti,ME
+G522,pettineo,ME
+G699,piraino,ME
+H151,raccuja,ME
+H228,reitano,ME
+H405,roccafiorita,ME
+H418,roccalumera,ME
+H380,roccavaldina,ME
+H455,roccella valdemone,ME
+H479,rodì milici,ME
+H519,rometta,ME
+H842,san filippo del mela,ME
+H850,san fratello,ME
+H982,san marco d'alunzio,ME
+I084,san pier niceto,ME
+I086,san piero patti,ME
+I147,san salvatore di fitalia,ME
+I184,santa domenica vittoria,ME
+I199,sant'agata di militello,ME
+I215,sant'alessio siculo,ME
+I220,santa lucia del mela,ME
+I254,santa marina salina,ME
+I283,sant'angelo di brolo,ME
+I311,santa teresa di riva,ME
+I328,san teodoro,ME
+I370,santo stefano di camastra,ME
+I420,saponara,ME
+I477,savoca,ME
+I492,scaletta zanclea,ME
+I747,sinagra,ME
+I881,spadafora,ME
+L042,taormina,ME
+L271,torregrotta,ME
+L308,tortorici,ME
+L431,tripi,ME
+L478,tusa,ME
+L482,ucria,ME
+L561,valdina,ME
+L735,venetico,ME
+L950,villafranca tirrena,ME
+M210,terme vigliatore,ME
+M211,acquedolci,ME
+M286,torrenova,ME
+A089,agrigento,AG
+A181,alessandria della rocca,AG
+A351,aragona,AG
+A896,bivona,AG
+B275,burgio,AG
+B377,calamonaci,AG
+B427,caltabellotta,AG
+B460,camastra,AG
+B486,cammarata,AG
+B520,campobello di licata,AG
+B602,canicattì,AG
+C275,casteltermini,AG
+C341,castrofilippo,AG
+C356,cattolica eraclea,AG
+C668,cianciana,AG
+C928,comitini,AG
+D514,favara,AG
+E209,grotte,AG
+E390,joppolo giancaxio,AG
+E431,lampedusa e linosa,AG
+E573,licata,AG
+E714,lucca sicula,AG
+F126,menfi,AG
+F414,montallegro,AG
+F655,montevago,AG
+F845,naro,AG
+G282,palma di montechiaro,AG
+F299,porto empedocle,AG
+H148,racalmuto,AG
+H159,raffadali,AG
+H194,ravanusa,AG
+H205,realmonte,AG
+H269,ribera,AG
+H743,sambuca di sicilia,AG
+H778,san biagio platani,AG
+H914,san giovanni gemini,AG
+I185,santa elisabetta,AG
+I224,santa margherita di belice,AG
+I290,sant'angelo muxaro,AG
+I356,santo stefano quisquina,AG
+I533,sciacca,AG
+I723,siculiana,AG
+L944,villafranca sicula,AG
+A049,acquaviva platani,CL
+A957,bompensiere,CL
+B302,butera,CL
+B429,caltanissetta,CL
+B537,campofranco,CL
+D267,delia,CL
+D960,gela,CL
+E953,marianopoli,CL
+F065,mazzarino,CL
+E618,milena,CL
+F489,montedoro,CL
+F830,mussomeli,CL
+F899,niscemi,CL
+H245,resuttano,CL
+H281,riesi,CL
+H792,san cataldo,CL
+I169,santa caterina villarmosa,CL
+I644,serradifalco,CL
+I824,sommatino,CL
+L016,sutera,CL
+L609,vallelunga pratameno,CL
+L959,villalba,CL
+A070,agira,EN
+A098,aidone,EN
+A478,assoro,EN
+A676,barrafranca,EN
+B381,calascibetta,EN
+C353,catenanuova,EN
+C471,centuripe,EN
+C480,cerami,EN
+C342,enna,EN
+D849,gagliano castelferrato,EN
+E536,leonforte,EN
+F892,nicosia,EN
+F900,nissoria,EN
+G580,piazza armerina,EN
+G624,pietraperzia,EN
+H221,regalbuto,EN
+I891,sperlinga,EN
+L448,troina,EN
+L583,valguarnera caropepe,EN
+M011,villarosa,EN
+A025,aci bonaccorsi,CT
+A026,aci castello,CT
+A027,aci catena,CT
+A028,acireale,CT
+A029,aci sant'antonio,CT
+A056,adrano,CT
+A766,belpasso,CT
+A841,biancavilla,CT
+B202,bronte,CT
+B384,calatabiano,CT
+B428,caltagirone,CT
+B561,camporotondo etneo,CT
+C091,castel di iudica,CT
+C297,castiglione di sicilia,CT
+C351,catania,CT
+D623,fiumefreddo di sicilia,CT
+E017,giarre,CT
+E133,grammichele,CT
+E156,gravina di catania,CT
+E578,licodia eubea,CT
+E602,linguaglossa,CT
+E854,maletto,CT
+F004,mascali,CT
+F005,mascalucia,CT
+F209,militello in val di catania,CT
+F214,milo,CT
+F217,mineo,CT
+F231,mirabella imbaccari,CT
+F250,misterbianco,CT
+F781,motta sant'anastasia,CT
+F890,nicolosi,CT
+G253,palagonia,CT
+G371,paternò,CT
+G402,pedara,CT
+G597,piedimonte etneo,CT
+H154,raddusa,CT
+H168,ramacca,CT
+H175,randazzo,CT
+H325,riposto,CT
+H805,san cono,CT
+H922,san giovanni la punta,CT
+H940,san gregorio di catania,CT
+I035,san michele di ganzaria,CT
+I098,san pietro clarenza,CT
+I202,sant'agata li battiati,CT
+I216,sant'alfio,CT
+I240,santa maria di licodia,CT
+I314,santa venerina,CT
+I548,scordia,CT
+L355,trecastagni,CT
+L369,tremestieri etneo,CT
+L658,valverde,CT
+L828,viagrande,CT
+M100,vizzini,CT
+M139,zafferana etnea,CT
+M271,mazzarrone,CT
+M283,maniace,CT
+M287,ragalna,CT
+A014,acate,RG
+C612,chiaramonte gulfi,RG
+C927,comiso,RG
+E016,giarratana,RG
+E366,ispica,RG
+F258,modica,RG
+F610,monterosso almo,RG
+G953,pozzallo,RG
+H163,ragusa,RG
+I178,santa croce camerina,RG
+I535,scicli,RG
+M088,vittoria,RG
+A494,augusta,SR
+A522,avola,SR
+B237,buccheri,SR
+B287,buscemi,SR
+B603,canicattini bagni,SR
+B787,carlentini,SR
+C006,cassaro,SR
+D540,ferla,SR
+D636,floridia,SR
+D768,francofonte,SR
+E532,lentini,SR
+F107,melilli,SR
+F943,noto,SR
+G211,pachino,SR
+G267,palazzolo acreide,SR
+H574,rosolini,SR
+I754,siracusa,SR
+I785,solarino,SR
+I864,sortino,SR
+M257,portopalo di capo passero,SR
+M279,priolo gargallo,SR
+A069,aggius,SS
+A115,alà dei sardi,SS
+A192,alghero,SS
+A287,anela,SS
+A379,ardara,SS
+A453,arzachena,SS
+A606,banari,SS
+A781,benetutti,SS
+A789,berchidda,SS
+A827,bessude,SS
+A976,bonnanaro,SS
+A977,bono,SS
+A978,bonorva,SS
+B063,bortigiadas,SS
+B064,borutta,SS
+B094,bottidda,SS
+B246,buddusò,SS
+B264,bultei,SS
+B265,bulzi,SS
+B276,burgos,SS
+B378,calangianus,SS
+B772,cargeghe,SS
+C272,castelsardo,SS
+C600,cheremule,SS
+C613,chiaramonti,SS
+C818,codrongianos,SS
+D100,cossoine,SS
+D441,esporlatu,SS
+D637,florinas,SS
+E019,giave,SS
+E285,illorai,SS
+E376,ittireddu,SS
+E377,ittiri,SS
+E401,laerru,SS
+E425,la maddalena,SS
+E747,luogosanto,SS
+E752,luras,SS
+E902,mara,SS
+E992,martis,SS
+F542,monteleone rocca doria,SS
+F667,monti,SS
+F721,mores,SS
+F818,muros,SS
+F975,nughedu san nicolò,SS
+F976,nule,SS
+F977,nulvi,SS
+G015,olbia,SS
+G046,olmedo,SS
+G153,oschiri,SS
+G156,osilo,SS
+G178,ossi,SS
+G203,ozieri,SS
+G225,padria,SS
+G258,palau,SS
+G376,pattada,SS
+G450,perfugas,SS
+G740,ploaghe,SS
+G924,porto torres,SS
+G962,pozzomaggiore,SS
+H095,putifigari,SS
+H507,romana,SS
+H848,aglientu,SS
+I312,santa teresa gallura,SS
+I452,sassari,SS
+I565,sedini,SS
+I598,semestene,SS
+I614,sennori,SS
+I732,siligo,SS
+I863,sorso,SS
+L093,tempio pausania,SS
+L158,thiesi,SS
+L180,tissi,SS
+L235,torralba,SS
+L428,trinità d'agultu e vignola,SS
+L464,tula,SS
+L503,uri,SS
+L509,usini,SS
+L989,villanova monteleone,SS
+L604,valledoria,SS
+L088,telti,SS
+M214,badesi,SS
+M259,viddalba,SS
+M274,golfo aranci,SS
+M275,loiri porto san paolo,SS
+M276,sant'antonio di gallura,SS
+M282,tergu,SS
+M284,santa maria coghinas,SS
+M292,erula,SS
+M290,stintino,SS
+M301,padru,SS
+B248,budoni,SS
+I329,san teodoro,SS
+A407,aritzo,NU
+A454,arzana,NU
+A492,atzara,NU
+A503,austis,NU
+A663,bari sardo,NU
+A722,baunei,NU
+A776,belvì,NU
+A880,birori,NU
+A895,bitti,NU
+A948,bolotana,NU
+B056,borore,NU
+B062,bortigali,NU
+D287,desulo,NU
+D345,dorgali,NU
+D376,dualchi,NU
+D395,elini,NU
+D665,fonni,NU
+D842,gadoni,NU
+D859,gairo,NU
+D888,galtellì,NU
+D947,gavoi,NU
+E049,girasole,NU
+E283,ilbono,NU
+E323,irgoli,NU
+E387,jerzu,NU
+E441,lanusei,NU
+E517,lei,NU
+E644,loceri,NU
+E646,loculi,NU
+E647,lodè,NU
+E700,lotzorai,NU
+E736,lula,NU
+E788,macomer,NU
+E874,mamoiada,NU
+F073,meana sardo,NU
+F933,noragugume,NU
+F979,nuoro,NU
+G031,oliena,NU
+G044,ollolai,NU
+G058,olzai,NU
+G064,onanì,NU
+G070,onifai,NU
+G071,oniferi,NU
+G084,orani,NU
+G097,orgosolo,NU
+G119,orosei,NU
+G120,orotelli,NU
+G146,ortueri,NU
+G147,orune,NU
+G154,osidda,NU
+G158,osini,NU
+G191,ottana,NU
+G201,ovodda,NU
+G445,perdasdefogu,NU
+G929,posada,NU
+I448,sarule,NU
+I730,silanus,NU
+I748,sindia,NU
+I751,siniscola,NU
+I851,sorgono,NU
+L036,talana,NU
+L140,tertenia,NU
+L153,teti,NU
+L160,tiana,NU
+L202,tonara,NU
+L231,torpè,NU
+A355,tortolì,NU
+L423,triei,NU
+L489,ulassai,NU
+L506,urzulei,NU
+L514,ussassai,NU
+L953,villagrande strisaili,NU
+M285,cardedu,NU
+E649,lodine,NU
+A474,assemini,CA
+B354,cagliari,CA
+B675,capoterra,CA
+D259,decimomannu,CA
+E903,maracalagonis,CA
+H088,pula,CA
+H118,quartu sant'elena,CA
+I443,sarroch,CA
+I580,selargius,CA
+I695,sestu,CA
+I699,settimo san pietro,CA
+I752,sinnai,CA
+L521,uta,CA
+I118,villa san pietro,CA
+H119,quartucciu,CA
+D399,elmas,CA
+F383,monserrato,CA
+A007,abbasanta,OR
+A097,aidomaggiore,OR
+A126,albagiara,OR
+A180,ales,OR
+A204,allai,OR
+A357,arborea,OR
+A380,ardauli,OR
+A477,assolo,OR
+A480,asuni,OR
+A614,baradili,OR
+A621,baratili san pietro,OR
+A655,baressa,OR
+A721,bauladu,OR
+A856,bidonì,OR
+A960,bonarcado,OR
+B055,boroneddu,OR
+B281,busachi,OR
+B314,cabras,OR
+D200,cuglieri,OR
+D695,fordongianus,OR
+E004,ghilarza,OR
+E087,gonnoscodina,OR
+D585,gonnosnò,OR
+E088,gonnostramatza,OR
+E972,marrubiu,OR
+F050,masullas,OR
+F208,milis,OR
+F270,mogorella,OR
+F272,mogoro,OR
+F727,morgongiori,OR
+F840,narbolia,OR
+F867,neoneli,OR
+F934,norbello,OR
+F974,nughedu santa vittoria,OR
+F980,nurachi,OR
+F985,nureci,OR
+G043,ollastra,OR
+G113,oristano,OR
+G286,palmas arborea,OR
+G379,pau,OR
+G384,paulilatino,OR
+G817,pompu,OR
+H301,riola sardo,OR
+F271,ruinas,OR
+H756,samugheo,OR
+A368,san nicolò d'arcidano,OR
+I205,santa giusta,OR
+I298,villa sant'antonio,OR
+I374,santu lussurgiu,OR
+I384,san vero milis,OR
+I503,scano di montiferro,OR
+I564,sedilo,OR
+I605,seneghe,OR
+I609,senis,OR
+I613,sennariolo,OR
+I717,siamaggiore,OR
+I718,siamanna,OR
+I742,simala,OR
+I743,simaxis,OR
+I749,sini,OR
+I757,siris,OR
+I791,solarussa,OR
+I861,sorradile,OR
+L023,tadasuni,OR
+L122,terralba,OR
+L321,tramatza,OR
+L393,tresnuraghes,OR
+L488,ulà tirso,OR
+L496,uras,OR
+L508,usellus,OR
+L991,villanova truschedu,OR
+M030,villaurbana,OR
+A609,villa verde,OR
+M153,zeddiani,OR
+M168,zerfaliu,OR
+I721,siapiccia,OR
+D214,curcuris,OR
+I778,soddì,OR
+B068,bosa,OR
+D640,flussio,OR
+E400,laconi,OR
+E825,magomadas,OR
+F261,modolo,OR
+F698,montresta,OR
+H661,sagama,OR
+L006,suni,OR
+L172,tinnura,OR
+A359,arbus,SU
+A419,armungia,SU
+A597,ballao,SU
+A677,barrali,SU
+A681,barumini,SU
+B250,buggerru,SU
+B274,burcei,SU
+B383,calasetta,SU
+B745,carbonia,SU
+B789,carloforte,SU
+M288,castiadas,SU
+C882,collinas,SU
+D260,decimoputzu,SU
+D323,dolianova,SU
+D333,domus de maria,SU
+D334,domusnovas,SU
+D344,donori,SU
+D430,escalaplano,SU
+D431,escolca,SU
+D443,esterzili,SU
+D639,fluminimaggiore,SU
+D827,furtei,SU
+D968,genoni,SU
+D970,genuri,SU
+D982,gergei,SU
+D994,gesico,SU
+D997,gesturi,SU
+E022,giba,SU
+E084,goni,SU
+E086,gonnesa,SU
+E085,gonnosfanadiga,SU
+E234,guamaggiore,SU
+E252,guasila,SU
+E270,guspini,SU
+E281,iglesias,SU
+E336,isili,SU
+E464,las plassas,SU
+E742,lunamatrona,SU
+E877,mandas,SU
+M270,masainas,SU
+F333,monastir,SU
+F808,muravera,SU
+F822,musei,SU
+F841,narcao,SU
+F981,nuragus,SU
+F982,nurallao,SU
+F983,nuraminis,SU
+F986,nurri,SU
+F991,nuxis,SU
+G122,orroli,SU
+G133,ortacesus,SU
+G207,pabillonis,SU
+G382,pauli arbarei,SU
+G446,perdaxius,SU
+G669,pimentel,SU
+M291,piscinas,SU
+G922,portoscuso,SU
+H659,sadali,SU
+H738,samassi,SU
+H739,samatzai,SU
+H766,san basilio,SU
+H856,san gavino monreale,SU
+G287,san giovanni suergiu,SU
+G383,san nicolò gerrei,SU
+I166,san sperate,SU
+I402,san vito,SU
+H974,sanluri,SU
+I182,santadi,SU
+I271,sant'andrea frius,SU
+M209,sant'anna arresi,SU
+I294,sant'antioco,SU
+I428,sardara,SU
+I570,segariu,SU
+I582,selegas,SU
+I615,senorbì,SU
+I624,serdiana,SU
+I647,serramanna,SU
+I667,serrenti,SU
+I668,serri,SU
+I705,setzu,SU
+I706,seui,SU
+I707,seulo,SU
+I724,siddi,SU
+I734,siliqua,SU
+I735,silius,SU
+I765,siurgus donigala,SU
+I797,soleminis,SU
+I995,suelli,SU
+L154,teulada,SU
+L337,tratalias,SU
+L463,tuili,SU
+L473,turri,SU
+L512,ussana,SU
+L513,ussaramanna,SU
+L613,vallermosa,SU
+L924,villacidro,SU
+L966,villamar,SU
+L968,villamassargia,SU
+L992,villanova tulo,SU
+L986,villanovaforru,SU
+L987,villanovafranca,SU
+M278,villaperuccio,SU
+L998,villaputzu,SU
+M016,villasalto,SU
+B738,villasimius,SU
+M025,villasor,SU
+M026,villaspeciosa,SU
