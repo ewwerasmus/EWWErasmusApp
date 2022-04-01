@@ -2,6 +2,7 @@ package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
@@ -230,6 +231,7 @@ public class SegnalazioneController {
                 throw new DuplicateException(errMsg);
             }
         }
+        segnalazione.getStatoSegnalazione().setId(0); //in inserimento mettiamo la segnalazione DA RISOLVERE
         segnalazioneService.save(segnalazione);
         log.info(okMsg);
         return new ResponseEntity<InfoMsg>(new InfoMsg(

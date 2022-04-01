@@ -5,12 +5,15 @@ import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Categoria;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Comune;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Coordinata;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_StatoSegnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.orders.First;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.orders.Second;
 import lombok.*;
 import net.bytebuddy.implementation.bind.annotation.BindingPriority;
 import org.hibernate.Hibernate;
 import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
+import javax.validation.GroupSequence;
 import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.util.Objects;
@@ -21,6 +24,7 @@ import java.util.Objects;
 @Setter
 @RequiredArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
+@GroupSequence({Segnalazione.class, First.class, Second.class}) //ordine di validazione
 public class Segnalazione implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,8 +43,8 @@ public class Segnalazione implements Serializable {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idComune")
-    @NotNull(message = "Il Comune di Segnalazione non può essere NULL")
-    @V_Comune
+    @NotNull(message = "Il Comune di Segnalazione non può essere NULL", groups = First.class)
+    @V_Comune(groups = Second.class)
     private Comune comune;
 
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
@@ -52,14 +56,14 @@ public class Segnalazione implements Serializable {
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idCategoria", nullable = false)
     @JsonAlias("Wewe")
-    @NotNull(message = "La Categodia di Segnalazione non può essere NULL")
-    @V_Categoria
+    @NotNull(message = "La Categodia di Segnalazione non può essere NULL", groups = First.class)
+    @V_Categoria(groups = Second.class)
     private Categoria categoria;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idStatoSegnalazione")
-    @NotNull(message = "Lo StatoSegnalazione di Segnalazione non può essere NULL")
-    @V_StatoSegnalazione
+    @NotNull(message = "Lo StatoSegnalazione di Segnalazione non può essere NULL", groups = First.class)
+    @V_StatoSegnalazione(groups = Second.class)
     private StatoSegnalazione statoSegnalazione;
 
     public Segnalazione(Long id, String descrizione, Integer urgenza, StatoSegnalazione statoSegnalazione) {
