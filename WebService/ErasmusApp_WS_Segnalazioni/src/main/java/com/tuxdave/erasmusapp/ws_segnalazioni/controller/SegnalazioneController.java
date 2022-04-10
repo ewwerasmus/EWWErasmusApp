@@ -34,7 +34,7 @@ public class SegnalazioneController {
 
     @ApiOperation(
             value = "Seleziona tutte le segnalazioni.",
-            notes = "Restituisce i dati semplici della segnalazione in formato JsonArray.",
+            notes = "Restituisce i dati semplici delle segnalazione in formato JsonArray.",
             response = List.class,
             produces = "application/json"
     )
@@ -225,7 +225,7 @@ public class SegnalazioneController {
                     )
             );
             if(l.size() != 0){
-                String errMsg = "Inserimento rifiutato: segnalazione probabilemnte gia presente, abilitare " +
+                String errMsg = "Inserimento rifiutato: segnalazione probabilmente gia presente, abilitare " +
                         "l'opzione FORCE per forzare l'inserimento!";
                 log.warning(errMsg);
                 throw new DuplicateException(errMsg);

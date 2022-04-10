@@ -33,8 +33,8 @@ CREATE TABLE COMUNE
 CREATE TABLE COORDINATA
 (
     id          BIGINT UNSIGNED NOT NULL,
-    latitudine  FLOAT           NOT NULL,
-    longitudine FLOAT           NOT NULL
+    latitudine  DOUBLE           NOT NULL,
+    longitudine DOUBLE           NOT NULL
 ) ENGINE = InnoDB;
 
 CREATE TABLE CATEGORIA

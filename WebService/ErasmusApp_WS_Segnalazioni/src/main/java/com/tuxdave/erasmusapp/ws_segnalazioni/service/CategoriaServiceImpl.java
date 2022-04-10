@@ -1,6 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Categoria;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,5 +29,16 @@ public class CategoriaServiceImpl implements CategoriaService {
     @Override
     public List<Categoria> searchCategoriaByNome(String nome) {
         return categoriaRepository.searchCategoriaByNomeLike(nome);
+    }
+
+    @Override
+    public List<Categoria> findAll() {
+        return categoriaRepository.findAll();
+    }
+
+    @Override
+    public void save(Categoria c) throws SaveException {
+        c.setId(null);
+        categoriaRepository.saveAndFlush(c);
     }
 }

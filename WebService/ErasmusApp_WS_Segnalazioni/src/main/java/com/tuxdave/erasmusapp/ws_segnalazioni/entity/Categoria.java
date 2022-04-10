@@ -27,7 +27,7 @@ public class Categoria implements Serializable {
 
     @NotNull(message = "Il nome di Categoria non può essere NULL")
     @NotBlank(message = "Il nome di Categoria non può essere BLANK")
-    @Size(min = 10, max = 45, message = "Il nome di Categoria deve essere compreso tra 10 e 45 chars")
+    @Size(max = 45, message = "Il nome di Categoria deve essere compreso tra 10 e 45 chars")
     private String nome;
 
     @NotNull(message = "La descrizione di Segnalazione non può essere NULL")
