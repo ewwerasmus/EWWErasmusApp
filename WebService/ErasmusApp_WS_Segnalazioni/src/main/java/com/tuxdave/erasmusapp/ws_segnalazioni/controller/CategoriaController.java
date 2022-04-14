@@ -5,6 +5,7 @@ import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Categoria;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.CategoriaService;
 import com.tuxdave.erasmusapp.ws_segnalazioni.validation.InfoMsg;
 import io.swagger.annotations.*;
@@ -35,14 +36,42 @@ public class CategoriaController {
             produces = "application/json"
     )
     @ApiResponses({
-            @ApiResponse(code = 200, message = "Tutte le segnalazioni trovate!"),
+            @ApiResponse(code = 200, message = "Tutte le categorie trovate!"),
     })
     @GetMapping("query")
     public ResponseEntity<List<Categoria>> getAllCategorie(){
         log.info("Richieste tutte le categorie.");
         List<Categoria> categorie = categoriaService.findAll();
-        log.info("Rilasciate " + categorie.size() + " segnalazioni.");
+        log.info("Rilasciate " + categorie.size() + " categorie.");
         return new ResponseEntity<List<Categoria>>(categorie, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Seleziona una categoria in base all'ID.",
+            notes = "Restituisce i dati semplici delle categorie in formato JsonObject.",
+            response = Categoria.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "La categoria richiesta è stata trovata!"),
+            @ApiResponse(code = 404, message = "La categoria richiesta non è stata trovata..."),
+    })
+    @GetMapping("query/id/{id}")
+    public ResponseEntity<Categoria> getCategoriaById(
+            @ApiParam(required = true, value = "L'ID della categoria da selezionare")
+            @PathVariable(value = "id", required = true)
+            Integer id
+    ) throws NotFoundException {
+        log.info("Richiesta la categoria con ID = " + id);
+        Categoria categoria = categoriaService.findCategoriaById(id);
+        if(categoria == null){
+            String err = "La categoria con ID = " + id + " non esiste...";
+            log.warning(err);
+            throw new NotFoundException(err);
+        }else{
+            log.info("Rispondo con la categoria '" + categoria.getNome() + "'");
+            return new ResponseEntity<Categoria>(categoria, HttpStatus.OK);
+        }
     }
 
     @ApiOperation(

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -18,7 +19,8 @@ public class CategoriaServiceImpl implements CategoriaService {
 
     @Override
     public Categoria findCategoriaById(Integer id) {
-        return categoriaRepository.findById(id).get();
+        Optional<Categoria> c = categoriaRepository.findById(id);
+        return c.isEmpty() ? null : c.get();
     }
 
     @Override
