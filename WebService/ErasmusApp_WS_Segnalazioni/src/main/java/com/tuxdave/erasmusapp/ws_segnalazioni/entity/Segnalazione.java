@@ -1,16 +1,16 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.entity;
 
-import com.fasterxml.jackson.annotation.*;
-import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Categoria;
-import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Comune;
-import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Coordinata;
-import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_StatoSegnalazione;
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.tuxdave.erasmusapp.shared.validation.orders.First;
 import com.tuxdave.erasmusapp.shared.validation.orders.Second;
-import lombok.*;
-import net.bytebuddy.implementation.bind.annotation.BindingPriority;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Categoria;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_Comune;
+import com.tuxdave.erasmusapp.ws_segnalazioni.validation.V_StatoSegnalazione;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import org.hibernate.Hibernate;
-import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import javax.validation.GroupSequence;

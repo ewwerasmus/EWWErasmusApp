@@ -1,12 +1,12 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
 import com.tuxdave.erasmusapp.shared.Utils;
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
 import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;

@@ -1,7 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.*;
 import com.tuxdave.erasmusapp.shared.exception.classic.SaveException;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.*;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.ComuneRepository;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CoordinataRepository;
@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 

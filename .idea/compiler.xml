@@ -9,15 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Shared" />
         <module name="ErasmusApp_WS_Segnalazioni" />
+        <module name="ErasmusApp_WS_Login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ErasmusApp_WS_Login" target="11" />
       <module name="ErasmusApp_WS_Segnalazioni" target="11" />
       <module name="Shared" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ErasmusApp_WS_Login" options="-parameters" />
       <module name="ErasmusApp_WS_Segnalazioni" options="-parameters" />
     </option>
   </component>
