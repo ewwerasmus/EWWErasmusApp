@@ -1,4 +1,4 @@
-package com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom;
+package com.tuxdave.erasmusapp.shared.exception.custom;
 
 public class BindingException extends Exception{
     public BindingException(String message) {

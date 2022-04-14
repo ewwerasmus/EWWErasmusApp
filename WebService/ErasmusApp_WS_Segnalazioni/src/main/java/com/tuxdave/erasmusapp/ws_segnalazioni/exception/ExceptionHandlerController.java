@@ -1,9 +1,10 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.exception;
 
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
+import com.tuxdave.erasmusapp.shared.exception.ErrorMsg;
+import com.tuxdave.erasmusapp.shared.exception.classic.SaveException;
+import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
+import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
+import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,4 @@
-package com.tuxdave.erasmusapp.ws_segnalazioni;
-
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
-import lombok.val;
+package com.tuxdave.erasmusapp.shared;
 
 import java.util.ArrayList;
 import java.util.List;

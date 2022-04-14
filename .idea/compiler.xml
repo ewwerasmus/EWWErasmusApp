@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Shared" />
         <module name="ErasmusApp_WS_Segnalazioni" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ErasmusApp_WS_Segnalazioni" target="11" />
+      <module name="Shared" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/Shated/pom.xml" />
+        <option value="$PROJECT_DIR$/WebService/Shared/pom.xml" />
       </list>
     </option>
   </component>

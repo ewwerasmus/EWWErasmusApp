@@ -1,12 +1,11 @@
-package com.tuxdave.erasmusapp.ws_segnalazioni.exception;
-
-import java.time.LocalDate;
-import java.util.Date;
+package com.tuxdave.erasmusapp.shared.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.Date;
 
 @Getter
 @Setter

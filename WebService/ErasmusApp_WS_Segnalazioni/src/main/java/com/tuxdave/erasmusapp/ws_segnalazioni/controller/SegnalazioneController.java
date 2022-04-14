@@ -1,14 +1,12 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.controller;
 
-import com.tuxdave.erasmusapp.ws_segnalazioni.Utils;
+import com.tuxdave.erasmusapp.shared.Utils;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
-import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.BindingException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.DuplicateException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.custom.NotFoundException;
-import com.tuxdave.erasmusapp.ws_segnalazioni.repository.SegnalazioneRepository;
+import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
+import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
+import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
-import com.tuxdave.erasmusapp.ws_segnalazioni.validation.InfoMsg;
+import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
@@ -19,7 +17,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

@@ -17,6 +17,14 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+
+        <!--INTERNE-->
+        <dependency>
+            <groupId>com.tuxdave.erasmusapp</groupId>
+            <artifactId>Shared</artifactId>
+            <version>latest</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>

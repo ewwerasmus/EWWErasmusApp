@@ -1,4 +1,4 @@
-package com.tuxdave.erasmusapp.ws_segnalazioni.validation;
+package com.tuxdave.erasmusapp.shared.validation;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

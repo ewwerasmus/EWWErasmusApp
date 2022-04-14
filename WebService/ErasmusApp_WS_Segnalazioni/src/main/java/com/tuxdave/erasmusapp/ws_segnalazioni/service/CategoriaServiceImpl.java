@@ -1,7 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Categoria;
-import com.tuxdave.erasmusapp.ws_segnalazioni.exception.classic.SaveException;
+import com.tuxdave.erasmusapp.shared.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
