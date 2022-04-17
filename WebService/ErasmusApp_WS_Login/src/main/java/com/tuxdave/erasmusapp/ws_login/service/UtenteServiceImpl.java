@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional(readOnly = true)
@@ -22,7 +23,9 @@ public class UtenteServiceImpl implements UtenteService {
 
     @Override
     public Utente findUtenteByUsername(String username) {
-        return utenteReposotory.getById(username);
+        Optional<Utente> ut = utenteReposotory.findById(username);
+        if(ut.isEmpty()) return null;
+        else return ut.get();
     }
 
     @Override

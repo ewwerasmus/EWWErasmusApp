@@ -6,10 +6,11 @@ import org.hibernate.Hibernate;
 import javax.persistence.*;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Size;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-@Entity
+@Entity(name = "Utente")
 @Table(name = "UTENTE")
 @Getter
 @Setter
@@ -30,7 +31,11 @@ public class Utente {
             inverseJoinColumns = @JoinColumn(name = "idRuolo")
     )
     @Null(message = "L'elenco di RUOLI deve essere NULL in inserimento.")
-    private List<Ruolo> ruoli;
+    private List<Ruolo> ruoli;// = new ArrayList<>();
+    public List<Ruolo> getRuoli() {
+        if(ruoli == null) ruoli = new ArrayList<Ruolo>();
+        return ruoli;
+    }
 
     @Override
     public boolean equals(Object o) {

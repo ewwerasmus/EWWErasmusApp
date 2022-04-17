@@ -7,6 +7,7 @@ import org.hibernate.Hibernate;
 import javax.persistence.*;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Size;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -25,7 +26,11 @@ public class Ruolo {
     @JsonIgnore
     @ToString.Exclude
     @Null(message = "L'elenco di UTENTI deve essere NULL in inserimento.")
-    private List<Utente> utenti;
+    private List<Utente> utenti;// = new ArrayList<>();
+    public List<Utente> getUtenti() {
+        if(utenti == null) utenti = new ArrayList<Utente>();
+        return utenti;
+    }
 
     @Override
     public boolean equals(Object o) {

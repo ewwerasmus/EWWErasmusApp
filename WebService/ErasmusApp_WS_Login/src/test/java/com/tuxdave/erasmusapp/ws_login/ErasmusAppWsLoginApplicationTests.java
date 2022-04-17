@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 @ContextConfiguration(classes = ErasmusAppWsLoginApplication.class)
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@Rollback(value = false)
 class ErasmusAppWsLoginApplicationTests {
 
     @Autowired
@@ -42,8 +44,7 @@ class ErasmusAppWsLoginApplicationTests {
     @Order(2)
     void t2() {
         Utente u = utenteService.findUtenteByUsername("TuxDave");
-        Ruolo r = ruoloService.findRuoloByNome("Ruolo2"); //FIXME: capire come inizializzare a [] le liste vuote e risolvere
-        //Lazy...Exception senza dover scrivere tutte le query a mano
+        Ruolo r = ruoloService.findRuoloByNome("Ruolo2");
         u.getRuoli().add(r);
         utenteService.saveOrUpdate(u);
     }
