@@ -1,6 +1,9 @@
 package com.tuxdave.erasmusapp.ws_login.entity;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
@@ -30,7 +33,6 @@ public class Utente {
             joinColumns = @JoinColumn(name = "idUtente"),
             inverseJoinColumns = @JoinColumn(name = "idRuolo")
     )
-    @Null(message = "L'elenco di RUOLI deve essere NULL in inserimento.")
     private List<Ruolo> ruoli;// = new ArrayList<>();
     public List<Ruolo> getRuoli() {
         if(ruoli == null) ruoli = new ArrayList<Ruolo>();

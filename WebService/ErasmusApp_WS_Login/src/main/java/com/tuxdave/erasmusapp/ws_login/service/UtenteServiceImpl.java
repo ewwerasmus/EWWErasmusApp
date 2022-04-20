@@ -3,6 +3,7 @@ package com.tuxdave.erasmusapp.ws_login.service;
 import com.tuxdave.erasmusapp.ws_login.entity.Utente;
 import com.tuxdave.erasmusapp.ws_login.repository.UtenteReposotory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,6 +13,9 @@ import java.util.Optional;
 @Service
 @Transactional(readOnly = true)
 public class UtenteServiceImpl implements UtenteService {
+
+    @Autowired
+    BCryptPasswordEncoder encoder;
 
     @Autowired
     UtenteReposotory utenteReposotory;
@@ -31,7 +35,10 @@ public class UtenteServiceImpl implements UtenteService {
     @Override
     @Transactional(readOnly = false)
     public void saveOrUpdate(Utente u) {
-        utenteReposotory.save(u);
+        if(!u.getPassword().equals(utenteReposotory.findEncryptedPassewordByUtente(u.getUsername()))){
+            u.setPassword(encoder.encode(u.getPassword()));
+        }
+        utenteReposotory.saveAndFlush(u); //TOFIX: Fixare l'update dei ruoli che non funzia
     }
 
     @Override
@@ -42,6 +49,6 @@ public class UtenteServiceImpl implements UtenteService {
 
     @Override
     public boolean checkPassword(Utente user, String passwd) {
-        return true; //TODO: Implementare il controllo di comparazione tra passwd e hash
+        return encoder.matches(passwd, user.getPassword());
     }
 }
