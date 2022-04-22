@@ -38,7 +38,7 @@ public class UtenteServiceImpl implements UtenteService {
         if(!u.getPassword().equals(utenteReposotory.findEncryptedPassewordByUtente(u.getUsername()))){
             u.setPassword(encoder.encode(u.getPassword()));
         }
-        utenteReposotory.saveAndFlush(u); //TOFIX: Fixare l'update dei ruoli che non funzia
+        utenteReposotory.saveAndFlush(u);
     }
 
     @Override

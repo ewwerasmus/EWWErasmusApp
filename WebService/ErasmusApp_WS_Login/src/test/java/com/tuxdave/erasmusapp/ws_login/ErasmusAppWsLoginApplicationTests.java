@@ -40,6 +40,9 @@ class ErasmusAppWsLoginApplicationTests {
         Ruolo r = new Ruolo();
         r.setNome("Ruolo1");
         ruoloService.saveOrUpdate(r);
+        r = new Ruolo();
+        r.setNome("Ruolo2");
+        ruoloService.saveOrUpdate(r);
         utenteService.saveOrUpdate(u);
     }
 
@@ -58,7 +61,9 @@ class ErasmusAppWsLoginApplicationTests {
     @Order(3)
     void t3() {
         Utente u = utenteService.findUtenteByUsername("TuxDave");
-        Ruolo r = ruoloService.findRuoloByNome("Ruolo2");
+        Ruolo r = ruoloService.findRuoloByNome("Ruolo1");
+        u.getRuoli().add(r);
+        r = ruoloService.findRuoloByNome("Ruolo2");
         u.getRuoli().add(r);
         System.out.println("Ruoli: " + u.getRuoli().size());
         utenteService.saveOrUpdate(u);
@@ -74,7 +79,7 @@ class ErasmusAppWsLoginApplicationTests {
     @Order(5)
     void t5(){
         List<Ruolo> ruoli = utenteService.findUtenteByUsername("TuxDave").getRuoli();
-        if(ruoli.size() != 1){
+        if(ruoli.size() != 2){
             throw new RuntimeException("Ruoli non inseriti correttamente!");
         }
     }
@@ -82,12 +87,9 @@ class ErasmusAppWsLoginApplicationTests {
     @Test
     @Order(6)
     void t6() {
-        Utente u = new Utente();
-        u.setUsername("TuxDave");
-        u.setPassword("Password");
-        Ruolo r = new Ruolo();
-        r.setNome("Ruolo1");
-        ruoloService.delete(r);
+        Utente u = utenteService.findUtenteByUsername("TuxDave");
+        List<Ruolo> r = ruoloService.findAllRuoli();
+        r.forEach((ru) -> {ruoloService.delete(ru);});
         utenteService.delete(u);
     }
 
