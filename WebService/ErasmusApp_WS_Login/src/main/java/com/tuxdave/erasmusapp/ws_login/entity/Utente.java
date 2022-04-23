@@ -1,5 +1,6 @@
 package com.tuxdave.erasmusapp.ws_login.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -24,6 +25,8 @@ public class Utente {
     @Size(min = 5, max = 80, message = "L'USERNAME di Utente deve essere di lunghezza 5-80.")
     private String username;
 
+    @JsonIgnore
+    @ToString.Exclude
     @Size(min = 5, max = 80, message = "La PASSWORD di Utente deve essere di lunghezza 5-80.")
     private String password;
 

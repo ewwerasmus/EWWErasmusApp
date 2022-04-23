@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private static final String REALM = AuthEntryPoint.REALM;
     private static final Map<String, String[]> ROLE_MATCHER = new HashMap<String, String[]>();
     static{
-        ROLE_MATCHER.put("USER", new String[]{"/api/utente/query/**", "/api/ruolo/query/**"});
+        ROLE_MATCHER.put("USER", new String[]{"/api/**/query/**"});
         ROLE_MATCHER.put("ADMIN", new String[]{"/**"});
     }
 
@@ -42,7 +42,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         manager.createUser(
             users
-                .username("ErasmusAppWebService")
+                .username("ErasmusAppWebServiceUser")
                 .password(passwordEncoder().encode("gz%s2QPuhr^Hz@WKUVM&6"))
                     //TODO: Scrivere queste password criptate da qualche parte, probabilmente va cambiato il AuthType
                 .roles("USER")
