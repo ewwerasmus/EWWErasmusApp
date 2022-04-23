@@ -38,7 +38,7 @@ public class UtenteController {
     })
     @GetMapping("query/username/{username}")
     @SneakyThrows
-    public ResponseEntity<Utente> index(
+    public ResponseEntity<Utente> queryUtenteByUsername(
             @ApiParam(value = "Username dell'Utente da ricercare.", required = true)
             @PathVariable("username")
             String username
@@ -53,5 +53,23 @@ public class UtenteController {
             log.info("Rispondo con l'utente richiesto");
             return new ResponseEntity<Utente>(u, HttpStatus.OK);
         }
+    }
+
+    @ApiOperation(
+            value = "Seleziona tutti gli Utenti.",
+            notes = "Restituisce i dati dell'Utente in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Utenti trovati!"),
+    })
+    @GetMapping("query")
+    @SneakyThrows
+    public ResponseEntity<List<Utente>> queryAllUtenti(){
+        log.info("Richiesta la lista di tutti gli utenti");
+        List<Utente> us = utenteService.findAllUtenti();
+        log.info("Rilascio una lista di " + us.size() + " utenti!");
+        return new ResponseEntity<>(us, HttpStatus.OK);
     }
 }
