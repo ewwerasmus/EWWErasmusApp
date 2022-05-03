@@ -48,6 +48,11 @@ public class UtenteServiceImpl implements UtenteService {
     }
 
     @Override
+    public List<Utente> searchUtenteByRuoloNome(String r) {
+        return utenteReposotory.searchUtenteByRuoloNome(r);
+    }
+
+    @Override
     public boolean checkPassword(Utente user, String passwd) {
         return encoder.matches(passwd, user.getPassword());
     }

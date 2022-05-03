@@ -9,6 +9,6 @@ public interface UtenteService {
     Utente findUtenteByUsername(String username);
     void saveOrUpdate(Utente u);
     void delete(Utente u);
-
+    List<Utente> searchUtenteByRuoloNome(String r);
     boolean checkPassword(Utente user, String passwd);
 }
