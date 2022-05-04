@@ -25,7 +25,7 @@ public class Utente {
     @Size(min = 5, max = 80, message = "L'USERNAME di Utente deve essere di lunghezza 5-80.")
     private String username;
 
-    @JsonIgnore
+    //@JsonIgnore TODO: capire come non inviare la password cifrata in json...
     @ToString.Exclude
     @Size(min = 5, max = 80, message = "La PASSWORD di Utente deve essere di lunghezza 5-80.")
     private String password;

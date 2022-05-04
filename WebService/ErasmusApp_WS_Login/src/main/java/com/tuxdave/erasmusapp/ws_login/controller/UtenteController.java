@@ -1,6 +1,9 @@
 package com.tuxdave.erasmusapp.ws_login.controller;
 
+import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
+import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
+import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
 import com.tuxdave.erasmusapp.ws_login.entity.Utente;
 import com.tuxdave.erasmusapp.ws_login.service.RuoloService;
 import com.tuxdave.erasmusapp.ws_login.service.UtenteService;
@@ -11,13 +14,13 @@ import org.aspectj.weaver.ast.Not;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
 import javax.swing.text.html.parser.Entity;
+import javax.validation.Valid;
 import javax.websocket.server.PathParam;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -133,5 +136,49 @@ public class UtenteController {
         }
         log.info("Rispondo con " + ls.size() + " utenti.");
         return new ResponseEntity<List<Utente>>(ls, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Inserisce l'Utente fornito.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = Utente.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Utente inserito!"),
+            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
+            @ApiResponse(code = 406, message = "Binding Validation non andata a buon fine, vedi errore."),
+            @ApiResponse(code = 409, message = "Utente non inserito perchè già esistente.")
+    })
+    @PostMapping("insert")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> addUtente(
+            @ApiParam(value = "JsonObject descrivente l'Utente da inserire", required = true)
+            @Valid
+            @RequestBody(required = true)
+            Utente utente,
+            BindingResult result
+    ){
+        log.info("Richiesto l'inserimento di un Utente");
+        if(result.hasErrors()) {
+            String errMsg = result.getAllErrors().get(0).getDefaultMessage();
+            //if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
+            System.err.println(errMsg);
+            log.warning(errMsg);
+            throw new BindingException(errMsg);
+        }
+        if(utenteService.findUtenteByUsername(utente.getUsername()) == null){
+            utenteService.saveOrUpdate(utente);
+            String okMsg = "Inserimento completato.";
+            log.info(okMsg);
+            return new ResponseEntity<InfoMsg>(new InfoMsg(
+                    new Date(),
+                    okMsg
+            ), HttpStatus.CREATED);
+        } else {
+            DuplicateException d = new DuplicateException("Utente " + utente.getUsername() + " esiste già.");
+            log.warning(d.getMessage());
+            throw d;
+        }
     }
 }
