@@ -2,10 +2,12 @@ package com.tuxdave.erasmusapp.ws_login.controller;
 
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.ws_login.entity.Utente;
+import com.tuxdave.erasmusapp.ws_login.service.RuoloService;
 import com.tuxdave.erasmusapp.ws_login.service.UtenteService;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
+import org.aspectj.weaver.ast.Not;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,6 +28,9 @@ public class UtenteController {
 
     @Autowired
     private UtenteService utenteService;
+
+    @Autowired
+    private RuoloService ruoloService;
 
     @ApiOperation(
             value = "Seleziona un Utente in base all'USERNAME.",
@@ -76,7 +81,7 @@ public class UtenteController {
 
     @ApiOperation(
             value = "Seleziona gli Utenti appartenenti ad un ruolo.",
-            notes = "Restituisce i dati dell'Utente in formato JsonObject.",
+            notes = "Restituisce i dati degli Utenti in formato JsonArray.",
             response = List.class,
             produces = "application/json"
     )
@@ -89,9 +94,43 @@ public class UtenteController {
             @ApiParam(value = "Il nome del ruolo in base al quale filtrare", required = true)
             @PathVariable("nome")
             String nome
-    ){
+    ) {
         log.info("Richiesti gli utenti appartenenti al ruolo: " + nome);
-        List<Utente> ls = utenteService.searchUtenteByRuoloNome(nome);
+        List<Utente> ls = null;
+        try {
+            ls = utenteService.searchUtenteByRuoloNome(nome);
+        } catch (NotFoundException e) {
+            log.warning(e.getMessage());
+            throw e;
+        }
+        log.info("Rispondo con " + ls.size() + " utenti.");
+        return new ResponseEntity<List<Utente>>(ls, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Seleziona gli Utenti appartenenti a più ruoli contemporaneamente.",
+            notes = "Restituisce i dati dell'Utente in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Utenti trovati!"),
+    })
+    @GetMapping("query/ruoli/sync/{nomi}")
+    public ResponseEntity<List<Utente>> getUtenteBySyncRuoloNome(
+            @ApiParam(value = "I nomi dei ruoli in base al quale filtrare", required = true)
+            @PathVariable("nomi")
+            String[] nomi
+    ){
+        log.info("Richiesti gli utenti appartenenti a n. ruoli: " + nomi.length);
+        List<Utente> ls = null;
+        try {
+            ls = utenteService.searchUtenteBySyncRuoliNome(nomi);
+        } catch (NotFoundException e) {
+            RuntimeException r = new RuntimeException(e);
+            log.warning(r.getMessage());
+            throw r;
+        }
         log.info("Rispondo con " + ls.size() + " utenti.");
         return new ResponseEntity<List<Utente>>(ls, HttpStatus.OK);
     }

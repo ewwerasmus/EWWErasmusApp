@@ -39,4 +39,9 @@ public class RuoloServiceImpl implements RuoloService {
     public void delete(Ruolo r) {
         ruoloRepository.delete(r);
     }
+
+    @Override
+    public boolean doesRuoloExist(String nome) {
+        return ruoloRepository.countRuoloByNome(nome) == 1;
+    }
 }

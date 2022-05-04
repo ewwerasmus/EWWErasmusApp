@@ -37,6 +37,9 @@ class ErasmusAppWsLoginApplicationTests {
         Utente u = new Utente();
         u.setUsername("TuxDave");
         u.setPassword("Passwordd");
+        Utente u1 = new Utente();
+        u1.setUsername("Utente1");
+        u1.setPassword("Passwordd");
         Ruolo r = new Ruolo();
         r.setNome("Ruolo1");
         ruoloService.saveOrUpdate(r);
@@ -44,6 +47,7 @@ class ErasmusAppWsLoginApplicationTests {
         r.setNome("Ruolo2");
         ruoloService.saveOrUpdate(r);
         utenteService.saveOrUpdate(u);
+        utenteService.saveOrUpdate(u1);
     }
 
     @Test
@@ -61,12 +65,15 @@ class ErasmusAppWsLoginApplicationTests {
     @Order(3)
     void t3() {
         Utente u = utenteService.findUtenteByUsername("TuxDave");
+        Utente u1 = utenteService.findUtenteByUsername("Utente1");
         Ruolo r = ruoloService.findRuoloByNome("Ruolo1");
         u.getRuoli().add(r);
+        u1.getRuoli().add(r);
         r = ruoloService.findRuoloByNome("Ruolo2");
         u.getRuoli().add(r);
         System.out.println("Ruoli: " + u.getRuoli().size());
         utenteService.saveOrUpdate(u);
+        utenteService.saveOrUpdate(u1);
     }
 
     @Test
@@ -87,10 +94,10 @@ class ErasmusAppWsLoginApplicationTests {
     @Test
     @Order(6)
     void t6() {
-        Utente u = utenteService.findUtenteByUsername("TuxDave");
+        List<Utente> u = utenteService.findAllUtenti();
         List<Ruolo> r = ruoloService.findAllRuoli();
         r.forEach((ru) -> {ruoloService.delete(ru);});
-        utenteService.delete(u);
+        u.forEach((ut) -> {utenteService.delete(ut);});
     }
 
 }

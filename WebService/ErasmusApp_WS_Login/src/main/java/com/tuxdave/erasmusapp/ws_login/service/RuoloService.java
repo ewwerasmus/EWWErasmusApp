@@ -9,4 +9,6 @@ public interface RuoloService {
     Ruolo findRuoloByNome(String nome);
     void saveOrUpdate(Ruolo r);
     void delete(Ruolo r);
+
+    boolean doesRuoloExist(String nome);
 }
