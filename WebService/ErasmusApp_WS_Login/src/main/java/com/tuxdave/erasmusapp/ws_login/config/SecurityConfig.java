@@ -42,7 +42,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         manager.createUser(
             users
-                .username("ErasmusAppWebServiceUser")
+                .username("ErasmusAppWebServiceSegnalazione")
                 .password(passwordEncoder().encode("gz%s2QPuhr^Hz@WKUVM&6"))
                     //TODO: Scrivere queste password criptate da qualche parte, probabilmente va cambiato il AuthType
                 .roles("USER")
