@@ -18,7 +18,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.nio.file.NotDirectoryException;
 import java.util.Date;
 import java.util.List;
 
@@ -138,6 +137,42 @@ public class UtenteController {
     }
 
     @ApiOperation(
+            value = "Rimuove un Utente.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Utente cancellato!"),
+            @ApiResponse(code = 404, message = "Utente non trovati."),
+    })
+    @DeleteMapping("/query/username/{username}")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> deleteUtente(
+            @ApiParam(value = "Username dell'Utente da eliminare", required = true)
+            @PathVariable("username")
+            String username
+    ){
+        log.info("Richiesta la cancellazione dell'Utente '" + username + "'");
+        Utente utente = utenteService.findUtenteByUsername(username);
+        if(utente == null){
+            NotFoundException e = new NotFoundException("L'Utente '" + username + "' non esiste.");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        utenteService.delete(utente);
+        String okMsg = "Utente '" + username + "' cancellato correttamente";
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.CREATED
+        );
+    }
+
+    @ApiOperation(
             value = "Aggiunge un Ruolo all'utente.",
             notes = "L'operazione va a buon fine se i dati sono tutti validi",
             response = InfoMsg.class,
@@ -145,14 +180,13 @@ public class UtenteController {
     )
     @ApiResponses({
             @ApiResponse(code = 201, message = "Ruolo aggiunto!"),
-            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
             @ApiResponse(code = 404, message = "Utente o Ruolo non trovati."),
             @ApiResponse(code = 409, message = "Ruolo non inserito perchè l'Utente già ci appartiene.")
     })
     @PutMapping("/query/username/{username}/add/ruolo/{nome}")
     @SneakyThrows
     public ResponseEntity<InfoMsg> addUtenteRuolo(
-            @ApiParam(value = "ID dell'Utente al quale aggiungere il ruolo", required = true)
+            @ApiParam(value = "Username dell'Utente al quale aggiungere il ruolo", required = true)
             @PathVariable("username")
             String usernameUtente,
 
@@ -199,14 +233,13 @@ public class UtenteController {
     )
     @ApiResponses({
             @ApiResponse(code = 200, message = "Ruolo Rimosso!"),
-            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
             @ApiResponse(code = 404, message = "Utente o Ruolo non trovati."),
             @ApiResponse(code = 409, message = "Ruolo non rimosso perchè l'Utente non ci appartiene.")
     })
     @DeleteMapping("/query/username/{username}/remove/ruolo/{nome}")
     @SneakyThrows
     public ResponseEntity<InfoMsg> removeUtenteRuolo(
-            @ApiParam(value = "ID dell'Utente al quale aggiungere il ruolo", required = true)
+            @ApiParam(value = "Username dell'Utente al quale aggiungere il ruolo", required = true)
             @PathVariable("username")
             String usernameUtente,
 

@@ -2,6 +2,7 @@ package com.tuxdave.erasmusapp.ws_login.controller;
 
 import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
+import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
 import com.tuxdave.erasmusapp.ws_login.entity.Ruolo;
 import com.tuxdave.erasmusapp.ws_login.entity.Utente;
@@ -87,5 +88,41 @@ public class RuoloController {
             log.warning(d.getMessage());
             throw d;
         }
+    }
+
+    @ApiOperation(
+            value = "Rimuove un Ruolo.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Ruolo cancellato!"),
+            @ApiResponse(code = 404, message = "Ruolo non trovati."),
+    })
+    @DeleteMapping("/query/nome/{nome}")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> deleteUtente(
+            @ApiParam(value = "Il nome del Ruolo da cancellare.", required = true)
+            @PathVariable("nome")
+            String nome
+    ){
+        log.info("Richiesta la cancellazione del Ruolo '" + nome + "'");
+        Ruolo ruolo = ruoloService.findRuoloByNome(nome);
+        if(ruolo == null){
+            NotFoundException e = new NotFoundException("Il Ruolo '" + nome + "' non esiste.");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        ruoloService.delete(ruolo);
+        String okMsg = "Ruolo '" + nome + "' cancellato correttamente";
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.CREATED
+        );
     }
 }
