@@ -28,3 +28,8 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
+
+ws-login:
+  serverUrl: http://localhost:8002/api/utente/query/username/
+  username: ErasmusAppWebServiceSegnalazione
+  password: gz%s2QPuhr^Hz@WKUVM&6
