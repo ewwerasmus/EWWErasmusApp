@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private static final String REALM = AuthEntryPoint.REALM;
     private static final Map<String, String[]> ROLE_MATCHER = new HashMap<String, String[]>();
     static{
-        ROLE_MATCHER.put("USER", new String[]{"/api/**/query/**"});
+        ROLE_MATCHER.put("USER", new String[]{"/api/**"});
         ROLE_MATCHER.put("ADMIN", new String[]{"/**"});
     }
 

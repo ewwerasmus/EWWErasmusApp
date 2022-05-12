@@ -4,22 +4,21 @@ import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
+import com.tuxdave.erasmusapp.ws_login.entity.Ruolo;
 import com.tuxdave.erasmusapp.ws_login.entity.Utente;
 import com.tuxdave.erasmusapp.ws_login.service.RuoloService;
 import com.tuxdave.erasmusapp.ws_login.service.UtenteService;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
-import org.aspectj.weaver.ast.Not;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.parser.Entity;
 import javax.validation.Valid;
-import javax.websocket.server.PathParam;
+import java.nio.file.NotDirectoryException;
 import java.util.Date;
 import java.util.List;
 
@@ -51,14 +50,14 @@ public class UtenteController {
             @ApiParam(value = "Username dell'Utente da ricercare.", required = true)
             @PathVariable("username")
             String username
-    ){
+    ) {
         log.info("Richiesto utente con USERNAME=" + username);
         Utente u = utenteService.findUtenteByUsername(username);
-        if(u == null){
+        if (u == null) {
             String errMsg = "Nessun utente trovato con username: " + username;
             log.warning(errMsg);
             throw new NotFoundException(errMsg);
-        }else{
+        } else {
             log.info("Rispondo con l'utente richiesto");
             return new ResponseEntity<Utente>(u, HttpStatus.OK);
         }
@@ -75,7 +74,7 @@ public class UtenteController {
     })
     @GetMapping("query")
     @SneakyThrows
-    public ResponseEntity<List<Utente>> queryAllUtenti(){
+    public ResponseEntity<List<Utente>> queryAllUtenti() {
         log.info("Richiesta la lista di tutti gli utenti");
         List<Utente> us = utenteService.findAllUtenti();
         log.info("Rilascio una lista di " + us.size() + " utenti!");
@@ -124,7 +123,7 @@ public class UtenteController {
             @ApiParam(value = "I nomi dei ruoli in base al quale filtrare", required = true)
             @PathVariable("nomi")
             String[] nomi
-    ){
+    ) {
         log.info("Richiesti gli utenti appartenenti a n. ruoli: " + nomi.length);
         List<Utente> ls = null;
         try {
@@ -139,9 +138,117 @@ public class UtenteController {
     }
 
     @ApiOperation(
+            value = "Aggiunge un Ruolo all'utente.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Ruolo aggiunto!"),
+            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
+            @ApiResponse(code = 404, message = "Utente o Ruolo non trovati."),
+            @ApiResponse(code = 409, message = "Ruolo non inserito perchè l'Utente già ci appartiene.")
+    })
+    @PutMapping("/query/username/{username}/add/ruolo/{nome}")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> addUtenteRuolo(
+            @ApiParam(value = "ID dell'Utente al quale aggiungere il ruolo", required = true)
+            @PathVariable("username")
+            String usernameUtente,
+
+            @ApiParam(value = "nome del Ruolo da aggiungere a questo utente.", required = true)
+            @PathVariable("nome")
+            String nomeRuolo
+    ) {
+        log.info("Richiesta l'aggiunta del ruolo '" + nomeRuolo + "' all'utente '" + usernameUtente + "'");
+        Utente utente = utenteService.findUtenteByUsername(usernameUtente);
+        Ruolo ruolo = ruoloService.findRuoloByNome(nomeRuolo);
+        if (utente == null) {
+            NotFoundException e = new NotFoundException("Impossibile trovare l'Utente '" + usernameUtente + "'");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        if (ruolo == null) {
+            NotFoundException e = new NotFoundException("Impossibile trovare il Ruolo '" + nomeRuolo + "'");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        if (utente.getRuoli().contains(ruolo)) {
+            DuplicateException e = new DuplicateException("L'utente '" + utente.getUsername() + "' possiede già questo ruolo ('" + nomeRuolo + "')");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        utente.getRuoli().add(ruolo);
+        utenteService.saveOrUpdate(utente);
+        String okMsg = "Ruolo '" + nomeRuolo + "' aggiunto all'utente '" + usernameUtente + "'.";
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.CREATED
+        );
+    }
+
+    @ApiOperation(
+            value = "Rimuove un Ruolo all'utente.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Ruolo Rimosso!"),
+            @ApiResponse(code = 400, message = "JsonObject formato in modo non corretto, seguire il modello documentato su Swagger!"),
+            @ApiResponse(code = 404, message = "Utente o Ruolo non trovati."),
+            @ApiResponse(code = 409, message = "Ruolo non rimosso perchè l'Utente non ci appartiene.")
+    })
+    @DeleteMapping("/query/username/{username}/remove/ruolo/{nome}")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> removeUtenteRuolo(
+            @ApiParam(value = "ID dell'Utente al quale aggiungere il ruolo", required = true)
+            @PathVariable("username")
+            String usernameUtente,
+
+            @ApiParam(value = "nome del Ruolo da aggiungere a questo utente.", required = true)
+            @PathVariable("nome")
+            String nomeRuolo
+    ) {
+        log.info("Richiesta la rimozione del ruolo '" + nomeRuolo + "' all'utente '" + usernameUtente + "'");
+        Utente utente = utenteService.findUtenteByUsername(usernameUtente);
+        Ruolo ruolo = ruoloService.findRuoloByNome(nomeRuolo);
+        if (utente == null) {
+            NotFoundException e = new NotFoundException("Impossibile trovare l'Utente '" + usernameUtente + "'");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        if (ruolo == null) {
+            NotFoundException e = new NotFoundException("Impossibile trovare il Ruolo '" + nomeRuolo + "'");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        if (!utente.getRuoli().contains(ruolo)) {
+            NotFoundException e = new NotFoundException("L'utente '" + utente.getUsername() + "' non possiede questo ruolo ('" + nomeRuolo + "')");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        utente.getRuoli().remove(ruolo);
+        utenteService.saveOrUpdate(utente);
+        String okMsg = "Ruolo '" + nomeRuolo + "' rimosso all'utente '" + usernameUtente + "'.";
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.OK
+        );
+    }
+
+    @ApiOperation(
             value = "Inserisce l'Utente fornito.",
             notes = "L'operazione va a buon fine se i dati sono tutti validi",
-            response = Utente.class,
+            response = InfoMsg.class,
             produces = "application/json"
     )
     @ApiResponses({
@@ -158,16 +265,16 @@ public class UtenteController {
             @RequestBody(required = true)
             Utente utente,
             BindingResult result
-    ){
+    ) {
         log.info("Richiesto l'inserimento di un Utente");
-        if(result.hasErrors()) {
+        if (result.hasErrors()) {
             String errMsg = result.getAllErrors().get(0).getDefaultMessage();
             //if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
             System.err.println(errMsg);
             log.warning(errMsg);
             throw new BindingException(errMsg);
         }
-        if(utenteService.findUtenteByUsername(utente.getUsername()) == null){
+        if (utenteService.findUtenteByUsername(utente.getUsername()) == null) {
             utenteService.saveOrUpdate(utente);
             String okMsg = "Inserimento completato.";
             log.info(okMsg);
