@@ -118,4 +118,9 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
         System.out.println("saved");
 
     }
+
+    @Override
+    public void delete(Segnalazione s) {
+        segnalazioneRepository.delete(s);
+    }
 }

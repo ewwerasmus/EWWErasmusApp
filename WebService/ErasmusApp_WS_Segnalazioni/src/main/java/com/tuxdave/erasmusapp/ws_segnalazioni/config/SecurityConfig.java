@@ -30,8 +30,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private static final String REALM = AuthEntryPoint.REALM;
     private static final Map<String, String[]> ROLE_MATCHER = new HashMap<String, String[]>();
     static{
-        ROLE_MATCHER.put("USER", new String[]{"/api/**"});
-        ROLE_MATCHER.put("ADMIN", new String[]{"/**"});
+        ROLE_MATCHER.put("SEGNALAZIONE_ENTE_RIPARAZIONI", new String[]{
+                "/api/segnalazione/**"
+        });
+        ROLE_MATCHER.put("SEGNALAZIONE_ADMIN", new String[]{"/**"});
     }
 
     @Autowired
@@ -41,8 +43,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers(ROLE_MATCHER.get("USER")).hasAnyRole("USER")
-                .antMatchers(ROLE_MATCHER.get("ADMIN")).hasAnyRole("ADMIN")
+                .antMatchers(ROLE_MATCHER.get("SEGNALAZIONE_ENTE_RIPARAZIONI")).hasAnyRole("SEGNALAZIONE_ENTE_RIPARAZIONI")
+                .antMatchers(ROLE_MATCHER.get("SEGNALAZIONE_ADMIN")).hasAnyRole("SEGNALAZIONE_ADMIN")
                 //.anyRequest().authenticated()
                 .and()
                 .httpBasic().realmName(REALM).authenticationEntryPoint(getBasicAuthEntryPoint())
@@ -67,7 +69,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 "/configuration/ui",
                 "/configuration/security",
                 "/swagger-ui.html",
-                "/webjars/**"
+                "/webjars/**",
+                "/api/**/query/**",
+                "/api/segnalazione/insert/**"
         );
     }
 

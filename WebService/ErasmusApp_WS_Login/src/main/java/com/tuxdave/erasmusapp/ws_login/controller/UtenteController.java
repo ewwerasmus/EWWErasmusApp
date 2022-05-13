@@ -24,7 +24,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/utente")
 @Log
-@Api(value = "Utente Controller", tags = "Controller di gestione di tutti gli utenti e dati annessi.")
+@Api(value = "Utente Controller", tags = "Controller di gestione di tutti gli Utenti e dati annessi.")
 public class UtenteController {
 
     @Autowired

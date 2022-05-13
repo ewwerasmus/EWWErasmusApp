@@ -236,4 +236,40 @@ public class SegnalazioneController {
                 okMsg
         ), HttpStatus.CREATED);
     }
+
+    @ApiOperation(
+            value = "Cancella la Segnalazione selezionata.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Segnalazione Cancellata."),
+            @ApiResponse(code = 404, message = "Segnalazione non trovata."),
+    })
+    @DeleteMapping("/delete/id/{id}")
+    @SneakyThrows
+    public ResponseEntity<InfoMsg> deleteUtente(
+            @ApiParam(value = "ID della Segnalazione da cancellare.", required = true)
+            @PathVariable("id")
+                    long id
+    ){
+        log.info("Richiesta l'eliminazione della Segnalazione '" + id + "'");
+        Segnalazione segnalazione = segnalazioneService.findSegnalazioneById(id);
+        if(segnalazione == null){
+            NotFoundException e = new NotFoundException("Segnalazione '" + id + "' non esiste.");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        segnalazioneService.delete(segnalazione);
+        String okMsg = "Segnalazione '" + id + "' eliminata con successo";
+        log.info(okMsg);
+        return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.CREATED
+        );
+    }
 }

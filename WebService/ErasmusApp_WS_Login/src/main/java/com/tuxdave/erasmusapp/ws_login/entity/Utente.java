@@ -36,6 +36,7 @@ public class Utente {
             joinColumns = @JoinColumn(name = "idUtente"),
             inverseJoinColumns = @JoinColumn(name = "idRuolo")
     )
+    @Null(message = "L'Utente deve avere i Ruoli NULLI in inserimento.")
     private List<Ruolo> ruoli;// = new ArrayList<>();
     public List<Ruolo> getRuoli() {
         if(ruoli == null) ruoli = new ArrayList<Ruolo>();

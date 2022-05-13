@@ -22,4 +22,5 @@ public interface SegnalazioneService {
     List<Segnalazione> searchSegnalazioneByUrgenzaBetween(Integer from, Integer to);
     void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione);
     void save(Segnalazione s) throws SaveException;
+    void delete(Segnalazione s);
 }
