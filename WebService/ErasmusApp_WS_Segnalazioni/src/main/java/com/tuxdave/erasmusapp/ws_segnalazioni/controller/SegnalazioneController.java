@@ -6,7 +6,9 @@ import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
 import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
+import com.tuxdave.erasmusapp.ws_segnalazioni.service.StatoSegnalazioneService;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
@@ -29,6 +31,9 @@ public class SegnalazioneController {
     @Autowired
     SegnalazioneService segnalazioneService;
 
+    @Autowired
+    StatoSegnalazioneService statoSegnalazioneService;
+
     @ApiOperation(
             value = "Seleziona tutte le segnalazioni.",
             notes = "Restituisce i dati semplici delle segnalazione in formato JsonArray.",
@@ -39,7 +44,7 @@ public class SegnalazioneController {
             @ApiResponse(code = 200, message = "Tutte le segnalazioni trovate!"),
     })
     @GetMapping("query")
-    public ResponseEntity<List<Segnalazione>> getAllSegnalazioni(){
+    public ResponseEntity<List<Segnalazione>> getAllSegnalazioni() {
         log.info("Richieste tutte le segnalazioni...");
         List<Segnalazione> ls = segnalazioneService.findAllEssential();
         log.info("Rilasciata una lista di " + ls.size() + " segnalazioni!");
@@ -60,7 +65,7 @@ public class SegnalazioneController {
             @ApiParam(value = "Codice Catastale del comune secondo cui la ricerca va fatta.", required = true)
             @PathVariable("codiceCatastale")
             String cc
-    ){
+    ) {
         log.info("Ricerca delle Segnalazioni con codiceCatastale = " + cc);
         List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByComune_CodiceCatastale(cc);
         log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
@@ -81,7 +86,7 @@ public class SegnalazioneController {
             @ApiParam(value = "ID univoco della Categoria secondo cui ricercare.", required = true)
             @PathVariable("id")
             Integer id
-    ){
+    ) {
         log.info("Ricerca delle Segnalazioni con Id Categoria = " + id);
         List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByCategoria_Id(id);
         log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
@@ -102,7 +107,7 @@ public class SegnalazioneController {
             @ApiParam(value = "caratteri da ricercare all'interno della descrizione.", required = true)
             @PathVariable("txt")
             String txt
-    ){
+    ) {
         log.info("Ricerca delle Segnalazioni descrizione LIKE " + txt);
         List<Segnalazione> ret = segnalazioneService.searchSegnalazioneByDescrizioneLike(txt);
         log.info("Rilasciata una lista di " + ret.size() + " Segnalazioni!");
@@ -127,13 +132,13 @@ public class SegnalazioneController {
             @ApiParam(value = "Valore di fine range.", required = false)
             @RequestParam(value = "to", required = false)
             Integer to
-    ){
+    ) {
         List<Segnalazione> ret;
-        if(to == null){
+        if (to == null) {
             log.info("Ricerca delle Segnalazioni urgenza = " + from);
             ret = segnalazioneService.searchSegnalazioneByUrgenza(from);
-        }else{
-            if(from > to){
+        } else {
+            if (from > to) {
                 int temp = from;
                 from = to;
                 to = temp;
@@ -161,10 +166,10 @@ public class SegnalazioneController {
             @ApiParam(value = "ID univoco della Segnalazione richiesta.", required = true)
             @PathVariable("id")
             Long id
-    ){
+    ) {
         log.info("Richiesta segnalazione id: " + id);
         Segnalazione s = segnalazioneService.findSegnalazioneById(id);
-        if(s == null){
+        if (s == null) {
             String errMsg = "Nessuna segnalazione trovata con id: " + id;
             log.warning(errMsg);
             throw new NotFoundException(errMsg);
@@ -197,7 +202,7 @@ public class SegnalazioneController {
             Boolean forceInsert
     ) {
         log.info("Richiesto l'inserimento di una Segnalazione");
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             String errMsg = bindingResult.getAllErrors().get(0).getDefaultMessage();
             //if(errMsg == null) errMsg = "Errore generico nell'inserimento della Segnalazione!";
             System.err.println(errMsg);
@@ -208,7 +213,7 @@ public class SegnalazioneController {
         //verifica della duplicazione dell'istanza in base alla stessa categoria, comune e posizione nel range di
         //0.00003 in
         String okMsg = "Inserimento completato!";
-        if(!forceInsert){
+        if (!forceInsert) {
             List<Segnalazione> l = segnalazioneService.searchSegnalazioneByCategoria_Id(segnalazione.getCategoria().getId());
             l = new Utils<Segnalazione>().intersecaListe(
                     l,
@@ -221,7 +226,7 @@ public class SegnalazioneController {
                             segnalazione.getCoordinata().getLongitudine()
                     )
             );
-            if(l.size() != 0){
+            if (l.size() != 0) {
                 String errMsg = "Inserimento rifiutato: segnalazione probabilmente gia presente, abilitare " +
                         "l'opzione FORCE per forzare l'inserimento!";
                 log.warning(errMsg);
@@ -249,14 +254,14 @@ public class SegnalazioneController {
     })
     @DeleteMapping("/delete/id/{id}")
     @SneakyThrows
-    public ResponseEntity<InfoMsg> deleteUtente(
+    public ResponseEntity<InfoMsg> deleteSegnalazione(
             @ApiParam(value = "ID della Segnalazione da cancellare.", required = true)
             @PathVariable("id")
-                    long id
-    ){
+            long id
+    ) {
         log.info("Richiesta l'eliminazione della Segnalazione '" + id + "'");
         Segnalazione segnalazione = segnalazioneService.findSegnalazioneById(id);
-        if(segnalazione == null){
+        if (segnalazione == null) {
             NotFoundException e = new NotFoundException("Segnalazione '" + id + "' non esiste.");
             log.warning(e.getMessage());
             throw e;
@@ -265,6 +270,52 @@ public class SegnalazioneController {
         String okMsg = "Segnalazione '" + id + "' eliminata con successo";
         log.info(okMsg);
         return new ResponseEntity<InfoMsg>(
+                new InfoMsg(
+                        new Date(),
+                        okMsg
+                ),
+                HttpStatus.CREATED
+        );
+    }
+
+    @ApiOperation(
+            value = "Aggiorna lo Stato di Segnalazione della Segnalazione selezionata.",
+            notes = "L'operazione va a buon fine se i dati sono tutti validi",
+            response = InfoMsg.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Segnalazione Aggiornata."),
+            @ApiResponse(code = 404, message = "Segnalazione o StatoSegnalazione non trovati."),
+    })
+    @SneakyThrows
+    @PutMapping("/edit/id/{id}/stato/{newStato}")
+    public ResponseEntity<InfoMsg> changeStatoSegnalazione(
+            @ApiParam(value = "ID della Segnalazione da modificare.", required = true)
+            @PathVariable("id")
+            long idSegnalazione,
+            @ApiParam(value = "ID dello Stato di Segnalazione da applicare alla Segnalazione selezionata.", required = true)
+            @PathVariable("newStato")
+            int idStato
+    ) {
+        log.info("Richiesto l'update della Segnalazione '" + idSegnalazione + "', statoSegnalazione => '" + idStato + "'");
+        Segnalazione s = segnalazioneService.findSegnalazioneById(idSegnalazione);
+        if (s == null) {
+            NotFoundException e = new NotFoundException("La Segnalazione '" + idSegnalazione + "' non esiste.");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        StatoSegnalazione ss = statoSegnalazioneService.findStatoSegnalazioneById(idStato);
+        if (ss == null) {
+            NotFoundException e = new NotFoundException("Lo Stato di Segnalazione '" + idStato + "' non esiste.");
+            log.warning(e.getMessage());
+            throw e;
+        }
+        segnalazioneService.setStatoSegnalazione(ss, s);
+        segnalazioneService.save(s);
+        String okMsg = "Modifica completata sulla Segnalazione '" + s.getId() + "'";
+        log.info(okMsg);
+        return new ResponseEntity<>(
                 new InfoMsg(
                         new Date(),
                         okMsg
