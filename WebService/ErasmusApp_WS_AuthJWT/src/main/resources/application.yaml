@@ -1,0 +1,39 @@
+# ==============================================================
+# = Authentication Server JWT
+# ==============================================================
+spring:
+  application:
+    name: AUTH-SERVICE
+server:
+  port: 8003
+
+# ==============================================================
+# = Parametri Servizio ErasmusApp_WS_AuthJWT
+# ==============================================================
+ws-login:
+  serverUrl: http://localhost:8002/api/utente/query/username/
+  username: ErasmusAppWebServiceSegnalazione
+  password: gz%s2QPuhr^Hz@WKUVM&6
+
+# ==============================================================
+# = Parametri Sicurezza JWT
+# ==============================================================
+sicurezza:
+  uri: /auth
+  refresh: /refresh
+  header: Authorization
+  prefix: Bearer
+  expiration: 3600
+  secret: $123_Stella@xantrix.it
+
+# ==============================================================
+# = Livello Log di Sicurezza
+# ==============================================================
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+
+
+
