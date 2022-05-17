@@ -23,8 +23,8 @@ sicurezza:
   refresh: /refresh
   header: Authorization
   prefix: Bearer
-  expiration: 3600
-  secret: $123_Stella@xantrix.it
+  expiration: 86400
+  secret: ErasmusApp_WS_AuthJWT_SECRET
 
 # ==============================================================
 # = Livello Log di Sicurezza
