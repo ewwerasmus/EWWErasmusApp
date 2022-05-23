@@ -1,15 +1,14 @@
 package com.tuxdave.erasmusapp.erasmusapp_ws_authjwt.controller;
 
-import java.io.Serializable;
-
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class JwtTokenResponse implements Serializable 
-{
+public class JwtTokenResponse implements Serializable {
 
-	private static final long serialVersionUID = 8317676219297719109L;
+    private static final long serialVersionUID = 8317676219297719109L;
 
-	private final String token;
+    private final String token;
 
 }

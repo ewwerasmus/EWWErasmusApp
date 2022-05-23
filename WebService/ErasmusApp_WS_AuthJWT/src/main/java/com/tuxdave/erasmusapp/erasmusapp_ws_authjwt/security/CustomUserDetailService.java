@@ -24,17 +24,17 @@ public class CustomUserDetailService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         String errMsg = "";
-        if(username == null || username.length() < 5){
+        if (username == null || username.length() < 5) {
             errMsg = "Nome utente assente o non valido.";
             log.warning(errMsg);
             throw new UsernameNotFoundException(errMsg);
-        }else{
+        } else {
             Utente utente = getHttpValue(username);
-            if(utente == null){
+            if (utente == null) {
                 UsernameNotFoundException u = new UsernameNotFoundException(String.format("Username %s non trovato!", username));
                 log.warning(u.getMessage());
                 throw u;
-            }else{
+            } else {
                 System.out.println(utente.getUsername());
                 for (String s : utente.getRuoli()
                         .stream().map(a -> "ROLE_" + a.getNome())
@@ -61,9 +61,9 @@ public class CustomUserDetailService implements UserDetailsService {
         restTemplate.getInterceptors()
                 .add(new BasicAuthenticationInterceptor(userConfig.getUsername(), userConfig.getPassword()));
         Utente utente = null;
-        try{
+        try {
             utente = restTemplate.getForObject(url, Utente.class);
-        }catch (Exception e){
+        } catch (Exception e) {
             log.warning("Connessione al WS_Login non riuscita!");
             throw e;
         }
