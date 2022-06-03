@@ -27,8 +27,8 @@ public class Utente {
     private String username;
 
     @Setter
-    @Getter(onMethod = @__(@JsonIgnore))
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+//    @Getter(onMethod = @__(@JsonIgnore))
+//    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @ToString.Exclude
     @Size(min = 5, max = 80, message = "La PASSWORD di Utente deve essere di lunghezza 5-80.")
     private String password;

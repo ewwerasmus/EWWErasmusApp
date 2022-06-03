@@ -25,7 +25,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    @Qualifier("customUserDetailsService")
+    @Qualifier("CustomUserDetailsService")
     private UserDetailsService userDetailsService;
 
     @Value("${sicurezza.uri}")

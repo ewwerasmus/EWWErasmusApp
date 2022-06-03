@@ -4,6 +4,7 @@ import com.tuxdave.erasmusapp.erasmusapp_ws_authjwt.security.entity.Utente;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,7 +17,8 @@ import java.net.URI;
 
 @Service
 @Log
-public class CustomUserDetailService implements UserDetailsService {
+@Qualifier("CustomUserDetailsService")
+public class CustomUserDetailsService implements UserDetailsService {
 
     @Autowired
     UserConfig userConfig;

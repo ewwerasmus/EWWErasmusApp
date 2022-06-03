@@ -21,7 +21,7 @@ import java.util.Objects;
 
 @RestController
 @Log
-public class JwtAuthenticationRestController {
+public class JwtAuthenticationController {
 
     @Value("${sicurezza.header}")
     private String tokenHeader;
