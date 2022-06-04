@@ -7,17 +7,11 @@
         <option value="$PROJECT_DIR$/WebService/Shated/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/Shared/pom.xml" />
         <option value="$PROJECT_DIR$/WebService/ErasmusApp_WS_Login/pom.xml" />
-        <option value="$PROJECT_DIR$/WebService/ErasmusApp_WS_AuthJWT/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="18" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
     <option name="id" value="jpab" />
-  </component>
-  <component name="SwUserDefinedSpecifications">
-    <option name="specTypeByUrl">
-      <map />
-    </option>
   </component>
 </project>

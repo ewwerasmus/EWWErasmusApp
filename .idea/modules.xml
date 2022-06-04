@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_AuthJWT/ErasmusApp_WS_AuthJWT.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_AuthJWT/ErasmusApp_WS_AuthJWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_Login/ErasmusApp_WS_Login.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_Login/ErasmusApp_WS_Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/Shared/Shared.iml" filepath="$PROJECT_DIR$/WebService/Shared/Shared.iml" />
