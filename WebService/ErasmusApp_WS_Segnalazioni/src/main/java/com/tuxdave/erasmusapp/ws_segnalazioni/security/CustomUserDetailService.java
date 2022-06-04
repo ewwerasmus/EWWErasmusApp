@@ -5,6 +5,7 @@ import lombok.SneakyThrows;
 import lombok.extern.java.Log;
 import net.bytebuddy.build.BuildLogger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,6 +21,7 @@ import java.net.URISyntaxException;
 
 @Service
 @Log
+@Qualifier("CustomUserDetailsService")
 public class CustomUserDetailService implements UserDetailsService {
 
     @Autowired

@@ -1,6 +1,7 @@
 package com.tuxdave.erasmusapp.ws_login.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -25,7 +26,9 @@ public class Utente {
     @Size(min = 5, max = 80, message = "L'USERNAME di Utente deve essere di lunghezza 5-80.")
     private String username;
 
-    //@JsonIgnore TODO: capire come non inviare la password cifrata in json...
+    @Setter
+//    @Getter(onMethod = @__(@JsonIgnore))
+//    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @ToString.Exclude
     @Size(min = 5, max = 80, message = "La PASSWORD di Utente deve essere di lunghezza 5-80.")
     private String password;
