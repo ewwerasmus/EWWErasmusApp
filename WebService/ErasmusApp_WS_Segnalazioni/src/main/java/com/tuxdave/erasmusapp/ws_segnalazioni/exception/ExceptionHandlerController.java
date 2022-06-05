@@ -5,6 +5,7 @@ import com.tuxdave.erasmusapp.shared.exception.classic.SaveException;
 import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
+import com.tuxdave.erasmusapp.shared.exception.custom.UnauthoruzedException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -74,5 +75,15 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
                 ex.getMessage()
         );
         return new ResponseEntity<ErrorMsg>(msg, HttpStatus.NOT_ACCEPTABLE);
+    }
+
+    @ExceptionHandler(UnauthoruzedException.class)
+    public final ResponseEntity<ErrorMsg> unauthorizedExceptionHandler(UnauthoruzedException ex){
+        ErrorMsg msg = new ErrorMsg(
+                new Date(),
+                HttpStatus.UNAUTHORIZED.value(),
+                ex.getMessage()
+        );
+        return new ResponseEntity<ErrorMsg>(msg, HttpStatus.UNAUTHORIZED);
     }
 }

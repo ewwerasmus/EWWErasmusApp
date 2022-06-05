@@ -21,6 +21,9 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     SegnalazioneRepository segnalazioneRepository;
 
     @Autowired
+    private UtenteService utenteService;
+
+    @Autowired
     CategoriaRepository categoriaRepository;
 
     @Autowired
@@ -122,5 +125,11 @@ public class SegnalazioneServiceImpl implements SegnalazioneService {
     @Override
     public void delete(Segnalazione s) {
         segnalazioneRepository.delete(s);
+    }
+
+    @Override
+    public List<Segnalazione> findAllEssentialByEnte(String loggedUsername) {
+        Utente u = utenteService.findUtenteByUsername(loggedUsername);
+        return segnalazioneRepository.findAllEssentialByComuni(u.getComuni());
     }
 }

@@ -23,4 +23,6 @@ public interface SegnalazioneService {
     void setStatoSegnalazione(StatoSegnalazione newStato, Segnalazione segnalazione);
     void save(Segnalazione s) throws SaveException;
     void delete(Segnalazione s);
+
+    List<Segnalazione> findAllEssentialByEnte(String loggedUsername);
 }

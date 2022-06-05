@@ -58,6 +58,11 @@ CREATE TABLE UTENTE_RUOLO(
     idRuolo VARCHAR(50) NOT NULL
 ) ENGINE = InnoDB;
 
+CREATE TABLE UTENTE_COMUNE(
+    idUtente VARCHAR(80) NOT NULL,
+    idComune VARCHAR(4) NOT NULL
+) ENGINE = InnoDB;
+
 ALTER TABLE COMUNE
     ADD CONSTRAINT PK
         PRIMARY KEY (codiceCatastale),
@@ -134,6 +139,20 @@ ALTER TABLE UTENTE_RUOLO
             ON UPDATE CASCADE
             ON DELETE CASCADE;
 
+ALTER TABLE UTENTE_COMUNE
+    ADD CONSTRAINT PK
+        PRIMARY KEY (idComune, idUtente),
+    ADD CONSTRAINT FK_UC_1_UTENTE
+        FOREIGN KEY (idUtente)
+            REFERENCES UTENTE(username)
+            ON DELETE CASCADE
+            ON UPDATE CASCADE,
+    ADD CONSTRAINT FK_UC_2_COMUNE
+        FOREIGN KEY (idComune)
+            REFERENCES COMUNE(codiceCatastale)
+            ON DELETE CASCADE
+            ON UPDATE CASCADE;
+
 -- UTENTE MASTER DI TUTTO IL DATABASE
 DROP USER IF EXISTS ErasmusAppMaster;
 CREATE USER ErasmusAppMaster
@@ -149,6 +168,8 @@ GRANT ALL ON ErasmusApp.SEGNALAZIONE TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.COMUNE TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.COORDINATA TO ErasmusAPP_Segnalazioni;
 GRANT ALL ON ErasmusApp.CATEGORIA TO ErasmusAPP_Segnalazioni;
+GRANT SELECT ON ErasmusApp.UTENTE TO ErasmusAPP_Segnalazioni;
+GRANT SELECT ON ErasmusApp.UTENTE_COMUNE TO ErasmusAPP_Segnalazioni;
 GRANT SELECT ON ErasmusApp.ENUM_STATO_SEGNALAZIONE to ErasmusAPP_Segnalazioni;
 GRANT SHOW VIEW ON ErasmusApp.ENUM_STATO_SEGNALAZIONE to ErasmusAPP_Segnalazioni;
 

@@ -4,11 +4,14 @@ import com.tuxdave.erasmusapp.shared.Utils;
 import com.tuxdave.erasmusapp.shared.exception.custom.BindingException;
 import com.tuxdave.erasmusapp.shared.exception.custom.DuplicateException;
 import com.tuxdave.erasmusapp.shared.exception.custom.NotFoundException;
+import com.tuxdave.erasmusapp.shared.exception.custom.UnauthoruzedException;
 import com.tuxdave.erasmusapp.shared.validation.InfoMsg;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Segnalazione;
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.StatoSegnalazione;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Utente;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.SegnalazioneService;
 import com.tuxdave.erasmusapp.ws_segnalazioni.service.StatoSegnalazioneService;
+import com.tuxdave.erasmusapp.ws_segnalazioni.service.UtenteService;
 import io.swagger.annotations.*;
 import lombok.SneakyThrows;
 import lombok.extern.java.Log;
@@ -33,6 +36,9 @@ public class SegnalazioneController {
     SegnalazioneService segnalazioneService;
 
     @Autowired
+    private UtenteService utenteService;
+
+    @Autowired
     StatoSegnalazioneService statoSegnalazioneService;
 
     @ApiOperation(
@@ -48,6 +54,24 @@ public class SegnalazioneController {
     public ResponseEntity<List<Segnalazione>> getAllSegnalazioni() {
         log.info("Richieste tutte le segnalazioni...");
         List<Segnalazione> ls = segnalazioneService.findAllEssential();
+        log.info("Rilasciata una lista di " + ls.size() + " segnalazioni!");
+        return new ResponseEntity<List<Segnalazione>>(ls, HttpStatus.OK);
+    }
+
+    @ApiOperation(
+            value = "Seleziona tutte le segnalazioni di un ente in base alle credenziali di login BasicAuth.",
+            notes = "Restituisce i dati semplici delle segnalazione in formato JsonArray.",
+            response = List.class,
+            produces = "application/json"
+    )
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Tutte le segnalazioni trovate!"),
+    })
+    @GetMapping("retrieve")
+    public ResponseEntity<List<Segnalazione>> getAllSegnalazioniByEnte() {
+        String loggedUsername = SecurityContextHolder.getContext().getAuthentication().getName();
+        log.info("Richieste tutte le segnalazioni di '" + loggedUsername + "'...");
+        List<Segnalazione> ls = segnalazioneService.findAllEssentialByEnte(loggedUsername);
         log.info("Rilasciata una lista di " + ls.size() + " segnalazioni!");
         return new ResponseEntity<List<Segnalazione>>(ls, HttpStatus.OK);
     }
@@ -252,6 +276,7 @@ public class SegnalazioneController {
     @ApiResponses({
             @ApiResponse(code = 201, message = "Segnalazione Cancellata."),
             @ApiResponse(code = 404, message = "Segnalazione non trovata."),
+            @ApiResponse(code = 401, message = "Segnalazione non di competenza dell'utente loggato."),
     })
     @DeleteMapping("/delete/id/{id}")
     @SneakyThrows
@@ -262,11 +287,21 @@ public class SegnalazioneController {
     ) {
         log.info("Richiesta l'eliminazione della Segnalazione '" + id + "'");
         Segnalazione segnalazione = segnalazioneService.findSegnalazioneById(id);
+
         if (segnalazione == null) {
             NotFoundException e = new NotFoundException("Segnalazione '" + id + "' non esiste.");
             log.warning(e.getMessage());
             throw e;
         }
+
+        String loggedUsername = SecurityContextHolder.getContext().getAuthentication().getName();
+        Utente u = utenteService.findUtenteByUsername(loggedUsername);
+        if(!u.getComuni().contains(segnalazione.getComune())){
+            UnauthoruzedException e = new UnauthoruzedException("Impossibile cancellare la Segnalazione assegnata ad un altro ente!");
+            log.warning(e.getMessage());
+            throw e;
+        }
+
         segnalazioneService.delete(segnalazione);
         String okMsg = "Segnalazione '" + id + "' eliminata con successo";
         log.info(okMsg);
@@ -288,6 +323,7 @@ public class SegnalazioneController {
     @ApiResponses({
             @ApiResponse(code = 201, message = "Segnalazione Aggiornata."),
             @ApiResponse(code = 404, message = "Segnalazione o StatoSegnalazione non trovati."),
+            @ApiResponse(code = 401, message = "Segnalazione non di competenza dell'utente loggato."),
     })
     @SneakyThrows
     @PutMapping("/edit/id/{id}/stato/{newStato}")
@@ -306,6 +342,15 @@ public class SegnalazioneController {
             log.warning(e.getMessage());
             throw e;
         }
+
+        String loggedUsername = SecurityContextHolder.getContext().getAuthentication().getName();
+        Utente u = utenteService.findUtenteByUsername(loggedUsername);
+        if(!u.getComuni().contains(s.getComune())){
+            UnauthoruzedException e = new UnauthoruzedException("Impossibile modificare la Segnalazione assegnata ad un altro ente!");
+            log.warning(e.getMessage());
+            throw e;
+        }
+
         StatoSegnalazione ss = statoSegnalazioneService.findStatoSegnalazioneById(idStato);
         if (ss == null) {
             NotFoundException e = new NotFoundException("Lo Stato di Segnalazione '" + idStato + "' non esiste.");

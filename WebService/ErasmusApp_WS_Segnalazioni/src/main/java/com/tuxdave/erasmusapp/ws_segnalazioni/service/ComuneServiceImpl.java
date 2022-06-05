@@ -1,6 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.service;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Comune;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Utente;
 import com.tuxdave.erasmusapp.ws_segnalazioni.repository.ComuneRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,10 @@ import java.util.List;
 public class ComuneServiceImpl implements ComuneService {
 
     @Autowired
-    ComuneRepository comuneRepository;
+    private UtenteService utenteService;
+
+    @Autowired
+    private ComuneRepository comuneRepository;
 
     @Override
     public Comune findComuneByCodiceCatastale(String cc) {
@@ -38,5 +42,10 @@ public class ComuneServiceImpl implements ComuneService {
     @Override
     public List<Comune> searchComuneByNomeLike(String nome) {
         return comuneRepository.searchComuneByNomeLike(nome);
+    }
+
+    @Override
+    public List<Comune> getComuneByUtenteUsername(String utenteUsername) {
+        return comuneRepository.getComuneByUtente(utenteService.findUtenteByUsername(utenteUsername));
     }
 }

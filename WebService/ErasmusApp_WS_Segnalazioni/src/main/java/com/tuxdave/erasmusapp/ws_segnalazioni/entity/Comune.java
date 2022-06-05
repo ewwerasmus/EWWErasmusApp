@@ -9,7 +9,9 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Null;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -29,6 +31,16 @@ public class Comune implements Serializable {
     @JsonIgnore
     @ToString.Exclude
     private List<Segnalazione> segnalazioni;
+
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "comuni")
+    @JsonIgnore
+    @ToString.Exclude
+    @Setter
+    private List<Utente> utenti;
+    public List<Utente> getUtenti() {
+        if(utenti == null) utenti = new ArrayList<Utente>();
+        return utenti;
+    }
 
     @Override
     public boolean equals(Object o) {

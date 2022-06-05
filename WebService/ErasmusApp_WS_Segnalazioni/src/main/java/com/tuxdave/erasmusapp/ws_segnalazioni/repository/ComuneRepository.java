@@ -1,6 +1,7 @@
 package com.tuxdave.erasmusapp.ws_segnalazioni.repository;
 
 import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Comune;
+import com.tuxdave.erasmusapp.ws_segnalazioni.entity.Utente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -16,4 +17,7 @@ public interface ComuneRepository extends JpaRepository<Comune, String> {
 
     @Query("SELECT C FROM Comune C WHERE C.provincia = :provincia")
     List<Comune> searchComuneByProvincia(@Param("provincia") String provincia);
+
+    @Query("SELECT U.comuni FROM Utente U WHERE U = :utente")
+    List<Comune> getComuneByUtente(@Param("utente") Utente utente);
 }

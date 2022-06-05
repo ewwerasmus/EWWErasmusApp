@@ -3,7 +3,7 @@
   <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="maria">
     <option name="defaultUnitInitialized" value="true" />
     <option name="reverseEngineeringLastDbConnectionId" value="d3a8c489-ed50-4ee5-bc32-6f7b5e6ecc7e" />
-    <option name="reLastEntityCreationPackage" value="src/main/java/com/tuxdave/erasmusapp/ws_segnalazioni/entity" />
+    <option name="reLastEntityCreationPackage" value="WebService/ErasmusApp_WS_Segnalazioni/src/main/java/com/tuxdave/erasmusapp/ws_segnalazioni/entity" />
     <option name="newEntityIdStrategy" />
   </component>
 </project>
