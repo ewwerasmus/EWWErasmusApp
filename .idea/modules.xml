@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_Login/ErasmusApp_WS_Login.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_Login/ErasmusApp_WS_Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" filepath="$PROJECT_DIR$/WebService/ErasmusApp_WS_Segnalazioni/ErasmusApp_WS_Segnalazioni.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebService/Shared/Shared.iml" filepath="$PROJECT_DIR$/WebService/Shared/Shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erasmus_app_discover/erasmus_app_discover.iml" filepath="$PROJECT_DIR$/erasmus_app_discover/erasmus_app_discover.iml" />
     </modules>
   </component>
 </project>
