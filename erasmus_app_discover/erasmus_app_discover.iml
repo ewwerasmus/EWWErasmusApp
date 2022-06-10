@@ -5,6 +5,9 @@
     <content url="file://$MODULE_DIR$/../Clients/erasmus_app_discover">
       <sourceFolder url="file://$MODULE_DIR$/../Clients/erasmus_app_discover/android/app/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Clients/erasmus_app_discover/android/app/src/main/kotlin" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../Clients/erasmus_app_discover/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/../Clients/erasmus_app_discover/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/../Clients/erasmus_app_discover/build" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
