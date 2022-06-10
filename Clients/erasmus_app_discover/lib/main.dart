@@ -1,3 +1,4 @@
+import 'package:erasmus_app_discover/api_client/entity/segnalazione.dart';
 import 'package:flutter/material.dart';
 
 void main() {
